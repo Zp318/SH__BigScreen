@@ -1,0 +1,106 @@
+v1.4.0  30/5/2010
+  1. 修正严重bug，此bug由TreeNode#reload()引起，刷新时未将编辑Field销毁导致内存泄漏
+  2. 修正hasNode函数bug
+  3. 增加节点拖拽功能，设置属性enableDD、enableDrag、enableDrop
+  4. 增加新特性，使用JSON、XML输入输出树
+  5. 移除TreeGridEditorField.js，使用Ext原生Field
+  6. 节点增删改操作，URL参数名为data，服务端使用request.getParameter("data")获取节点数据
+  7. 修复IE6下自适应列表宽度bug
+  
+v1.3.3  12/4/2010
+  1. 修正IE下样式bug
+  
+v1.3.2  6/4/2010
+  1. 修正保存重复提交bug
+  2. 增加mouseoverShowObar属性，当mouseoverShowObar==true时，mouseover触发显示Obar按钮
+  3. 增加singleEdit属性，当singleEdit==true时，只允许同时编辑一条记录
+  4. 升级TreeNodeChecked插件
+  5. 优化DOM结构
+  
+v1.3.1  11/3/2010
+  1. 修正最深层树节点禁用功能按钮bug
+  
+v1.3  10/3/2010
+  1. 修正禁用Obars属性的错误命名，diableObar修改为disableObar
+  2. 修正批量操作还能执行已禁用功能bug
+  3. 更新TreeNodeChecked插件，增加异步展开级联选中功能
+  4. 优化Obar事件回调函数参数
+  5. 重新设计Obar事件update、remove
+  6. 新增Obar事件afterupdatenode、afterremovenode、requestfailure
+     'requestfailure': function(tree, node, fn, status)
+    
+v1.2.2  5/3/2010
+  1. 修正HTML转义字符和特殊字符过滤bug
+  2. 更新Obar事件beforeupdatenode，回调函数增加参数editMode:String编辑模式
+     'beforeupdatenode': function(node, editMode, tge)
+     
+v1.2.1  5/3/2010
+  1. 升级TreeNodeChecked插件
+  
+v1.2  5/3/2010
+  1. 修改TreeGridEditor包结构为Ext.ux.tree开头
+  2. 功能改进，数据列的值自适应列宽度显示，超长截取，使用tip显示全称
+  3. 修正hasNode接口bug
+  4. 修正Grid显示空格的字体bug
+  
+v1.1.6  4/3/2010
+  1. inputCfg增加两个新属性filterInputValue、filterOutputValue，附过滤单引号例子
+     filterInputValue : Function  输入值过滤函数
+     filterOutputValue : Function  输出值过滤函数
+  2. 更新Obar事件updatenode，回调函数增加参数editMode:String编辑模式
+     'updatenode': function(node, editMode, tge)
+  
+v1.1.5  3/3/2010
+  1. 优化TreeNodeChecked插件，增加级联父节点、级联子节点属性
+  2. 优化checkbox，增加多选和单选两种状态选择
+  3. 优化Obar，允许设置最深节点按钮状态
+  4. 输入框自动删除首尾空格
+  5. 优化Obar事件处理机制
+  6. 优化输入框创建销毁机制
+  
+v1.1.4  26/2/2010
+  1. 修改hasNode函数bug
+  
+v1.1.3  26/2/2010
+  1. 修改hasNode函数，新增参数ignore、ignoreSingle
+     @param {Object} ignore (可选)  忽略值
+     @param {Boolean} ignoreSingle (可选)  忽略值单属性匹配模式，默认false
+     
+v1.1.2  26/2/2010
+  1. 修改batchProcess函数，新增参数sequence
+     @param {Boolean} sequence (可选)  顺序处理，默认true
+  
+v1.1.1  25/2/2010
+  1. 修改hasNode函数，新增参数single
+     @param {Boolean} single (可选)  单属性匹配模式，默认false
+  2. 更新函数说明
+  
+v1.1  25/2/2010
+  1. 新增树节点checkbox功能，增加量操作接口，包括：批量新增，批量修改，批量删除，批量保存，批量取消
+  2. 增加树节点是否存在验证接口
+  3. 功能按钮监听事件
+  4. 修正inputCfg.dateFormat错误命名
+  
+v1.0.4  24/2/2010
+  1. 修正新增末级子节点，父节点icon显示
+  2. HTML标签过滤
+  3. 移除树节点双击展开事件
+  4. 优化firefox兼容
+  
+v1.0.3  23/2/2010
+  1. 修正严重bug，新增下级取消后再新增出错
+  2. 修正设置hideObarRemove属性出错bug
+  3. 优化兼容非IE浏览器Disabled样式
+  4. 优化firefox字体样式
+  
+v1.0.2  23/2/2010
+  1. 增加功能按钮 启用/禁用、显示/隐藏 功能
+     disableObarAdd、hideObarAdd设置初始值 (Others: disableObarEdit、hideObarEdit、disableObarRemove、hideObarRemove)
+     toggleDisableObar(n,m);toggleHideObar(n,m); n为树节点ID，m为按钮名称
+     enableObar(n,m)、disableObar(n,m)、showObar(n,m)、hideObar(n,m)
+     
+v1.0.1  22/2/2010
+  1. 增加maxDepth属性，设置数最大深度（层级）
+  2. 修改非显示列属性取值
+  3. 优化功能按钮样式
+  
