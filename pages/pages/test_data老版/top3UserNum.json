@@ -1,0 +1,33 @@
+{
+	"statuCode": "200",
+	"data": [
+		{
+			"userNum": "300",
+			"netElementType": "RNC",
+			"netElementName": "A网元",
+			"netElementCode": "ABCDEFD",
+			"workOrder": {
+				"processing": "30",
+				"fixed": "20"
+			}
+		}, {
+			"userNum": "300",
+			"netElementType": "MME",
+			"netElementName": "B网元",
+			"netElementCode": "ABCDEFDF",
+			"workOrder": {
+				"processing": "30",
+				"fixed": "20"
+			}
+		}, {
+			"userNum": "300",
+			"netElementType": "GGSN",
+			"netElementName": "C网元",
+			"netElementCode": "ABCDEFDFE",
+			"workOrder": {
+				"processing": "30",
+				"fixed": "20"
+			}
+		}
+	]
+}

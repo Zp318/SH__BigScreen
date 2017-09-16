@@ -1,0 +1,59 @@
+{
+    "statuCode": "200",
+    "data": [
+        {
+            "areaCode": "183",
+            "areaName": "虹桥火车站",
+            "belongTo": "县级市及以上交通枢纽",
+            "centerPoint": [
+                121320750,
+                31200425
+            ],
+            "icon": "cj17.png",
+            "sceneCode": "183",
+            "sceneName": "虹桥火车站",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "183",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaCode": "175",
+            "areaName": "虹桥机场",
+            "belongTo": "县级市及以上交通枢纽",
+            "centerPoint": [
+                121332960,
+                31193315
+            ],
+            "icon": "cj17.png",
+            "sceneCode": "175",
+            "sceneName": "虹桥机场",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "175",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaCode": "230",
+            "areaName": "上海火车站",
+            "belongTo": "县级市及以上交通枢纽",
+            "centerPoint": [
+                121448510,
+                31252820
+            ],
+            "icon": "cj17.png",
+            "sceneCode": "230",
+            "sceneName": "上海火车站",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "230",
+                "fixed": 0,
+                "processing": 0
+            }
+        }
+    ]
+}

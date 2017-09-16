@@ -1,0 +1,38 @@
+{
+    "statuCode": "200",
+    "data": [
+        {
+            "netElementCode": "100007",
+            "netElementName": "SH_SAEGW07",
+            "netElementType": "SGW",
+            "userNum": 66697,
+            "workOrder": {
+                "belongto": "100007",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "netElementCode": "100011",
+            "netElementName": "SH_SAEGW10",
+            "netElementType": "SGW",
+            "userNum": 66527,
+            "workOrder": {
+                "belongto": "100011",
+                "fixed": 1,
+                "processing": 0
+            }
+        },
+        {
+            "netElementCode": "100008",
+            "netElementName": "SH_SAEGW03",
+            "netElementType": "SGW",
+            "userNum": 65646,
+            "workOrder": {
+                "belongto": "100008",
+                "fixed": 0,
+                "processing": 0
+            }
+        }
+    ]
+}

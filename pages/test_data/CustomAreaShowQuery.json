@@ -1,0 +1,4390 @@
+{
+    "statuCode": "200",
+    "data": [
+        {
+            "areaCode": "1",
+            "areaName": "市级以上政府机关",
+            "customAreas": [
+                {
+                    "areaCode": "1053",
+                    "areaName": "公安指挥楼3G",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "361",
+                    "areaName": "第二中级人民法院",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "424",
+                    "areaName": "海事法院",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "1063",
+                    "areaName": "质量技术监督局3G",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "252",
+                    "areaName": "老市府大厦",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "150",
+                    "areaName": "上海市高级人民法院",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "155",
+                    "areaName": "财税大厦",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "842",
+                    "areaName": "第二中级人民法院3G",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "774",
+                    "areaName": "财税大厦3G",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "768",
+                    "areaName": "上海市质监局3G",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "1061",
+                    "areaName": "团市委大楼3G",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "778",
+                    "areaName": "上海市高级人民法院3G",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "293",
+                    "areaName": "公安指挥楼",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "291",
+                    "areaName": "质量技术监督局",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "143",
+                    "areaName": "上海市质监局",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "1078",
+                    "areaName": "第一中级人民法院3G",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "315",
+                    "areaName": "第一中级人民法院",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "273",
+                    "areaName": "上海市公安局",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "250",
+                    "areaName": "上海市政府",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "456",
+                    "areaName": "市政大楼",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "298",
+                    "areaName": "团市委大楼",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "318",
+                    "areaName": "新消防局大楼",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "246",
+                    "areaName": "政协大厦",
+                    "sceneName": "市级以上政府机关"
+                },
+                {
+                    "areaCode": "924",
+                    "areaName": "海事法院3G",
+                    "sceneName": "市级以上政府机关"
+                }
+            ],
+            "icon": "cj15.png",
+            "sceneCode": "1",
+            "sceneName": "市级以上政府机关",
+            "userNum": 0
+        },
+        {
+            "areaCode": "2",
+            "areaName": "三甲医院",
+            "customAreas": [
+                {
+                    "areaCode": "303",
+                    "areaName": "同济医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "752",
+                    "areaName": "中医医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "156",
+                    "areaName": "上海精神卫生中心",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "627",
+                    "areaName": "仁和医院(华山医院宝山)",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "320",
+                    "areaName": "儿童医院普陀新院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "463",
+                    "areaName": "仁济医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "669",
+                    "areaName": "复旦大学医学附属儿科",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "976",
+                    "areaName": "复旦大学附属金山医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "733",
+                    "areaName": "上海交大医学附属胸科3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1109",
+                    "areaName": "第一人民医院松江分院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "372",
+                    "areaName": "东方肝胆医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "751",
+                    "areaName": "闸北区中心医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "345",
+                    "areaName": "第十人民医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1086",
+                    "areaName": "上海皮肤病医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "769",
+                    "areaName": "上交医学院附属六院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "659",
+                    "areaName": "上海交大医学附属胸科",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "334",
+                    "areaName": "新华医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "932",
+                    "areaName": "仁济医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "850",
+                    "areaName": "上海公共卫生临床中心3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1066",
+                    "areaName": "第一人民医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1077",
+                    "areaName": "八五医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "734",
+                    "areaName": "中国人民解放军四五五3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "286",
+                    "areaName": "华东医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "781",
+                    "areaName": "上交医学附属九院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "316",
+                    "areaName": "上海皮肤病医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "192",
+                    "areaName": "复旦大学附属金山医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1051",
+                    "areaName": "儿童医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "662",
+                    "areaName": "上海中医药大学龙华",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "624",
+                    "areaName": "复旦大学妇产医院杨浦",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "919",
+                    "areaName": "东方医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "260",
+                    "areaName": "长征医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1052",
+                    "areaName": "复旦附属华山第三门诊3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "675",
+                    "areaName": "复旦大学附属公共卫生",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "767",
+                    "areaName": "上海华东医院闵行门诊3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1049",
+                    "areaName": "同济医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "664",
+                    "areaName": "上海交大医学附属瑞金",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "296",
+                    "areaName": "华山医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "231",
+                    "areaName": "第一人民医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "713",
+                    "areaName": "复旦大学华山第三门诊",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "464",
+                    "areaName": "上海儿童医学中心",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "666",
+                    "areaName": "复旦大学医学附属中山",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "254",
+                    "areaName": "仁济医院西院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "373",
+                    "areaName": "长海医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "351",
+                    "areaName": "闸北区中心医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "853",
+                    "areaName": "岳阳医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "378",
+                    "areaName": "第三人民医院(宝山分院)",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "357",
+                    "areaName": "解放军411医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "852",
+                    "areaName": "同济大学附属口腔医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "350",
+                    "areaName": "上海公共卫生临床中心",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1020",
+                    "areaName": "曙光医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "661",
+                    "areaName": "中国人民解放军四五五",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "488",
+                    "areaName": "华山医院浦东分院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "332",
+                    "areaName": "杨浦区中心医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "356",
+                    "areaName": "中医医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "645",
+                    "areaName": "复旦大学附属华山南汇",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "370",
+                    "areaName": "肺科医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "307",
+                    "areaName": "八五医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "336",
+                    "areaName": "上海中西医结合医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "727",
+                    "areaName": "上海曙光医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "981",
+                    "areaName": "复旦大学附属上海五院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "988",
+                    "areaName": "复旦大学附属儿科徐汇3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1080",
+                    "areaName": "儿童医院普陀新院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "934",
+                    "areaName": "上海儿童医学中心3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1139",
+                    "areaName": "仁和医院(华山宝山)3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "282",
+                    "areaName": "曙光医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "830",
+                    "areaName": "复旦大学附属妇产杨浦3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "658",
+                    "areaName": "复旦大学附属五官科",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "387",
+                    "areaName": "第一人民医院宝山分院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "656",
+                    "areaName": "上海交通医学附属六院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "728",
+                    "areaName": "复旦大学医学附属儿科3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "665",
+                    "areaName": "复旦大学附属儿科徐汇",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "346",
+                    "areaName": "同济大学附属口腔医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "440",
+                    "areaName": "东方医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "527",
+                    "areaName": "上海曙光医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "388",
+                    "areaName": "华山医院宝山分院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "354",
+                    "areaName": "岳阳医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "668",
+                    "areaName": "上海交大医学附属九院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1138",
+                    "areaName": "第三人民医院(宝山)3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1011",
+                    "areaName": "瑞金医院卢湾分院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "667",
+                    "areaName": "上海交大医学国际妇幼",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1055",
+                    "areaName": "华东医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "1056",
+                    "areaName": "华山医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "674",
+                    "areaName": "上海华东医院闵行门诊",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "777",
+                    "areaName": "复旦大学附属五官科3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "986",
+                    "areaName": "上海中医药附属龙华3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "863",
+                    "areaName": "第一人民医院宝山分院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "281",
+                    "areaName": "瑞金医院卢湾分院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "360",
+                    "areaName": "第一人民医院分院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "978",
+                    "areaName": "复旦大学附属公共卫生3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "828",
+                    "areaName": "上海中西医结合医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "844",
+                    "areaName": "第一人民医院分院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "829",
+                    "areaName": "新华医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "905",
+                    "areaName": "复旦大学附属华山南汇3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "843",
+                    "areaName": "第十人民医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "673",
+                    "areaName": "复旦大学附属上海五院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "738",
+                    "areaName": "复旦大学医学附属中山3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "925",
+                    "areaName": "华山医院浦东分院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "847",
+                    "areaName": "解放军411医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "289",
+                    "areaName": "儿童医院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "328",
+                    "areaName": "精神卫生中心新医院楼",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "832",
+                    "areaName": "杨浦区中心医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "834",
+                    "areaName": "东方肝胆医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "467",
+                    "areaName": "东方医院南院",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "985",
+                    "areaName": "上海精神卫生中心3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "838",
+                    "areaName": "长海医院3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "736",
+                    "areaName": "上交医学国际和平妇幼3G",
+                    "sceneName": "三甲医院"
+                },
+                {
+                    "areaCode": "780",
+                    "areaName": "上海交通医学附属瑞金3G",
+                    "sceneName": "三甲医院"
+                }
+            ],
+            "icon": "cj14.png",
+            "sceneCode": "2",
+            "sceneName": "三甲医院",
+            "userNum": 0
+        },
+        {
+            "areaCode": "3",
+            "areaName": "CBD",
+            "customAreas": [
+                {
+                    "areaCode": "232",
+                    "areaName": "CBD-北外滩",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "154",
+                    "areaName": "CBD-徐家汇",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "238",
+                    "areaName": "CBD-南京路",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "443",
+                    "areaName": "CBD-竹园",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "248",
+                    "areaName": "CBD-淮海路",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "176",
+                    "areaName": "虹桥商务区核心区",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "840",
+                    "areaName": "CBD-四川北路3G",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "1075",
+                    "areaName": "CBD-长风3G",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "312",
+                    "areaName": "CBD-长风",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "304",
+                    "areaName": "CBD-虹桥",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "833",
+                    "areaName": "CBD-五角场3G",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "1074",
+                    "areaName": "CBD-虹桥3G",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "735",
+                    "areaName": "CBD-徐家汇3G",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "1009",
+                    "areaName": "CBD-人广3G",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "794",
+                    "areaName": "CBD-北外滩3G",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "782",
+                    "areaName": "虹桥商务区核心区3G",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "962",
+                    "areaName": "CBD-竹园3G",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "249",
+                    "areaName": "CBD-人广",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "1003",
+                    "areaName": "CBD-淮海路3G",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "309",
+                    "areaName": "CBD-中山公园",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "347",
+                    "areaName": "CBD-四川北路",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "340",
+                    "areaName": "CBD-五角场",
+                    "sceneName": "CBD"
+                },
+                {
+                    "areaCode": "1076",
+                    "areaName": "CBD-中山公园3G",
+                    "sceneName": "CBD"
+                }
+            ],
+            "icon": "cj1.png",
+            "sceneCode": "3",
+            "sceneName": "CBD",
+            "userNum": 0
+        },
+        {
+            "areaCode": "4",
+            "areaName": "大型体育场馆",
+            "customAreas": [
+                {
+                    "areaCode": "846",
+                    "areaName": "虹口足球场3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "396",
+                    "areaName": "F1赛车场",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "861",
+                    "areaName": "宝山体育中心3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "928",
+                    "areaName": "金桥文体中心3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "975",
+                    "areaName": "金山体育场3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "835",
+                    "areaName": "江湾体育场3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "266",
+                    "areaName": "黄浦体育中心",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "1113",
+                    "areaName": "松江体育场3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "979",
+                    "areaName": "旗忠网球中心3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "182",
+                    "areaName": "旗忠网球中心",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "739",
+                    "areaName": "卢湾体育馆3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "377",
+                    "areaName": "宝山体育中心",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "836",
+                    "areaName": "新江湾城体育中心3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "953",
+                    "areaName": "源深体育中心3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "245",
+                    "areaName": "静安体育馆",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "773",
+                    "areaName": "万体馆3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "854",
+                    "areaName": "闸北体育馆3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "355",
+                    "areaName": "虹口足球场",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "184",
+                    "areaName": "金山体育场",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "376",
+                    "areaName": "新江湾城体育中心",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "855",
+                    "areaName": "F1赛车场3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "301",
+                    "areaName": "上海市体育宫",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "157",
+                    "areaName": "万体馆",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "366",
+                    "areaName": "江湾体育场",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "364",
+                    "areaName": "闸北体育馆",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "761",
+                    "areaName": "闵行体育馆3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "430",
+                    "areaName": "源深体育中心",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "174",
+                    "areaName": "闵行体育馆",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "1057",
+                    "areaName": "静安体育馆3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "152",
+                    "areaName": "卢湾体育馆",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "1047",
+                    "areaName": "上海市体育宫3G",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "480",
+                    "areaName": "金桥文体中心",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "520",
+                    "areaName": "东方体育中心",
+                    "sceneName": "大型体育场馆"
+                },
+                {
+                    "areaCode": "896",
+                    "areaName": "东方体育中心3G",
+                    "sceneName": "大型体育场馆"
+                }
+            ],
+            "icon": "cj5.png",
+            "sceneCode": "4",
+            "sceneName": "大型体育场馆",
+            "userNum": 0
+        },
+        {
+            "areaCode": "5",
+            "areaName": "五星级以上宾馆酒店",
+            "customAreas": [
+                {
+                    "areaCode": "297",
+                    "areaName": "上海首席公馆酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1031",
+                    "areaName": "东方商旅精品酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1014",
+                    "areaName": "上海安达仕酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1019",
+                    "areaName": "海仑宾馆G3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "235",
+                    "areaName": "上海外滩茂悦大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1062",
+                    "areaName": "希尔顿大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "649",
+                    "areaName": "上海外高桥皇冠假日",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "242",
+                    "areaName": "JIA酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "959",
+                    "areaName": "香格里拉大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "417",
+                    "areaName": "鸿华度假酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "789",
+                    "areaName": "上海波特曼丽嘉酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "623",
+                    "areaName": "览海国际高尔夫俱乐部",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "425",
+                    "areaName": "上海世纪皇冠假日酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "299",
+                    "areaName": "上海日航饭店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "264",
+                    "areaName": "锦江饭店贵宾楼",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "824",
+                    "areaName": "金茂凯悦度假酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "437",
+                    "areaName": "上海柏悦酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1017",
+                    "areaName": "世茂皇家艾美酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "831",
+                    "areaName": "上海兴荣温德姆酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "272",
+                    "areaName": "海仑宾馆G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "269",
+                    "areaName": "华敏帝豪酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "427",
+                    "areaName": "上海隆德丰国际大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "162",
+                    "areaName": "绿地万豪酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "322",
+                    "areaName": "龙之梦万丽酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "280",
+                    "areaName": "88新天地",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "270",
+                    "areaName": "雅居乐万豪酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "458",
+                    "areaName": "上海正地豪生大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1033",
+                    "areaName": "上海水舍酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "933",
+                    "areaName": "上海柏悦酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "900",
+                    "areaName": "盛高假日酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1012",
+                    "areaName": "雅居乐万豪酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "497",
+                    "areaName": "证大丽笙酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1081",
+                    "areaName": "虹桥迎宾馆3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "931",
+                    "areaName": "浦东星河湾大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1024",
+                    "areaName": "豫园万丽大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "837",
+                    "areaName": "粤海酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1088",
+                    "areaName": "西郊宾馆3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "929",
+                    "areaName": "浦东丽思卡尔顿酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "450",
+                    "areaName": "新天哈瓦那大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "646",
+                    "areaName": "兴荣温德姆至尊酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1015",
+                    "areaName": "88新天地3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "321",
+                    "areaName": "龙之梦大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "294",
+                    "areaName": "宏安瑞士大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "243",
+                    "areaName": "上海波特曼丽嘉酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1093",
+                    "areaName": "万豪虹桥酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "335",
+                    "areaName": "上海兴荣温德姆酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "343",
+                    "areaName": "上海小南国花园酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "945",
+                    "areaName": "上海浦东喜来登由由3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "265",
+                    "areaName": "花园饭店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "271",
+                    "areaName": "东方商旅精品酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1004",
+                    "areaName": "花园饭店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "651",
+                    "areaName": "上海卓美亚喜玛拉雅",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "277",
+                    "areaName": "上海安达仕酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "405",
+                    "areaName": "唐朝大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "950",
+                    "areaName": "新天哈瓦那大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1032",
+                    "areaName": "上海外滩英迪格酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "236",
+                    "areaName": "和平饭店南楼",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "323",
+                    "areaName": "扬子江大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "483",
+                    "areaName": "皇廷国际大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1018",
+                    "areaName": "巴卡拉3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "324",
+                    "areaName": "喜来登",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1013",
+                    "areaName": "上海雅诗阁淮海路服务3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "448",
+                    "areaName": "浦东丽思卡尔顿酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "927",
+                    "areaName": "金茂君悦大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "820",
+                    "areaName": "天鹤大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1084",
+                    "areaName": "龙之梦万丽酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "418",
+                    "areaName": "金茂凯悦度假酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "290",
+                    "areaName": "丁香花园",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "921",
+                    "areaName": "东郊宾馆3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "790",
+                    "areaName": "上海静安香格里拉3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "496",
+                    "areaName": "上海佳友维景大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "684",
+                    "areaName": "上海爱莎金煦全套房",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "284",
+                    "areaName": "上海外滩英迪格酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "682",
+                    "areaName": "上海雅诗阁淮海路服务",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "454",
+                    "areaName": "上海浦东文华东方酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "529",
+                    "areaName": "盛高假日酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "451",
+                    "areaName": "上海红塔豪华精选酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "253",
+                    "areaName": "上海大酒店(新王宝和)",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "261",
+                    "areaName": "上海威斯汀大饭店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "445",
+                    "areaName": "新梅万豪行政公寓",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "275",
+                    "areaName": "上海思南公馆酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "494",
+                    "areaName": "富豪金丰大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "915",
+                    "areaName": "淳大万丽酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "419",
+                    "areaName": "上海法莱德大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1085",
+                    "areaName": "千禧海鸥大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "240",
+                    "areaName": "上海明天广场JW万豪酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1123",
+                    "areaName": "三至酒店(喜来登)3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "944",
+                    "areaName": "上海浦东文华东方酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "935",
+                    "areaName": "上海国际会议东方滨江3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1100",
+                    "areaName": "世贸佘山艾美酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "647",
+                    "areaName": "东方滨江大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "452",
+                    "areaName": "新亚汤臣(锦江汤臣)",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1054",
+                    "areaName": "宏安瑞士大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "868",
+                    "areaName": "上海法莱德大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1089",
+                    "areaName": "喜来登3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "306",
+                    "areaName": "西郊宾馆",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "460",
+                    "areaName": "上海外高桥喜来登酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "375",
+                    "areaName": "粤海酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1058",
+                    "areaName": "上海日航饭店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "276",
+                    "areaName": "上海新天地朗廷酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "287",
+                    "areaName": "希尔顿大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "279",
+                    "areaName": "豫园万丽大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1110",
+                    "areaName": "上海开元名都大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "285",
+                    "areaName": "巴卡拉",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1050",
+                    "areaName": "丁香花园3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "237",
+                    "areaName": "上海大厦",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "407",
+                    "areaName": "嘉定喜来登酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1016",
+                    "areaName": "上海新天地朗廷酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1090",
+                    "areaName": "扬子江大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "951",
+                    "areaName": "新亚汤臣(锦江汤臣)3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "262",
+                    "areaName": "中福世福汇大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "256",
+                    "areaName": "新世界大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "650",
+                    "areaName": "上海浦东喜来登由由",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "319",
+                    "areaName": "千禧海鸥大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "952",
+                    "areaName": "裕景国际3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "342",
+                    "areaName": "复旦皇冠假日酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "416",
+                    "areaName": "天鹤大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "384",
+                    "areaName": "美兰湖皇冠假日酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "523",
+                    "areaName": "世博洲际大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "482",
+                    "areaName": "香格里拉大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "719",
+                    "areaName": "上海新发展亚太万豪",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "485",
+                    "areaName": "东郊宾馆",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "244",
+                    "areaName": "锦沧文华大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "317",
+                    "areaName": "虹桥迎宾馆",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "792",
+                    "areaName": "衡山马勒别墅3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "948",
+                    "areaName": "通贸大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "241",
+                    "areaName": "中凯豪生酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "441",
+                    "areaName": "中油日航大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "922",
+                    "areaName": "东锦江大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "493",
+                    "areaName": "嘉里中心",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "938",
+                    "areaName": "上海红塔豪华精选酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "793",
+                    "areaName": "锦沧文华大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "495",
+                    "areaName": "上海金桥红枫万豪酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "330",
+                    "areaName": "万豪虹桥酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1028",
+                    "areaName": "半岛酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "415",
+                    "areaName": "东滩国际会议中心",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "943",
+                    "areaName": "上海浦东四季酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "955",
+                    "areaName": "中油日航大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1071",
+                    "areaName": "上海浦西洲际酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "714",
+                    "areaName": "上海静安香格里拉酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "784",
+                    "areaName": "古象大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "683",
+                    "areaName": "上海斯沃琪和平艺术",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "247",
+                    "areaName": "衡山马勒别墅",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "413",
+                    "areaName": "上海恒悦轩岛中岛会所",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1005",
+                    "areaName": "锦江饭店贵宾楼3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1083",
+                    "areaName": "龙之梦大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "819",
+                    "areaName": "鸿华度假酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1072",
+                    "areaName": "上海外滩茂悦大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "267",
+                    "areaName": "和平饭店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "274",
+                    "areaName": "王宝和大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1008",
+                    "areaName": "上海思南公馆酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "486",
+                    "areaName": "上海浦东嘉里大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "423",
+                    "areaName": "通贸大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "389",
+                    "areaName": "衡山宾馆(顾村店)",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "940",
+                    "areaName": "上海金桥红枫万豪酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "255",
+                    "areaName": "古象大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "363",
+                    "areaName": "三至酒店(喜来登)",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "233",
+                    "areaName": "上海浦西洲际酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "428",
+                    "areaName": "淳大万丽酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "439",
+                    "areaName": "上海浦东四季酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "825",
+                    "areaName": "上海览海国际高尔夫3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1141",
+                    "areaName": "上海明天广场JW万豪3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "383",
+                    "areaName": "罗店高尔夫酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1065",
+                    "areaName": "兴国宾馆3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "961",
+                    "areaName": "上海隆德丰国际大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "259",
+                    "areaName": "外滩华尔道夫酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "926",
+                    "areaName": "皇廷国际大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "898",
+                    "areaName": "世博洲际大酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "444",
+                    "areaName": "金茂君悦大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "745",
+                    "areaName": "上海虹桥逸郡酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "268",
+                    "areaName": "半岛酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "283",
+                    "areaName": "上海水舍酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "401",
+                    "areaName": "绿地嘉创国际商务广场",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "308",
+                    "areaName": "兴国宾馆",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "449",
+                    "areaName": "裕景国际",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "1064",
+                    "areaName": "上海首席公馆酒店3G",
+                    "sceneName": "五星级以上宾馆酒店"
+                },
+                {
+                    "areaCode": "466",
+                    "areaName": "浦东星河湾大酒店",
+                    "sceneName": "五星级以上宾馆酒店"
+                }
+            ],
+            "icon": "cj16.png",
+            "sceneCode": "5",
+            "sceneName": "五星级以上宾馆酒店",
+            "userNum": 0
+        },
+        {
+            "areaCode": "6",
+            "areaName": "大型文化体育场所",
+            "customAreas": [
+                {
+                    "areaCode": "845",
+                    "areaName": "海上文化中心3G",
+                    "sceneName": "大型文化体育场所"
+                },
+                {
+                    "areaCode": "344",
+                    "areaName": "海上文化中心",
+                    "sceneName": "大型文化体育场所"
+                }
+            ],
+            "icon": "cj5.png",
+            "sceneCode": "6",
+            "sceneName": "大型文化体育场所",
+            "userNum": 0
+        },
+        {
+            "areaCode": "7",
+            "areaName": "大型展览馆",
+            "customAreas": [
+                {
+                    "areaCode": "509",
+                    "areaName": "中国航海博物馆",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "472",
+                    "areaName": "东方艺术中心",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "453",
+                    "areaName": "上海中心",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "501",
+                    "areaName": "上海东方地质科普馆",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "757",
+                    "areaName": "世博园区3G",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "920",
+                    "areaName": "东方艺术中心3G",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "498",
+                    "areaName": "世博园区",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "295",
+                    "areaName": "上海展览中心",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "746",
+                    "areaName": "中博会3G",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "465",
+                    "areaName": "浦东图书馆",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "930",
+                    "areaName": "浦东图书馆3G",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "490",
+                    "areaName": "新国际博览中心",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "946",
+                    "areaName": "上海中心3G",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "907",
+                    "areaName": "上海东方地质科普馆3G",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "913",
+                    "areaName": "中国航海博物馆3G",
+                    "sceneName": "大型展览馆"
+                },
+                {
+                    "areaCode": "791",
+                    "areaName": "上海展览中心3G",
+                    "sceneName": "大型展览馆"
+                }
+            ],
+            "icon": "cj7.png",
+            "sceneCode": "7",
+            "sceneName": "大型展览馆",
+            "userNum": 0
+        },
+        {
+            "areaCode": "9",
+            "areaName": "地铁",
+            "customAreas": [
+                {
+                    "areaCode": "786",
+                    "areaName": "地铁6号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "687",
+                    "areaName": "地铁9号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "685",
+                    "areaName": "地铁11号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "785",
+                    "areaName": "地铁11号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "696",
+                    "areaName": "地铁12号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "787",
+                    "areaName": "地铁5号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "1038",
+                    "areaName": "地铁4号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "743",
+                    "areaName": "地铁1号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "693",
+                    "areaName": "地铁8号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "695",
+                    "areaName": "地铁2号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "1037",
+                    "areaName": "地铁2号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "788",
+                    "areaName": "地铁8号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "1035",
+                    "areaName": "地铁12号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "691",
+                    "areaName": "地铁5号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "689",
+                    "areaName": "地铁1号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "744",
+                    "areaName": "地铁3号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "1040",
+                    "areaName": "地铁9号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "686",
+                    "areaName": "地铁3号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "694",
+                    "areaName": "地铁16号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "1034",
+                    "areaName": "地铁10号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "1039",
+                    "areaName": "地铁7号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "742",
+                    "areaName": "地铁16号线3G",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "697",
+                    "areaName": "地铁13号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "692",
+                    "areaName": "地铁10号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "698",
+                    "areaName": "地铁4号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "688",
+                    "areaName": "地铁6号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "690",
+                    "areaName": "地铁7号线",
+                    "sceneName": "地铁"
+                },
+                {
+                    "areaCode": "1036",
+                    "areaName": "地铁13号线3G",
+                    "sceneName": "地铁"
+                }
+            ],
+            "icon": "cj8.png",
+            "sceneCode": "9",
+            "sceneName": "地铁",
+            "userNum": 0
+        },
+        {
+            "areaCode": "10",
+            "areaName": "高校",
+            "customAreas": [
+                {
+                    "areaCode": "720",
+                    "areaName": "同济大学沪西校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "202",
+                    "areaName": "上海电子信息技术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "748",
+                    "areaName": "同济大学3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1132",
+                    "areaName": "上海师范大学(徐汇)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "196",
+                    "areaName": "旅游高等专科学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1092",
+                    "areaName": "同济大学沪西校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "660",
+                    "areaName": "上海交通大学(徐汇校区)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "339",
+                    "areaName": "复旦大学邯郸路(南苑)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "374",
+                    "areaName": "复旦大学邯郸路(北苑)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "616",
+                    "areaName": "复旦大学江湾校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "617",
+                    "areaName": "上海新侨职业技术嘉定",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "513",
+                    "areaName": "海洋大学",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "811",
+                    "areaName": "博世汽车职业技术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "802",
+                    "areaName": "上海城市管理学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "353",
+                    "areaName": "上海外国语大学大连路",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "505",
+                    "areaName": "工商外国语学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "421",
+                    "areaName": "上海邦德学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "776",
+                    "areaName": "上海音乐学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "609",
+                    "areaName": "上海交通职业技术宝山",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1104",
+                    "areaName": "立信会计专科3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1105",
+                    "areaName": "复旦大学视觉学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "804",
+                    "areaName": "上外贤达经济人文3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "998",
+                    "areaName": "旅游高等专科学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1103",
+                    "areaName": "华东政法大学3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "775",
+                    "areaName": "上海民航职业技术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "178",
+                    "areaName": "上海电机学院(东区)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "805",
+                    "areaName": "同济大学沪北校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "771",
+                    "areaName": "上海立信会计学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1108",
+                    "areaName": "上海外国语大学松江3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "638",
+                    "areaName": "上海电力学院南汇校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "890",
+                    "areaName": "二工大3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1059",
+                    "areaName": "上海市经济管理学校3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "987",
+                    "areaName": "华东师范大学闵行校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "997",
+                    "areaName": "上海师范大学奉贤校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "724",
+                    "areaName": "上海大学宝山校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "394",
+                    "areaName": "嘉定工艺美术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1101",
+                    "areaName": "东华大学松江校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "492",
+                    "areaName": "张江美术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "893",
+                    "areaName": "上海民远职业技术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1001",
+                    "areaName": "上海欧华职业技术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "678",
+                    "areaName": "华东理工大学奉贤校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "358",
+                    "areaName": "上海行健职业学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "468",
+                    "areaName": "上海海关高等专科学校",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "516",
+                    "areaName": "托普学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "613",
+                    "areaName": "上外贤达经济人文崇明",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1082",
+                    "areaName": "华东政法大学长宁校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "186",
+                    "areaName": "上海石化工业学校",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "462",
+                    "areaName": "上海金融学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "607",
+                    "areaName": "上海理工大学国顺",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "799",
+                    "areaName": "财经大学国定路校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "755",
+                    "areaName": "上海海关高等专科学校3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "723",
+                    "areaName": "上海行健职业学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "333",
+                    "areaName": "出版印刷高等专科学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1122",
+                    "areaName": "复旦大学邯郸路(南苑)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "644",
+                    "areaName": "公安高等专科(浦东)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "610",
+                    "areaName": "财经大学国定路校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "671",
+                    "areaName": "上海交通大学(闵行校区)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "895",
+                    "areaName": "上海电影艺术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "815",
+                    "areaName": "上海交通职业技术宝山3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1106",
+                    "areaName": "松江大学城学生生活区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1000",
+                    "areaName": "上海电子信息技术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "655",
+                    "areaName": "上海健康职业技术徐汇",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "807",
+                    "areaName": "上海大学嘉定校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "812",
+                    "areaName": "上海邦德学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "499",
+                    "areaName": "上海医药高等专科学校",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "525",
+                    "areaName": "中医药大学",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "149",
+                    "areaName": "华东理工大学",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1073",
+                    "areaName": "新侨学院青浦校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "161",
+                    "areaName": "上海音乐学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "187",
+                    "areaName": "上海中博专修学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1060",
+                    "areaName": "上海戏剧学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1121",
+                    "areaName": "复旦大学邯郸路(北苑)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "203",
+                    "areaName": "上海应用技术学院奉贤",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "640",
+                    "areaName": "上海电机学院临港校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "801",
+                    "areaName": "理工大学军工路校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "772",
+                    "areaName": "上海体育职业学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "381",
+                    "areaName": "上海济光职业技术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1136",
+                    "areaName": "上海理工大学1100号3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "618",
+                    "areaName": "理工大学军工路校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "814",
+                    "areaName": "上海建峰职业技术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "676",
+                    "areaName": "上海中侨职业技术金山",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "809",
+                    "areaName": "上海新侨职业技术嘉定3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "663",
+                    "areaName": "商业职业(中山西路)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "612",
+                    "areaName": "上海大学嘉定校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "770",
+                    "areaName": "上海应用技术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "158",
+                    "areaName": "上海立信会计学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "288",
+                    "areaName": "上海市经济管理学校",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "145",
+                    "areaName": "上海应用技术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "292",
+                    "areaName": "上海商业会计学校(中专)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "881",
+                    "areaName": "上海医药高等专科学校3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1127",
+                    "areaName": "上海电机学院(东区)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "996",
+                    "areaName": "上海应用技术学院奉贤3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "395",
+                    "areaName": "上海师范大学天华学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "641",
+                    "areaName": "上海海事大学南汇校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "371",
+                    "areaName": "上海体育学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "883",
+                    "areaName": "托普学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "611",
+                    "areaName": "同济大学嘉定校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "615",
+                    "areaName": "上外贤达经济人文",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "982",
+                    "areaName": "上海市工会管理干部3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "621",
+                    "areaName": "北区上海杨浦卫生学校",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "813",
+                    "areaName": "上海济光职业技术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "882",
+                    "areaName": "工商外国语学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "715",
+                    "areaName": "新侨学院青浦校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "989",
+                    "areaName": "东海学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "716",
+                    "areaName": "东华大学延安路校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "402",
+                    "areaName": "上海科学技术职业学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1140",
+                    "areaName": "上海交通大学(闵行)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "803",
+                    "areaName": "上海外国语大学大连路3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "887",
+                    "areaName": "上海建桥学院临港校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "380",
+                    "areaName": "上海震旦职业学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1134",
+                    "areaName": "复旦张江校区(三期)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1097",
+                    "areaName": "上海政法学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "151",
+                    "areaName": "上海理工大学复兴路",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "429",
+                    "areaName": "上海电影艺术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "894",
+                    "areaName": "上海杉达学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "477",
+                    "areaName": "二工大",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "891",
+                    "areaName": "上海海事职业技术源深3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "971",
+                    "areaName": "上海中侨职业技术金山3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "889",
+                    "areaName": "上海海事大学南汇校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "892",
+                    "areaName": "上海金融学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "148",
+                    "areaName": "上海体育职业学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "677",
+                    "areaName": "上海师范大学奉贤校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "880",
+                    "areaName": "东区上海科学技术大学3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1130",
+                    "areaName": "上海商学院(奉贤校区)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "681",
+                    "areaName": "上海市工会管理干部",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "205",
+                    "areaName": "上海欧华职业技术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1142",
+                    "areaName": "上海商业会计(中专)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "886",
+                    "areaName": "上海电机学院临港校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "779",
+                    "areaName": "交通大学医学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "731",
+                    "areaName": "上海健康职业技术徐汇3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "639",
+                    "areaName": "上海建桥学院临港校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "517",
+                    "areaName": "上海思博学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "749",
+                    "areaName": "上海大学延长校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "619",
+                    "areaName": "上海理工大学1100号校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "754",
+                    "areaName": "中医药大学3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1116",
+                    "areaName": "上海立达职业技术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "385",
+                    "areaName": "博世汽车职业技术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "797",
+                    "areaName": "北区上海杨浦卫生中专3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "338",
+                    "areaName": "同济大学",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "798",
+                    "areaName": "出版印刷高等专科学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "382",
+                    "areaName": "上海建峰职业技术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "679",
+                    "areaName": "上海商学院(奉贤校区)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "478",
+                    "areaName": "上海杉达学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "367",
+                    "areaName": "上海城市管理学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "722",
+                    "areaName": "上海体育学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "657",
+                    "areaName": "上海师范大学(徐汇校区)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "732",
+                    "areaName": "华东理工大学3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "642",
+                    "areaName": "复旦张江校区(三期)",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "670",
+                    "areaName": "华东师范大学闵行校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "810",
+                    "areaName": "同济大学嘉定校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "800",
+                    "areaName": "复旦大学江湾校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "530",
+                    "areaName": "东区上海科学技术大学",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "160",
+                    "areaName": "交通大学医学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "392",
+                    "areaName": "上海科技管理干部学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "717",
+                    "areaName": "华东师范中山北路",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "888",
+                    "areaName": "海洋大学3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "995",
+                    "areaName": "华东理工大学奉贤校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "608",
+                    "areaName": "上海大学宝山校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "169",
+                    "areaName": "东海学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "990",
+                    "areaName": "上海理工大学复兴路3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "973",
+                    "areaName": "上海中博专修学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "159",
+                    "areaName": "上海民航职业技术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "620",
+                    "areaName": "上海大学延长校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "974",
+                    "areaName": "上海石化工业学校3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "885",
+                    "areaName": "上海电力学院南汇校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1112",
+                    "areaName": "上海农林职业技术学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "643",
+                    "areaName": "上海海事技术源深路",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1135",
+                    "areaName": "商业职业技术(中山)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1102",
+                    "areaName": "上海工程技术大学松江3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "884",
+                    "areaName": "上海思博学院3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1137",
+                    "areaName": "上外贤达经济(崇明)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1133",
+                    "areaName": "上海交通大学(徐汇)3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "718",
+                    "areaName": "华东政法大学长宁校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1107",
+                    "areaName": "上海对外贸易学院松江3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "475",
+                    "areaName": "上海民远职业技术学院",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "1079",
+                    "areaName": "东华大学延安路校区3G",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "614",
+                    "areaName": "同济大学沪北校区",
+                    "sceneName": "高校"
+                },
+                {
+                    "areaCode": "622",
+                    "areaName": "上海医疗器械专科营口",
+                    "sceneName": "高校"
+                }
+            ],
+            "icon": "cj12.png",
+            "sceneCode": "10",
+            "sceneName": "高校",
+            "userNum": 0
+        },
+        {
+            "areaCode": "11",
+            "areaName": "高铁",
+            "customAreas": [
+                {
+                    "areaCode": "966",
+                    "areaName": "沪宁高铁3G",
+                    "sceneName": "高铁"
+                },
+                {
+                    "areaCode": "653",
+                    "areaName": "京沪高铁",
+                    "sceneName": "高铁"
+                },
+                {
+                    "areaCode": "652",
+                    "areaName": "沪宁高铁",
+                    "sceneName": "高铁"
+                },
+                {
+                    "areaCode": "967",
+                    "areaName": "京沪高铁3G",
+                    "sceneName": "高铁"
+                },
+                {
+                    "areaCode": "654",
+                    "areaName": "沪杭高铁",
+                    "sceneName": "高铁"
+                }
+            ],
+            "icon": "cj11.png",
+            "sceneCode": "11",
+            "sceneName": "高铁",
+            "userNum": 0
+        },
+        {
+            "areaCode": "14",
+            "areaName": "大型旅游风景区",
+            "customAreas": [
+                {
+                    "areaCode": "368",
+                    "areaName": "共青国家森林公园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "469",
+                    "areaName": "上海世纪公园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "968",
+                    "areaName": "枫泾古镇旅游风景区3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "409",
+                    "areaName": "前卫生态村",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "904",
+                    "areaName": "上海野生动物园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "399",
+                    "areaName": "嘉定州桥",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "827",
+                    "areaName": "东滩湿地3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "910",
+                    "areaName": "上海滨海森林公园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "251",
+                    "areaName": "城市规划馆",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "756",
+                    "areaName": "后滩公园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "522",
+                    "areaName": "后滩公园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "438",
+                    "areaName": "大自然昆虫野生馆",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "963",
+                    "areaName": "上海世纪公园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "403",
+                    "areaName": "安亭老街",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "818",
+                    "areaName": "西沙湿地3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "410",
+                    "areaName": "东平国家森林公园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "939",
+                    "areaName": "上海环球金融中心观光3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "864",
+                    "areaName": "顾村公园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "902",
+                    "areaName": "上海新场古镇3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "470",
+                    "areaName": "上海科技馆",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "348",
+                    "areaName": "上海多伦路文化名人街",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "504",
+                    "areaName": "上海野生动物园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "1091",
+                    "areaName": "上海动物园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "397",
+                    "areaName": "南翔老街",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "314",
+                    "areaName": "上海长风海洋世界",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "433",
+                    "areaName": "东方明珠塔",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "411",
+                    "areaName": "明珠湖公园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "750",
+                    "areaName": "共青国家森林公园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "912",
+                    "areaName": "滴水湖3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "949",
+                    "areaName": "外滩观光隧道3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "257",
+                    "areaName": "南京路步行街",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "278",
+                    "areaName": "豫园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "503",
+                    "areaName": "迪士尼乐园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "144",
+                    "areaName": "上海植物园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "379",
+                    "areaName": "顾村公园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "414",
+                    "areaName": "东滩湿地",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "191",
+                    "areaName": "枫泾古镇旅游风景区",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "897",
+                    "areaName": "世博公园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "726",
+                    "areaName": "南翔老街3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "326",
+                    "areaName": "上海动物园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "398",
+                    "areaName": "古猗园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "1099",
+                    "areaName": "佘山旅游景区3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "408",
+                    "areaName": "高家庄生态园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "1124",
+                    "areaName": "中华艺术宫(中国馆)3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "817",
+                    "areaName": "明珠湖公园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "165",
+                    "areaName": "锦江乐园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "239",
+                    "areaName": "吴江路步行街",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "822",
+                    "areaName": "东平国家森林公园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "849",
+                    "areaName": "上海多伦路文化名人街3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "432",
+                    "areaName": "上海海洋水族馆",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "193",
+                    "areaName": "金山城市沙滩",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "1010",
+                    "areaName": "新天地3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "823",
+                    "areaName": "前卫生态村3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "766",
+                    "areaName": "锦江乐园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "412",
+                    "areaName": "西沙湿地",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "508",
+                    "areaName": "滴水湖",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "518",
+                    "areaName": "上海滨海森林公园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "906",
+                    "areaName": "佛罗伦萨小镇3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "263",
+                    "areaName": "新天地",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "625",
+                    "areaName": "吴淞炮台湾湿地4G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "461",
+                    "areaName": "佛罗伦萨小镇",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "737",
+                    "areaName": "上海植物园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "648",
+                    "areaName": "上海环球金融中心",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "760",
+                    "areaName": "七宝老街3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "856",
+                    "areaName": "安亭老街3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "515",
+                    "areaName": "上海新场古镇",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "918",
+                    "areaName": "东方明珠塔3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "170",
+                    "areaName": "七宝老街",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "941",
+                    "areaName": "上海科技馆3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "507",
+                    "areaName": "上海南汇大团桃园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "435",
+                    "areaName": "外滩观光隧道",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "821",
+                    "areaName": "高家庄生态园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "753",
+                    "areaName": "吴淞台湾湿地森林公园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "1023",
+                    "areaName": "豫园3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "521",
+                    "areaName": "世博公园",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "916",
+                    "areaName": "大自然昆虫野生馆3G",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "524",
+                    "areaName": "中华艺术宫(中国馆)",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "500",
+                    "areaName": "周浦万达广场",
+                    "sceneName": "大型旅游风景区"
+                },
+                {
+                    "areaCode": "903",
+                    "areaName": "迪士尼乐园3G",
+                    "sceneName": "大型旅游风景区"
+                }
+            ],
+            "icon": "cj3.png",
+            "sceneCode": "14",
+            "sceneName": "大型旅游风景区",
+            "userNum": 0
+        },
+        {
+            "areaCode": "15",
+            "areaName": "大型商业区",
+            "customAreas": [
+                {
+                    "areaCode": "1095",
+                    "areaName": "剑河路新农庄3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "431",
+                    "areaName": "迪斯尼旗舰店",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "519",
+                    "areaName": "上海鲜花港",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "447",
+                    "areaName": "华能联合大厦",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "455",
+                    "areaName": "招行大厦",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "923",
+                    "areaName": "东晶国际大厦3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "474",
+                    "areaName": "上海联通宁桥局房",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "1115",
+                    "areaName": "车墩出口加工区3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "936",
+                    "areaName": "上海国际会议中心3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "765",
+                    "areaName": "金虹桥商务广场3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "163",
+                    "areaName": "徽商会馆",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "302",
+                    "areaName": "月星环球港",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "763",
+                    "areaName": "静安新城3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "528",
+                    "areaName": "昌硕园区",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "228",
+                    "areaName": "凤溪商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "479",
+                    "areaName": "上海通用汽车有限公司",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "349",
+                    "areaName": "大宁国际",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "899",
+                    "areaName": "周浦万达3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "859",
+                    "areaName": "江桥万达3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "188",
+                    "areaName": "朱泾镇中心商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "190",
+                    "areaName": "张堰镇中心商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "172",
+                    "areaName": "金虹桥商务广场",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "911",
+                    "areaName": "上海鲜花港3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "725",
+                    "areaName": "寰鑫富贵天地酒店育英3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "862",
+                    "areaName": "宝山万达广场3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "171",
+                    "areaName": "七宝商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "489",
+                    "areaName": "长泰广场",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "1096",
+                    "areaName": "徽商会馆3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "179",
+                    "areaName": "莘庄仲盛商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "173",
+                    "areaName": "莘庄工业区",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "729",
+                    "areaName": "南方商城3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "185",
+                    "areaName": "山阳镇中心商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "991",
+                    "areaName": "南桥镇中心商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "954",
+                    "areaName": "招行大厦3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "983",
+                    "areaName": "西渡镇中心商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "226",
+                    "areaName": "华新镇中心商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "166",
+                    "areaName": "静安新城",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "404",
+                    "areaName": "安亭新城",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "442",
+                    "areaName": "上海齐鲁万怡大酒店",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "999",
+                    "areaName": "奉城镇中心商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "329",
+                    "areaName": "中环百联",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "980",
+                    "areaName": "莘庄龙之梦3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "1111",
+                    "areaName": "泰晤士小镇3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "841",
+                    "areaName": "大宁国际3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "960",
+                    "areaName": "华能联合大厦3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "386",
+                    "areaName": "罗店镇购物中心",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "181",
+                    "areaName": "莘庄龙之梦",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "1094",
+                    "areaName": "中环百联3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "942",
+                    "areaName": "上海联通宁桥局房3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "795",
+                    "areaName": "凤溪商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "164",
+                    "areaName": "剑河路新农庄",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "626",
+                    "areaName": "寰鑫富贵天地大酒店",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "426",
+                    "areaName": "东晶国际大厦",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "514",
+                    "areaName": "上海联通南汇培训基地",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "436",
+                    "areaName": "上海国际会议中心",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "1067",
+                    "areaName": "华新镇中心商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "1098",
+                    "areaName": "泗泾生活广场3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "796",
+                    "areaName": "泗泾工业园区3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "993",
+                    "areaName": "金汇镇中心商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "1048",
+                    "areaName": "月星环球港3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "764",
+                    "areaName": "莘庄仲盛商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "994",
+                    "areaName": "光明镇中心商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "747",
+                    "areaName": "九里亭街道3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "958",
+                    "areaName": "上海齐鲁万怡大酒店3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "201",
+                    "areaName": "光明镇中心商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "858",
+                    "areaName": "安亭新城3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "198",
+                    "areaName": "西渡镇中心商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "857",
+                    "areaName": "安亭汽车城3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "197",
+                    "areaName": "金汇镇中心商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "969",
+                    "areaName": "朱泾镇中心商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "325",
+                    "areaName": "上海跨国采购中心",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "759",
+                    "areaName": "七宝商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "758",
+                    "areaName": "长泰广场3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "977",
+                    "areaName": "山阳镇中心商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "965",
+                    "areaName": "唐镇卡园3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "406",
+                    "areaName": "江桥万达",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "471",
+                    "areaName": "上海帝盛酒店",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "177",
+                    "areaName": "南方商城",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "957",
+                    "areaName": "上海帝盛酒店3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "860",
+                    "areaName": "南苑商业区3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "917",
+                    "areaName": "迪斯尼旗舰店3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "189",
+                    "areaName": "亭林镇中心商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "762",
+                    "areaName": "莘庄工业区3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "204",
+                    "areaName": "奉城镇中心商业圈",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "234",
+                    "areaName": "嘉里不夜城",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "956",
+                    "areaName": "万信酒店陆家嘴店3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "1114",
+                    "areaName": "松江老城区商业步行街3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "393",
+                    "areaName": "安亭汽车城",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "964",
+                    "areaName": "上海通用汽车有限公司3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "476",
+                    "areaName": "唐镇卡园",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "970",
+                    "areaName": "张堰镇中心商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "972",
+                    "areaName": "亭林镇中心商业圈3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "422",
+                    "areaName": "宝山万达广场",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "400",
+                    "areaName": "南苑商业区",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "484",
+                    "areaName": "万信酒店陆家嘴店",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "901",
+                    "areaName": "昌硕园区3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "909",
+                    "areaName": "上海联通南汇培训基地3G",
+                    "sceneName": "大型商业区"
+                },
+                {
+                    "areaCode": "199",
+                    "areaName": "南桥镇中心商业圈",
+                    "sceneName": "大型商业区"
+                }
+            ],
+            "icon": "cj4.png",
+            "sceneCode": "15",
+            "sceneName": "大型商业区",
+            "userNum": 0
+        },
+        {
+            "areaCode": "8",
+            "areaName": "大型高档商业区",
+            "customAreas": [
+                {
+                    "areaCode": "848",
+                    "areaName": "龙之梦虹口购物中心3G",
+                    "sceneName": "大型高档商业区"
+                }
+            ],
+            "icon": "cj4.png",
+            "sceneCode": "8",
+            "sceneName": "大型高档商业区",
+            "userNum": 0
+        },
+        {
+            "areaCode": "16",
+            "areaName": "县级市及以上交通枢纽",
+            "customAreas": [
+                {
+                    "areaCode": "740",
+                    "areaName": "虹桥机场3G",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "175",
+                    "areaName": "虹桥机场",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "362",
+                    "areaName": "上海长途汽车客运总站",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "502",
+                    "areaName": "浦东国际机场",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "851",
+                    "areaName": "上海长途汽车客运总站3G",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "183",
+                    "areaName": "虹桥火车站",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "230",
+                    "areaName": "上海火车站",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "142",
+                    "areaName": "上海南站",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "984",
+                    "areaName": "上海长途客运南站3G",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "1070",
+                    "areaName": "上海火车站3G",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "147",
+                    "areaName": "上海长途客运南站",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "908",
+                    "areaName": "浦东国际机场3G",
+                    "sceneName": "县级市及以上交通枢纽"
+                },
+                {
+                    "areaCode": "730",
+                    "areaName": "上海南站3G",
+                    "sceneName": "县级市及以上交通枢纽"
+                }
+            ],
+            "icon": "cj17.png",
+            "sceneCode": "16",
+            "sceneName": "县级市及以上交通枢纽",
+            "userNum": 0
+        },
+        {
+            "areaCode": "18",
+            "areaName": "高架",
+            "customAreas": [
+                {
+                    "areaCode": "869",
+                    "areaName": "嘉闵高架3G",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "630",
+                    "areaName": "北翟高架",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "872",
+                    "areaName": "逸仙高架3G",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "877",
+                    "areaName": "延安高架3G",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "634",
+                    "areaName": "内环高架",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "873",
+                    "areaName": "华夏高架3G",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "874",
+                    "areaName": "中环高架3G",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "878",
+                    "areaName": "沪闵高架3G",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "628",
+                    "areaName": "嘉闵高架",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "629",
+                    "areaName": "南北高架",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "635",
+                    "areaName": "逸仙高架",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "636",
+                    "areaName": "外环高架",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "876",
+                    "areaName": "内环高架3G",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "637",
+                    "areaName": "延安高架",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "879",
+                    "areaName": "申江高架3G",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "633",
+                    "areaName": "中环高架",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "632",
+                    "areaName": "五洲高架",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "875",
+                    "areaName": "外环高架3G",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "631",
+                    "areaName": "华夏高架",
+                    "sceneName": "高架"
+                },
+                {
+                    "areaCode": "871",
+                    "areaName": "北翟高架3G",
+                    "sceneName": "高架"
+                }
+            ],
+            "icon": "cj9.png",
+            "sceneCode": "18",
+            "sceneName": "高架",
+            "userNum": 0
+        },
+        {
+            "areaCode": "19",
+            "areaName": "工业园(国家级)",
+            "customAreas": [
+                {
+                    "areaCode": "680",
+                    "areaName": "上海化学工业经济开发",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "1126",
+                    "areaName": "闵行经济技术开发区3G",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "672",
+                    "areaName": "上海紫竹高新产业开发",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "1128",
+                    "areaName": "上海紫竹高新技术开发3G",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "1131",
+                    "areaName": "虹桥经济技术开发区3G",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "473",
+                    "areaName": "张江高科技园区",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "1119",
+                    "areaName": "漕河泾新兴技术开发区3G",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "1129",
+                    "areaName": "上海化学工业经济开发3G",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "180",
+                    "areaName": "闵行经济技术开发区",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "487",
+                    "areaName": "金桥出口加工区",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "1125",
+                    "areaName": "陆家嘴金融贸易区3G",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "141",
+                    "areaName": "漕河泾新兴技术开发区",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "434",
+                    "areaName": "陆家嘴金融贸易区",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "1118",
+                    "areaName": "外高桥保税区3G",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "459",
+                    "areaName": "外高桥保税区",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "1117",
+                    "areaName": "张江高科技园区3G",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "1120",
+                    "areaName": "金桥出口加工区3G",
+                    "sceneName": "工业园(国家级)"
+                },
+                {
+                    "areaCode": "305",
+                    "areaName": "虹桥经济技术开发区",
+                    "sceneName": "工业园(国家级)"
+                }
+            ],
+            "icon": "cj13.png",
+            "sceneCode": "19",
+            "sceneName": "工业园(国家级)",
+            "userNum": 0
+        },
+        {
+            "areaCode": "20",
+            "areaName": "高速",
+            "customAreas": [
+                {
+                    "areaCode": "707",
+                    "areaName": "亭枫高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "702",
+                    "areaName": "沪渝高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "1042",
+                    "areaName": "沪嘉高速3G",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "1046",
+                    "areaName": "沈海高速3G",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "709",
+                    "areaName": "沪嘉高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "700",
+                    "areaName": "沪昆高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "711",
+                    "areaName": "沪常高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "705",
+                    "areaName": "申嘉湖高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "706",
+                    "areaName": "沈海高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "1044",
+                    "areaName": "京沪高速3G",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "703",
+                    "areaName": "机场高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "701",
+                    "areaName": "沪芦高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "712",
+                    "areaName": "沪陕高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "699",
+                    "areaName": "沪金高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "708",
+                    "areaName": "新卫高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "1041",
+                    "areaName": "沪常高速3G",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "704",
+                    "areaName": "绕城高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "710",
+                    "areaName": "京沪高速",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "1043",
+                    "areaName": "沪陕高速3G",
+                    "sceneName": "高速"
+                },
+                {
+                    "areaCode": "1045",
+                    "areaName": "绕城高速3G",
+                    "sceneName": "高速"
+                }
+            ],
+            "icon": "cj10.png",
+            "sceneCode": "20",
+            "sceneName": "高速",
+            "userNum": 0
+        }
+    ]
+}

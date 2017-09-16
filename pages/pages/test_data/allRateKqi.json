@@ -1,0 +1,3894 @@
+{
+    "statuCode": "200",
+	"allg":{   
+	    "data": [
+	        {
+	            "describle": "响应成功率(%)",
+	            "kqiArray": [
+	                {
+	                    "startTime": 1486998900,
+	                    "thresholdStatu": 0,
+	                    "value": 87.82
+	                },
+	                {
+	                    "startTime": 1486999800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.27
+	                },
+	                {
+	                    "startTime": 1487000700,
+	                    "thresholdStatu": 0,
+	                    "value": 87.03
+	                },
+	                {
+	                    "startTime": 1487001600,
+	                    "thresholdStatu": 0,
+	                    "value": 85.73
+	                },
+	                {
+	                    "startTime": 1487002500,
+	                    "thresholdStatu": 0,
+	                    "value": 85.59
+	                },
+	                {
+	                    "startTime": 1487003400,
+	                    "thresholdStatu": 0,
+	                    "value": 86.33
+	                },
+	                {
+	                    "startTime": 1487004300,
+	                    "thresholdStatu": 0,
+	                    "value": 85.63
+	                },
+	                {
+	                    "startTime": 1487005200,
+	                    "thresholdStatu": 0,
+	                    "value": 84.84
+	                },
+	                {
+	                    "startTime": 1487006100,
+	                    "thresholdStatu": 0,
+	                    "value": 84.55
+	                },
+	                {
+	                    "startTime": 1487007000,
+	                    "thresholdStatu": 0,
+	                    "value": 85.06
+	                },
+	                {
+	                    "startTime": 1487007900,
+	                    "thresholdStatu": 0,
+	                    "value": 85.02
+	                },
+	                {
+	                    "startTime": 1487008800,
+	                    "thresholdStatu": 0,
+	                    "value": 86.57
+	                },
+	                {
+	                    "startTime": 1487009700,
+	                    "thresholdStatu": 0,
+	                    "value": 85.43
+	                },
+	                {
+	                    "startTime": 1487010600,
+	                    "thresholdStatu": 0,
+	                    "value": 85.26
+	                },
+	                {
+	                    "startTime": 1487011500,
+	                    "thresholdStatu": 0,
+	                    "value": 84.78
+	                },
+	                {
+	                    "startTime": 1487012400,
+	                    "thresholdStatu": 0,
+	                    "value": 85.31
+	                },
+	                {
+	                    "startTime": 1487013300,
+	                    "thresholdStatu": 0,
+	                    "value": 82.45
+	                },
+	                {
+	                    "startTime": 1487014200,
+	                    "thresholdStatu": 0,
+	                    "value": 80.5
+	                },
+	                {
+	                    "startTime": 1487015100,
+	                    "thresholdStatu": 0,
+	                    "value": 81.69
+	                },
+	                {
+	                    "startTime": 1487016000,
+	                    "thresholdStatu": 0,
+	                    "value": 83.82
+	                },
+	                {
+	                    "startTime": 1487016900,
+	                    "thresholdStatu": 0,
+	                    "value": 85.31
+	                },
+	                {
+	                    "startTime": 1487017800,
+	                    "thresholdStatu": 0,
+	                    "value": 84.74
+	                },
+	                {
+	                    "startTime": 1487018700,
+	                    "thresholdStatu": 0,
+	                    "value": 85.3
+	                },
+	                {
+	                    "startTime": 1487019600,
+	                    "thresholdStatu": 0,
+	                    "value": 85.9
+	                },
+	                {
+	                    "startTime": 1487020500,
+	                    "thresholdStatu": 0,
+	                    "value": 82.5
+	                },
+	                {
+	                    "startTime": 1487021400,
+	                    "thresholdStatu": 0,
+	                    "value": 83.29
+	                },
+	                {
+	                    "startTime": 1487022300,
+	                    "thresholdStatu": 0,
+	                    "value": 84.56
+	                },
+	                {
+	                    "startTime": 1487023200,
+	                    "thresholdStatu": 0,
+	                    "value": 86.41
+	                },
+	                {
+	                    "startTime": 1487024100,
+	                    "thresholdStatu": 0,
+	                    "value": 85.82
+	                },
+	                {
+	                    "startTime": 1487025000,
+	                    "thresholdStatu": 0,
+	                    "value": 86.69
+	                },
+	                {
+	                    "startTime": 1487025900,
+	                    "thresholdStatu": 0,
+	                    "value": 88.47
+	                },
+	                {
+	                    "startTime": 1487026800,
+	                    "thresholdStatu": 0,
+	                    "value": 88.83
+	                },
+	                {
+	                    "startTime": 1487027700,
+	                    "thresholdStatu": 0,
+	                    "value": 89.34
+	                },
+	                {
+	                    "startTime": 1487028600,
+	                    "thresholdStatu": 0,
+	                    "value": 89.67
+	                },
+	                {
+	                    "startTime": 1487029500,
+	                    "thresholdStatu": 0,
+	                    "value": 89.85
+	                },
+	                {
+	                    "startTime": 1487030400,
+	                    "thresholdStatu": 0,
+	                    "value": 89.78
+	                },
+	                {
+	                    "startTime": 1487031300,
+	                    "thresholdStatu": 0,
+	                    "value": 88.9
+	                },
+	                {
+	                    "startTime": 1487032200,
+	                    "thresholdStatu": 0,
+	                    "value": 89.8
+	                },
+	                {
+	                    "startTime": 1487033100,
+	                    "thresholdStatu": 0,
+	                    "value": 90.53
+	                },
+	                {
+	                    "startTime": 1487034000,
+	                    "thresholdStatu": 0,
+	                    "value": 90.32
+	                },
+	                {
+	                    "startTime": 1487034900,
+	                    "thresholdStatu": 0,
+	                    "value": 89.9
+	                },
+	                {
+	                    "startTime": 1487035800,
+	                    "thresholdStatu": 0,
+	                    "value": 89.89
+	                },
+	                {
+	                    "startTime": 1487036700,
+	                    "thresholdStatu": 0,
+	                    "value": 89.63
+	                },
+	                {
+	                    "startTime": 1487037600,
+	                    "thresholdStatu": 0,
+	                    "value": 90.08
+	                },
+	                {
+	                    "startTime": 1487038500,
+	                    "thresholdStatu": 0,
+	                    "value": 89.92
+	                },
+	                {
+	                    "startTime": 1487039400,
+	                    "thresholdStatu": 0,
+	                    "value": 89.57
+	                },
+	                {
+	                    "startTime": 1487040300,
+	                    "thresholdStatu": 0,
+	                    "value": 90.06
+	                },
+	                {
+	                    "startTime": 1487041200,
+	                    "thresholdStatu": 0,
+	                    "value": 89.8
+	                },
+	                {
+	                    "startTime": 1487042100,
+	                    "thresholdStatu": 0,
+	                    "value": 89.97
+	                },
+	                {
+	                    "startTime": 1487043000,
+	                    "thresholdStatu": 0,
+	                    "value": 89.82
+	                },
+	                {
+	                    "startTime": 1487043900,
+	                    "thresholdStatu": 0,
+	                    "value": 89.39
+	                },
+	                {
+	                    "startTime": 1487044800,
+	                    "thresholdStatu": 0,
+	                    "value": 89.96
+	                },
+	                {
+	                    "startTime": 1487045700,
+	                    "thresholdStatu": 0,
+	                    "value": 89.89
+	                },
+	                {
+	                    "startTime": 1487046600,
+	                    "thresholdStatu": 0,
+	                    "value": 90.12
+	                },
+	                {
+	                    "startTime": 1487047500,
+	                    "thresholdStatu": 0,
+	                    "value": 89.83
+	                },
+	                {
+	                    "startTime": 1487048400,
+	                    "thresholdStatu": 0,
+	                    "value": 89.33
+	                },
+	                {
+	                    "startTime": 1487049300,
+	                    "thresholdStatu": 0,
+	                    "value": 88.83
+	                },
+	                {
+	                    "startTime": 1487050200,
+	                    "thresholdStatu": 0,
+	                    "value": 89.06
+	                },
+	                {
+	                    "startTime": 1487051100,
+	                    "thresholdStatu": 0,
+	                    "value": 88.55
+	                },
+	                {
+	                    "startTime": 1487052000,
+	                    "thresholdStatu": 0,
+	                    "value": 88.83
+	                },
+	                {
+	                    "startTime": 1487052900,
+	                    "thresholdStatu": 0,
+	                    "value": 89.31
+	                },
+	                {
+	                    "startTime": 1487053800,
+	                    "thresholdStatu": 0,
+	                    "value": 89.4
+	                },
+	                {
+	                    "startTime": 1487054700,
+	                    "thresholdStatu": 0,
+	                    "value": 88.89
+	                },
+	                {
+	                    "startTime": 1487055600,
+	                    "thresholdStatu": 0,
+	                    "value": 89.41
+	                },
+	                {
+	                    "startTime": 1487056500,
+	                    "thresholdStatu": 0,
+	                    "value": 88.69
+	                },
+	                {
+	                    "startTime": 1487057400,
+	                    "thresholdStatu": 0,
+	                    "value": 87.68
+	                },
+	                {
+	                    "startTime": 1487058300,
+	                    "thresholdStatu": 0,
+	                    "value": 89.24
+	                },
+	                {
+	                    "startTime": 1487059200,
+	                    "thresholdStatu": 0,
+	                    "value": 89.83
+	                },
+	                {
+	                    "startTime": 1487060100,
+	                    "thresholdStatu": 0,
+	                    "value": 89.96
+	                },
+	                {
+	                    "startTime": 1487061000,
+	                    "thresholdStatu": 0,
+	                    "value": 89.83
+	                },
+	                {
+	                    "startTime": 1487061900,
+	                    "thresholdStatu": 0,
+	                    "value": 89.62
+	                },
+	                {
+	                    "startTime": 1487062800,
+	                    "thresholdStatu": 0,
+	                    "value": 89.7
+	                },
+	                {
+	                    "startTime": 1487063700,
+	                    "thresholdStatu": 0,
+	                    "value": 89.08
+	                },
+	                {
+	                    "startTime": 1487064600,
+	                    "thresholdStatu": 0,
+	                    "value": 90.44
+	                },
+	                {
+	                    "startTime": 1487065500,
+	                    "thresholdStatu": 0,
+	                    "value": 90.39
+	                },
+	                {
+	                    "startTime": 1487066400,
+	                    "thresholdStatu": 0,
+	                    "value": 90.26
+	                },
+	                {
+	                    "startTime": 1487067300,
+	                    "thresholdStatu": 0,
+	                    "value": 89.7
+	                },
+	                {
+	                    "startTime": 1487068200,
+	                    "thresholdStatu": 0,
+	                    "value": 89.05
+	                },
+	                {
+	                    "startTime": 1487069100,
+	                    "thresholdStatu": 0,
+	                    "value": 90.17
+	                },
+	                {
+	                    "startTime": 1487070000,
+	                    "thresholdStatu": 0,
+	                    "value": 90.33
+	                },
+	                {
+	                    "startTime": 1487070900,
+	                    "thresholdStatu": 0,
+	                    "value": 88.73
+	                },
+	                {
+	                    "startTime": 1487071800,
+	                    "thresholdStatu": 0,
+	                    "value": 89.76
+	                }
+	            ],
+	            "kqiConf": {
+	                "desc": false,
+	                "describle": "响应成功率(%)",
+	                "id": "global_4_kqi_allNet@3",
+	                "name": "SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_SUCC_RATE",
+	                "regex": "^(([1-9][0-9]?)(\\.\\d{1,2})?)$",
+	                "show": true,
+	                "threshold": [
+	                    0,
+	                    50,
+	                    60,
+	                    70,
+	                    140
+	                ]
+	            },
+	            "propertyName": "pageResponseSuccessRate"
+	        },
+	        {
+	            "describle": "响应时长(ms)",
+	            "kqiArray": [
+	                {
+	                    "startTime": 1486998900,
+	                    "thresholdStatu": 0,
+	                    "value": 406.17
+	                },
+	                {
+	                    "startTime": 1486999800,
+	                    "thresholdStatu": 0,
+	                    "value": 396.41
+	                },
+	                {
+	                    "startTime": 1487000700,
+	                    "thresholdStatu": 0,
+	                    "value": 396.57
+	                },
+	                {
+	                    "startTime": 1487001600,
+	                    "thresholdStatu": 0,
+	                    "value": 415.61
+	                },
+	                {
+	                    "startTime": 1487002500,
+	                    "thresholdStatu": 0,
+	                    "value": 399.63
+	                },
+	                {
+	                    "startTime": 1487003400,
+	                    "thresholdStatu": 0,
+	                    "value": 393.34
+	                },
+	                {
+	                    "startTime": 1487004300,
+	                    "thresholdStatu": 0,
+	                    "value": 380.48
+	                },
+	                {
+	                    "startTime": 1487005200,
+	                    "thresholdStatu": 0,
+	                    "value": 393.22
+	                },
+	                {
+	                    "startTime": 1487006100,
+	                    "thresholdStatu": 0,
+	                    "value": 400.49
+	                },
+	                {
+	                    "startTime": 1487007000,
+	                    "thresholdStatu": 0,
+	                    "value": 388.06
+	                },
+	                {
+	                    "startTime": 1487007900,
+	                    "thresholdStatu": 0,
+	                    "value": 368.78
+	                },
+	                {
+	                    "startTime": 1487008800,
+	                    "thresholdStatu": 0,
+	                    "value": 387.87
+	                },
+	                {
+	                    "startTime": 1487009700,
+	                    "thresholdStatu": 0,
+	                    "value": 391.74
+	                },
+	                {
+	                    "startTime": 1487010600,
+	                    "thresholdStatu": 0,
+	                    "value": 371.5
+	                },
+	                {
+	                    "startTime": 1487011500,
+	                    "thresholdStatu": 0,
+	                    "value": 404.38
+	                },
+	                {
+	                    "startTime": 1487012400,
+	                    "thresholdStatu": 0,
+	                    "value": 398.92
+	                },
+	                {
+	                    "startTime": 1487013300,
+	                    "thresholdStatu": 0,
+	                    "value": 389.1
+	                },
+	                {
+	                    "startTime": 1487014200,
+	                    "thresholdStatu": 0,
+	                    "value": 374.67
+	                },
+	                {
+	                    "startTime": 1487015100,
+	                    "thresholdStatu": 0,
+	                    "value": 388.05
+	                },
+	                {
+	                    "startTime": 1487016000,
+	                    "thresholdStatu": 0,
+	                    "value": 385.34
+	                },
+	                {
+	                    "startTime": 1487016900,
+	                    "thresholdStatu": 0,
+	                    "value": 394.58
+	                },
+	                {
+	                    "startTime": 1487017800,
+	                    "thresholdStatu": 0,
+	                    "value": 384.97
+	                },
+	                {
+	                    "startTime": 1487018700,
+	                    "thresholdStatu": 0,
+	                    "value": 388.37
+	                },
+	                {
+	                    "startTime": 1487019600,
+	                    "thresholdStatu": 0,
+	                    "value": 382.26
+	                },
+	                {
+	                    "startTime": 1487020500,
+	                    "thresholdStatu": 0,
+	                    "value": 394.09
+	                },
+	                {
+	                    "startTime": 1487021400,
+	                    "thresholdStatu": 0,
+	                    "value": 392.89
+	                },
+	                {
+	                    "startTime": 1487022300,
+	                    "thresholdStatu": 0,
+	                    "value": 398.61
+	                },
+	                {
+	                    "startTime": 1487023200,
+	                    "thresholdStatu": 0,
+	                    "value": 436.77
+	                },
+	                {
+	                    "startTime": 1487024100,
+	                    "thresholdStatu": 0,
+	                    "value": 405.71
+	                },
+	                {
+	                    "startTime": 1487025000,
+	                    "thresholdStatu": 0,
+	                    "value": 408.19
+	                },
+	                {
+	                    "startTime": 1487025900,
+	                    "thresholdStatu": 0,
+	                    "value": 398.53
+	                },
+	                {
+	                    "startTime": 1487026800,
+	                    "thresholdStatu": 0,
+	                    "value": 397.03
+	                },
+	                {
+	                    "startTime": 1487027700,
+	                    "thresholdStatu": 0,
+	                    "value": 391.44
+	                },
+	                {
+	                    "startTime": 1487028600,
+	                    "thresholdStatu": 0,
+	                    "value": 399.86
+	                },
+	                {
+	                    "startTime": 1487029500,
+	                    "thresholdStatu": 0,
+	                    "value": 398.83
+	                },
+	                {
+	                    "startTime": 1487030400,
+	                    "thresholdStatu": 0,
+	                    "value": 414
+	                },
+	                {
+	                    "startTime": 1487031300,
+	                    "thresholdStatu": 0,
+	                    "value": 409.18
+	                },
+	                {
+	                    "startTime": 1487032200,
+	                    "thresholdStatu": 0,
+	                    "value": 415.76
+	                },
+	                {
+	                    "startTime": 1487033100,
+	                    "thresholdStatu": 0,
+	                    "value": 382.67
+	                },
+	                {
+	                    "startTime": 1487034000,
+	                    "thresholdStatu": 0,
+	                    "value": 378.55
+	                },
+	                {
+	                    "startTime": 1487034900,
+	                    "thresholdStatu": 0,
+	                    "value": 380.12
+	                },
+	                {
+	                    "startTime": 1487035800,
+	                    "thresholdStatu": 0,
+	                    "value": 387.99
+	                },
+	                {
+	                    "startTime": 1487036700,
+	                    "thresholdStatu": 0,
+	                    "value": 388.07
+	                },
+	                {
+	                    "startTime": 1487037600,
+	                    "thresholdStatu": 0,
+	                    "value": 388.72
+	                },
+	                {
+	                    "startTime": 1487038500,
+	                    "thresholdStatu": 0,
+	                    "value": 387.25
+	                },
+	                {
+	                    "startTime": 1487039400,
+	                    "thresholdStatu": 0,
+	                    "value": 389
+	                },
+	                {
+	                    "startTime": 1487040300,
+	                    "thresholdStatu": 0,
+	                    "value": 398.1
+	                },
+	                {
+	                    "startTime": 1487041200,
+	                    "thresholdStatu": 0,
+	                    "value": 404.17
+	                },
+	                {
+	                    "startTime": 1487042100,
+	                    "thresholdStatu": 0,
+	                    "value": 389.72
+	                },
+	                {
+	                    "startTime": 1487043000,
+	                    "thresholdStatu": 0,
+	                    "value": 395.2
+	                },
+	                {
+	                    "startTime": 1487043900,
+	                    "thresholdStatu": 0,
+	                    "value": 399.22
+	                },
+	                {
+	                    "startTime": 1487044800,
+	                    "thresholdStatu": 0,
+	                    "value": 393.96
+	                },
+	                {
+	                    "startTime": 1487045700,
+	                    "thresholdStatu": 0,
+	                    "value": 381.7
+	                },
+	                {
+	                    "startTime": 1487046600,
+	                    "thresholdStatu": 0,
+	                    "value": 398.29
+	                },
+	                {
+	                    "startTime": 1487047500,
+	                    "thresholdStatu": 0,
+	                    "value": 387.79
+	                },
+	                {
+	                    "startTime": 1487048400,
+	                    "thresholdStatu": 0,
+	                    "value": 374.95
+	                },
+	                {
+	                    "startTime": 1487049300,
+	                    "thresholdStatu": 0,
+	                    "value": 376.53
+	                },
+	                {
+	                    "startTime": 1487050200,
+	                    "thresholdStatu": 0,
+	                    "value": 382.55
+	                },
+	                {
+	                    "startTime": 1487051100,
+	                    "thresholdStatu": 0,
+	                    "value": 379.46
+	                },
+	                {
+	                    "startTime": 1487052000,
+	                    "thresholdStatu": 0,
+	                    "value": 383.4
+	                },
+	                {
+	                    "startTime": 1487052900,
+	                    "thresholdStatu": 0,
+	                    "value": 386.67
+	                },
+	                {
+	                    "startTime": 1487053800,
+	                    "thresholdStatu": 0,
+	                    "value": 379.96
+	                },
+	                {
+	                    "startTime": 1487054700,
+	                    "thresholdStatu": 0,
+	                    "value": 376.85
+	                },
+	                {
+	                    "startTime": 1487055600,
+	                    "thresholdStatu": 0,
+	                    "value": 375.55
+	                },
+	                {
+	                    "startTime": 1487056500,
+	                    "thresholdStatu": 0,
+	                    "value": 372.73
+	                },
+	                {
+	                    "startTime": 1487057400,
+	                    "thresholdStatu": 0,
+	                    "value": 381.22
+	                },
+	                {
+	                    "startTime": 1487058300,
+	                    "thresholdStatu": 0,
+	                    "value": 355.28
+	                },
+	                {
+	                    "startTime": 1487059200,
+	                    "thresholdStatu": 0,
+	                    "value": 355.97
+	                },
+	                {
+	                    "startTime": 1487060100,
+	                    "thresholdStatu": 0,
+	                    "value": 352.77
+	                },
+	                {
+	                    "startTime": 1487061000,
+	                    "thresholdStatu": 0,
+	                    "value": 347.42
+	                },
+	                {
+	                    "startTime": 1487061900,
+	                    "thresholdStatu": 0,
+	                    "value": 349.75
+	                },
+	                {
+	                    "startTime": 1487062800,
+	                    "thresholdStatu": 0,
+	                    "value": 335.01
+	                },
+	                {
+	                    "startTime": 1487063700,
+	                    "thresholdStatu": 0,
+	                    "value": 329.13
+	                },
+	                {
+	                    "startTime": 1487064600,
+	                    "thresholdStatu": 0,
+	                    "value": 345.49
+	                },
+	                {
+	                    "startTime": 1487065500,
+	                    "thresholdStatu": 0,
+	                    "value": 363.42
+	                },
+	                {
+	                    "startTime": 1487066400,
+	                    "thresholdStatu": 0,
+	                    "value": 377.17
+	                },
+	                {
+	                    "startTime": 1487067300,
+	                    "thresholdStatu": 0,
+	                    "value": 369.9
+	                },
+	                {
+	                    "startTime": 1487068200,
+	                    "thresholdStatu": 0,
+	                    "value": 378.54
+	                },
+	                {
+	                    "startTime": 1487069100,
+	                    "thresholdStatu": 0,
+	                    "value": 375.47
+	                },
+	                {
+	                    "startTime": 1487070000,
+	                    "thresholdStatu": 0,
+	                    "value": 377.38
+	                },
+	                {
+	                    "startTime": 1487070900,
+	                    "thresholdStatu": 0,
+	                    "value": 366.94
+	                },
+	                {
+	                    "startTime": 1487071800,
+	                    "thresholdStatu": 0,
+	                    "value": 377.25
+	                }
+	            ],
+	            "kqiConf": {
+	                "desc": true,
+	                "describle": "响应时长(ms)",
+	                "id": "global_4_kqi_allNet@2",
+	                "name": "SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_DELAY",
+	                "regex": "^(0|([1-9][0-9]*))(\\.\\d{1,2})?$",
+	                "show": true,
+	                "threshold": [
+	                    0,
+	                    650,
+	                    700,
+	                    750,
+	                    1500
+	                ]
+	            },
+	            "propertyName": "pageResponseDelay"
+	        },
+	        {
+	            "describle": "显示成功率(%)",
+	            "kqiArray": [
+	                {
+	                    "startTime": 1486998900,
+	                    "thresholdStatu": 0,
+	                    "value": 84.59
+	                },
+	                {
+	                    "startTime": 1486999800,
+	                    "thresholdStatu": 0,
+	                    "value": 84.06
+	                },
+	                {
+	                    "startTime": 1487000700,
+	                    "thresholdStatu": 0,
+	                    "value": 83.84
+	                },
+	                {
+	                    "startTime": 1487001600,
+	                    "thresholdStatu": 0,
+	                    "value": 82.21
+	                },
+	                {
+	                    "startTime": 1487002500,
+	                    "thresholdStatu": 0,
+	                    "value": 82.24
+	                },
+	                {
+	                    "startTime": 1487003400,
+	                    "thresholdStatu": 0,
+	                    "value": 83.12
+	                },
+	                {
+	                    "startTime": 1487004300,
+	                    "thresholdStatu": 0,
+	                    "value": 82.57
+	                },
+	                {
+	                    "startTime": 1487005200,
+	                    "thresholdStatu": 0,
+	                    "value": 81.86
+	                },
+	                {
+	                    "startTime": 1487006100,
+	                    "thresholdStatu": 0,
+	                    "value": 81.49
+	                },
+	                {
+	                    "startTime": 1487007000,
+	                    "thresholdStatu": 0,
+	                    "value": 81.97
+	                },
+	                {
+	                    "startTime": 1487007900,
+	                    "thresholdStatu": 0,
+	                    "value": 81.99
+	                },
+	                {
+	                    "startTime": 1487008800,
+	                    "thresholdStatu": 0,
+	                    "value": 83.4
+	                },
+	                {
+	                    "startTime": 1487009700,
+	                    "thresholdStatu": 0,
+	                    "value": 82.14
+	                },
+	                {
+	                    "startTime": 1487010600,
+	                    "thresholdStatu": 0,
+	                    "value": 82.08
+	                },
+	                {
+	                    "startTime": 1487011500,
+	                    "thresholdStatu": 0,
+	                    "value": 81.6
+	                },
+	                {
+	                    "startTime": 1487012400,
+	                    "thresholdStatu": 0,
+	                    "value": 82.19
+	                },
+	                {
+	                    "startTime": 1487013300,
+	                    "thresholdStatu": 0,
+	                    "value": 79.47
+	                },
+	                {
+	                    "startTime": 1487014200,
+	                    "thresholdStatu": 0,
+	                    "value": 77.7
+	                },
+	                {
+	                    "startTime": 1487015100,
+	                    "thresholdStatu": 0,
+	                    "value": 78.93
+	                },
+	                {
+	                    "startTime": 1487016000,
+	                    "thresholdStatu": 0,
+	                    "value": 80.95
+	                },
+	                {
+	                    "startTime": 1487016900,
+	                    "thresholdStatu": 0,
+	                    "value": 82.55
+	                },
+	                {
+	                    "startTime": 1487017800,
+	                    "thresholdStatu": 0,
+	                    "value": 81.88
+	                },
+	                {
+	                    "startTime": 1487018700,
+	                    "thresholdStatu": 0,
+	                    "value": 82.38
+	                },
+	                {
+	                    "startTime": 1487019600,
+	                    "thresholdStatu": 0,
+	                    "value": 83.05
+	                },
+	                {
+	                    "startTime": 1487020500,
+	                    "thresholdStatu": 0,
+	                    "value": 79.78
+	                },
+	                {
+	                    "startTime": 1487021400,
+	                    "thresholdStatu": 0,
+	                    "value": 80.52
+	                },
+	                {
+	                    "startTime": 1487022300,
+	                    "thresholdStatu": 0,
+	                    "value": 81.79
+	                },
+	                {
+	                    "startTime": 1487023200,
+	                    "thresholdStatu": 0,
+	                    "value": 83.42
+	                },
+	                {
+	                    "startTime": 1487024100,
+	                    "thresholdStatu": 0,
+	                    "value": 82.93
+	                },
+	                {
+	                    "startTime": 1487025000,
+	                    "thresholdStatu": 0,
+	                    "value": 83.78
+	                },
+	                {
+	                    "startTime": 1487025900,
+	                    "thresholdStatu": 0,
+	                    "value": 85.5
+	                },
+	                {
+	                    "startTime": 1487026800,
+	                    "thresholdStatu": 0,
+	                    "value": 85.41
+	                },
+	                {
+	                    "startTime": 1487027700,
+	                    "thresholdStatu": 0,
+	                    "value": 86.32
+	                },
+	                {
+	                    "startTime": 1487028600,
+	                    "thresholdStatu": 0,
+	                    "value": 86.73
+	                },
+	                {
+	                    "startTime": 1487029500,
+	                    "thresholdStatu": 0,
+	                    "value": 86.88
+	                },
+	                {
+	                    "startTime": 1487030400,
+	                    "thresholdStatu": 0,
+	                    "value": 86.76
+	                },
+	                {
+	                    "startTime": 1487031300,
+	                    "thresholdStatu": 0,
+	                    "value": 85.69
+	                },
+	                {
+	                    "startTime": 1487032200,
+	                    "thresholdStatu": 0,
+	                    "value": 86.57
+	                },
+	                {
+	                    "startTime": 1487033100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.63
+	                },
+	                {
+	                    "startTime": 1487034000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.62
+	                },
+	                {
+	                    "startTime": 1487034900,
+	                    "thresholdStatu": 0,
+	                    "value": 87.17
+	                },
+	                {
+	                    "startTime": 1487035800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.21
+	                },
+	                {
+	                    "startTime": 1487036700,
+	                    "thresholdStatu": 0,
+	                    "value": 86.92
+	                },
+	                {
+	                    "startTime": 1487037600,
+	                    "thresholdStatu": 0,
+	                    "value": 87.37
+	                },
+	                {
+	                    "startTime": 1487038500,
+	                    "thresholdStatu": 0,
+	                    "value": 87.25
+	                },
+	                {
+	                    "startTime": 1487039400,
+	                    "thresholdStatu": 0,
+	                    "value": 86.93
+	                },
+	                {
+	                    "startTime": 1487040300,
+	                    "thresholdStatu": 0,
+	                    "value": 87.35
+	                },
+	                {
+	                    "startTime": 1487041200,
+	                    "thresholdStatu": 0,
+	                    "value": 87.06
+	                },
+	                {
+	                    "startTime": 1487042100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.26
+	                },
+	                {
+	                    "startTime": 1487043000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.09
+	                },
+	                {
+	                    "startTime": 1487043900,
+	                    "thresholdStatu": 0,
+	                    "value": 86.57
+	                },
+	                {
+	                    "startTime": 1487044800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.18
+	                },
+	                {
+	                    "startTime": 1487045700,
+	                    "thresholdStatu": 0,
+	                    "value": 87.19
+	                },
+	                {
+	                    "startTime": 1487046600,
+	                    "thresholdStatu": 0,
+	                    "value": 87.23
+	                },
+	                {
+	                    "startTime": 1487047500,
+	                    "thresholdStatu": 0,
+	                    "value": 86.86
+	                },
+	                {
+	                    "startTime": 1487048400,
+	                    "thresholdStatu": 0,
+	                    "value": 86.26
+	                },
+	                {
+	                    "startTime": 1487049300,
+	                    "thresholdStatu": 0,
+	                    "value": 85.95
+	                },
+	                {
+	                    "startTime": 1487050200,
+	                    "thresholdStatu": 0,
+	                    "value": 86.07
+	                },
+	                {
+	                    "startTime": 1487051100,
+	                    "thresholdStatu": 0,
+	                    "value": 85.52
+	                },
+	                {
+	                    "startTime": 1487052000,
+	                    "thresholdStatu": 0,
+	                    "value": 85.7
+	                },
+	                {
+	                    "startTime": 1487052900,
+	                    "thresholdStatu": 0,
+	                    "value": 86.24
+	                },
+	                {
+	                    "startTime": 1487053800,
+	                    "thresholdStatu": 0,
+	                    "value": 86.27
+	                },
+	                {
+	                    "startTime": 1487054700,
+	                    "thresholdStatu": 0,
+	                    "value": 85.84
+	                },
+	                {
+	                    "startTime": 1487055600,
+	                    "thresholdStatu": 0,
+	                    "value": 86.47
+	                },
+	                {
+	                    "startTime": 1487056500,
+	                    "thresholdStatu": 0,
+	                    "value": 85.69
+	                },
+	                {
+	                    "startTime": 1487057400,
+	                    "thresholdStatu": 0,
+	                    "value": 84.75
+	                },
+	                {
+	                    "startTime": 1487058300,
+	                    "thresholdStatu": 0,
+	                    "value": 86.6
+	                },
+	                {
+	                    "startTime": 1487059200,
+	                    "thresholdStatu": 0,
+	                    "value": 87.37
+	                },
+	                {
+	                    "startTime": 1487060100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.51
+	                },
+	                {
+	                    "startTime": 1487061000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.39
+	                },
+	                {
+	                    "startTime": 1487061900,
+	                    "thresholdStatu": 0,
+	                    "value": 87.19
+	                },
+	                {
+	                    "startTime": 1487062800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.36
+	                },
+	                {
+	                    "startTime": 1487063700,
+	                    "thresholdStatu": 0,
+	                    "value": 86.91
+	                },
+	                {
+	                    "startTime": 1487064600,
+	                    "thresholdStatu": 0,
+	                    "value": 88.04
+	                },
+	                {
+	                    "startTime": 1487065500,
+	                    "thresholdStatu": 0,
+	                    "value": 87.85
+	                },
+	                {
+	                    "startTime": 1487066400,
+	                    "thresholdStatu": 0,
+	                    "value": 87.7
+	                },
+	                {
+	                    "startTime": 1487067300,
+	                    "thresholdStatu": 0,
+	                    "value": 87.21
+	                },
+	                {
+	                    "startTime": 1487068200,
+	                    "thresholdStatu": 0,
+	                    "value": 86.61
+	                },
+	                {
+	                    "startTime": 1487069100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.63
+	                },
+	                {
+	                    "startTime": 1487070000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.76
+	                },
+	                {
+	                    "startTime": 1487070900,
+	                    "thresholdStatu": 0,
+	                    "value": 86.26
+	                },
+	                {
+	                    "startTime": 1487071800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.14
+	                }
+	            ],
+	            "kqiConf": {
+	                "desc": false,
+	                "describle": "显示成功率(%)",
+	                "id": "global_4_kqi_allNet@4",
+	                "name": "SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SUCC_RATE",
+	                "regex": "^(([1-9][0-9]?)(\\.\\d{1,2})?)$",
+	                "show": true,
+	                "threshold": [
+	                    0,
+	                    50,
+	                    60,
+	                    70,
+	                    140
+	                ]
+	            },
+	            "propertyName": "pageShowSuccessRate"
+	        },
+	        {
+	            "describle": "显示时长(ms)",
+	            "kqiArray": [
+	                {
+	                    "startTime": 1486998900,
+	                    "thresholdStatu": 0,
+	                    "value": 853.06
+	                },
+	                {
+	                    "startTime": 1486999800,
+	                    "thresholdStatu": 0,
+	                    "value": 837.8
+	                },
+	                {
+	                    "startTime": 1487000700,
+	                    "thresholdStatu": 0,
+	                    "value": 824.53
+	                },
+	                {
+	                    "startTime": 1487001600,
+	                    "thresholdStatu": 0,
+	                    "value": 876.97
+	                },
+	                {
+	                    "startTime": 1487002500,
+	                    "thresholdStatu": 0,
+	                    "value": 816.76
+	                },
+	                {
+	                    "startTime": 1487003400,
+	                    "thresholdStatu": 0,
+	                    "value": 812.32
+	                },
+	                {
+	                    "startTime": 1487004300,
+	                    "thresholdStatu": 0,
+	                    "value": 754.08
+	                },
+	                {
+	                    "startTime": 1487005200,
+	                    "thresholdStatu": 0,
+	                    "value": 819.36
+	                },
+	                {
+	                    "startTime": 1487006100,
+	                    "thresholdStatu": 0,
+	                    "value": 814.02
+	                },
+	                {
+	                    "startTime": 1487007000,
+	                    "thresholdStatu": 0,
+	                    "value": 783.32
+	                },
+	                {
+	                    "startTime": 1487007900,
+	                    "thresholdStatu": 0,
+	                    "value": 767.89
+	                },
+	                {
+	                    "startTime": 1487008800,
+	                    "thresholdStatu": 0,
+	                    "value": 854.48
+	                },
+	                {
+	                    "startTime": 1487009700,
+	                    "thresholdStatu": 0,
+	                    "value": 821.18
+	                },
+	                {
+	                    "startTime": 1487010600,
+	                    "thresholdStatu": 0,
+	                    "value": 810.5
+	                },
+	                {
+	                    "startTime": 1487011500,
+	                    "thresholdStatu": 0,
+	                    "value": 813.79
+	                },
+	                {
+	                    "startTime": 1487012400,
+	                    "thresholdStatu": 0,
+	                    "value": 835.59
+	                },
+	                {
+	                    "startTime": 1487013300,
+	                    "thresholdStatu": 0,
+	                    "value": 831.23
+	                },
+	                {
+	                    "startTime": 1487014200,
+	                    "thresholdStatu": 0,
+	                    "value": 807
+	                },
+	                {
+	                    "startTime": 1487015100,
+	                    "thresholdStatu": 0,
+	                    "value": 817.03
+	                },
+	                {
+	                    "startTime": 1487016000,
+	                    "thresholdStatu": 0,
+	                    "value": 795.1
+	                },
+	                {
+	                    "startTime": 1487016900,
+	                    "thresholdStatu": 0,
+	                    "value": 802.76
+	                },
+	                {
+	                    "startTime": 1487017800,
+	                    "thresholdStatu": 0,
+	                    "value": 804.34
+	                },
+	                {
+	                    "startTime": 1487018700,
+	                    "thresholdStatu": 0,
+	                    "value": 820.75
+	                },
+	                {
+	                    "startTime": 1487019600,
+	                    "thresholdStatu": 0,
+	                    "value": 834.7
+	                },
+	                {
+	                    "startTime": 1487020500,
+	                    "thresholdStatu": 0,
+	                    "value": 835.38
+	                },
+	                {
+	                    "startTime": 1487021400,
+	                    "thresholdStatu": 0,
+	                    "value": 860.38
+	                },
+	                {
+	                    "startTime": 1487022300,
+	                    "thresholdStatu": 0,
+	                    "value": 876.37
+	                },
+	                {
+	                    "startTime": 1487023200,
+	                    "thresholdStatu": 0,
+	                    "value": 1046.83
+	                },
+	                {
+	                    "startTime": 1487024100,
+	                    "thresholdStatu": 0,
+	                    "value": 955.21
+	                },
+	                {
+	                    "startTime": 1487025000,
+	                    "thresholdStatu": 0,
+	                    "value": 944.36
+	                },
+	                {
+	                    "startTime": 1487025900,
+	                    "thresholdStatu": 0,
+	                    "value": 931.45
+	                },
+	                {
+	                    "startTime": 1487026800,
+	                    "thresholdStatu": 0,
+	                    "value": 971.79
+	                },
+	                {
+	                    "startTime": 1487027700,
+	                    "thresholdStatu": 0,
+	                    "value": 933.61
+	                },
+	                {
+	                    "startTime": 1487028600,
+	                    "thresholdStatu": 0,
+	                    "value": 922.41
+	                },
+	                {
+	                    "startTime": 1487029500,
+	                    "thresholdStatu": 0,
+	                    "value": 904.86
+	                },
+	                {
+	                    "startTime": 1487030400,
+	                    "thresholdStatu": 0,
+	                    "value": 914.84
+	                },
+	                {
+	                    "startTime": 1487031300,
+	                    "thresholdStatu": 0,
+	                    "value": 901.99
+	                },
+	                {
+	                    "startTime": 1487032200,
+	                    "thresholdStatu": 0,
+	                    "value": 913.98
+	                },
+	                {
+	                    "startTime": 1487033100,
+	                    "thresholdStatu": 0,
+	                    "value": 885.01
+	                },
+	                {
+	                    "startTime": 1487034000,
+	                    "thresholdStatu": 0,
+	                    "value": 904.47
+	                },
+	                {
+	                    "startTime": 1487034900,
+	                    "thresholdStatu": 0,
+	                    "value": 908.89
+	                },
+	                {
+	                    "startTime": 1487035800,
+	                    "thresholdStatu": 0,
+	                    "value": 929.66
+	                },
+	                {
+	                    "startTime": 1487036700,
+	                    "thresholdStatu": 0,
+	                    "value": 922.82
+	                },
+	                {
+	                    "startTime": 1487037600,
+	                    "thresholdStatu": 0,
+	                    "value": 937.07
+	                },
+	                {
+	                    "startTime": 1487038500,
+	                    "thresholdStatu": 0,
+	                    "value": 924.21
+	                },
+	                {
+	                    "startTime": 1487039400,
+	                    "thresholdStatu": 0,
+	                    "value": 922.35
+	                },
+	                {
+	                    "startTime": 1487040300,
+	                    "thresholdStatu": 0,
+	                    "value": 920.78
+	                },
+	                {
+	                    "startTime": 1487041200,
+	                    "thresholdStatu": 0,
+	                    "value": 948.98
+	                },
+	                {
+	                    "startTime": 1487042100,
+	                    "thresholdStatu": 0,
+	                    "value": 935.3
+	                },
+	                {
+	                    "startTime": 1487043000,
+	                    "thresholdStatu": 0,
+	                    "value": 942.18
+	                },
+	                {
+	                    "startTime": 1487043900,
+	                    "thresholdStatu": 0,
+	                    "value": 952.8
+	                },
+	                {
+	                    "startTime": 1487044800,
+	                    "thresholdStatu": 0,
+	                    "value": 944.48
+	                },
+	                {
+	                    "startTime": 1487045700,
+	                    "thresholdStatu": 0,
+	                    "value": 889.49
+	                },
+	                {
+	                    "startTime": 1487046600,
+	                    "thresholdStatu": 0,
+	                    "value": 924.55
+	                },
+	                {
+	                    "startTime": 1487047500,
+	                    "thresholdStatu": 0,
+	                    "value": 902.21
+	                },
+	                {
+	                    "startTime": 1487048400,
+	                    "thresholdStatu": 0,
+	                    "value": 898.57
+	                },
+	                {
+	                    "startTime": 1487049300,
+	                    "thresholdStatu": 0,
+	                    "value": 908.97
+	                },
+	                {
+	                    "startTime": 1487050200,
+	                    "thresholdStatu": 0,
+	                    "value": 917.77
+	                },
+	                {
+	                    "startTime": 1487051100,
+	                    "thresholdStatu": 0,
+	                    "value": 908.13
+	                },
+	                {
+	                    "startTime": 1487052000,
+	                    "thresholdStatu": 0,
+	                    "value": 913.49
+	                },
+	                {
+	                    "startTime": 1487052900,
+	                    "thresholdStatu": 0,
+	                    "value": 907.24
+	                },
+	                {
+	                    "startTime": 1487053800,
+	                    "thresholdStatu": 0,
+	                    "value": 905.88
+	                },
+	                {
+	                    "startTime": 1487054700,
+	                    "thresholdStatu": 0,
+	                    "value": 907.72
+	                },
+	                {
+	                    "startTime": 1487055600,
+	                    "thresholdStatu": 0,
+	                    "value": 907.93
+	                },
+	                {
+	                    "startTime": 1487056500,
+	                    "thresholdStatu": 0,
+	                    "value": 898.74
+	                },
+	                {
+	                    "startTime": 1487057400,
+	                    "thresholdStatu": 0,
+	                    "value": 910.47
+	                },
+	                {
+	                    "startTime": 1487058300,
+	                    "thresholdStatu": 0,
+	                    "value": 894.66
+	                },
+	                {
+	                    "startTime": 1487059200,
+	                    "thresholdStatu": 0,
+	                    "value": 908.58
+	                },
+	                {
+	                    "startTime": 1487060100,
+	                    "thresholdStatu": 0,
+	                    "value": 906.25
+	                },
+	                {
+	                    "startTime": 1487061000,
+	                    "thresholdStatu": 0,
+	                    "value": 904.05
+	                },
+	                {
+	                    "startTime": 1487061900,
+	                    "thresholdStatu": 0,
+	                    "value": 914.03
+	                },
+	                {
+	                    "startTime": 1487062800,
+	                    "thresholdStatu": 0,
+	                    "value": 848.89
+	                },
+	                {
+	                    "startTime": 1487063700,
+	                    "thresholdStatu": 0,
+	                    "value": 800.96
+	                },
+	                {
+	                    "startTime": 1487064600,
+	                    "thresholdStatu": 0,
+	                    "value": 866.49
+	                },
+	                {
+	                    "startTime": 1487065500,
+	                    "thresholdStatu": 0,
+	                    "value": 909.46
+	                },
+	                {
+	                    "startTime": 1487066400,
+	                    "thresholdStatu": 0,
+	                    "value": 907.7
+	                },
+	                {
+	                    "startTime": 1487067300,
+	                    "thresholdStatu": 0,
+	                    "value": 882.02
+	                },
+	                {
+	                    "startTime": 1487068200,
+	                    "thresholdStatu": 0,
+	                    "value": 888.57
+	                },
+	                {
+	                    "startTime": 1487069100,
+	                    "thresholdStatu": 0,
+	                    "value": 891.98
+	                },
+	                {
+	                    "startTime": 1487070000,
+	                    "thresholdStatu": 0,
+	                    "value": 915.59
+	                },
+	                {
+	                    "startTime": 1487070900,
+	                    "thresholdStatu": 0,
+	                    "value": 915.29
+	                },
+	                {
+	                    "startTime": 1487071800,
+	                    "thresholdStatu": 0,
+	                    "value": 953.05
+	                }
+	            ],
+	            "kqiConf": {
+	                "desc": true,
+	                "describle": "显示时长(ms)",
+	                "id": "global_4_kqi_allNet@5",
+	                "name": "SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SHOW_DELAY",
+	                "regex": "^(0|([1-9][0-9]*))(\\.\\d{1,2})?$",
+	                "show": true,
+	                "threshold": [
+	                    0,
+	                    3500,
+	                    4000,
+	                    4500,
+	                    9000
+	                ]
+	            },
+	            "propertyName": "pageShowDelay"
+	        }
+	    ]
+	},
+	"fourg":{   
+	    "data": [
+	        {
+	            "describle": "响应时长(ms)",
+	            "kqiArray": [
+	                {
+	                    "startTime": 1486998900,
+	                    "thresholdStatu": 0,
+	                    "value": 406.17
+	                },
+	                {
+	                    "startTime": 1486999800,
+	                    "thresholdStatu": 0,
+	                    "value": 396.41
+	                },
+	                {
+	                    "startTime": 1487000700,
+	                    "thresholdStatu": 0,
+	                    "value": 396.57
+	                },
+	                {
+	                    "startTime": 1487001600,
+	                    "thresholdStatu": 0,
+	                    "value": 415.61
+	                },
+	                {
+	                    "startTime": 1487002500,
+	                    "thresholdStatu": 0,
+	                    "value": 399.63
+	                },
+	                {
+	                    "startTime": 1487003400,
+	                    "thresholdStatu": 0,
+	                    "value": 393.34
+	                },
+	                {
+	                    "startTime": 1487004300,
+	                    "thresholdStatu": 0,
+	                    "value": 380.48
+	                },
+	                {
+	                    "startTime": 1487005200,
+	                    "thresholdStatu": 0,
+	                    "value": 393.22
+	                },
+	                {
+	                    "startTime": 1487006100,
+	                    "thresholdStatu": 0,
+	                    "value": 400.49
+	                },
+	                {
+	                    "startTime": 1487007000,
+	                    "thresholdStatu": 0,
+	                    "value": 388.06
+	                },
+	                {
+	                    "startTime": 1487007900,
+	                    "thresholdStatu": 0,
+	                    "value": 368.78
+	                },
+	                {
+	                    "startTime": 1487008800,
+	                    "thresholdStatu": 0,
+	                    "value": 387.87
+	                },
+	                {
+	                    "startTime": 1487009700,
+	                    "thresholdStatu": 0,
+	                    "value": 391.74
+	                },
+	                {
+	                    "startTime": 1487010600,
+	                    "thresholdStatu": 0,
+	                    "value": 371.5
+	                },
+	                {
+	                    "startTime": 1487011500,
+	                    "thresholdStatu": 0,
+	                    "value": 404.38
+	                },
+	                {
+	                    "startTime": 1487012400,
+	                    "thresholdStatu": 0,
+	                    "value": 398.92
+	                },
+	                {
+	                    "startTime": 1487013300,
+	                    "thresholdStatu": 0,
+	                    "value": 389.1
+	                },
+	                {
+	                    "startTime": 1487014200,
+	                    "thresholdStatu": 0,
+	                    "value": 374.67
+	                },
+	                {
+	                    "startTime": 1487015100,
+	                    "thresholdStatu": 0,
+	                    "value": 388.05
+	                },
+	                {
+	                    "startTime": 1487016000,
+	                    "thresholdStatu": 0,
+	                    "value": 385.34
+	                },
+	                {
+	                    "startTime": 1487016900,
+	                    "thresholdStatu": 0,
+	                    "value": 394.58
+	                },
+	                {
+	                    "startTime": 1487017800,
+	                    "thresholdStatu": 0,
+	                    "value": 384.97
+	                },
+	                {
+	                    "startTime": 1487018700,
+	                    "thresholdStatu": 0,
+	                    "value": 388.37
+	                },
+	                {
+	                    "startTime": 1487019600,
+	                    "thresholdStatu": 0,
+	                    "value": 382.26
+	                },
+	                {
+	                    "startTime": 1487020500,
+	                    "thresholdStatu": 0,
+	                    "value": 394.09
+	                },
+	                {
+	                    "startTime": 1487021400,
+	                    "thresholdStatu": 0,
+	                    "value": 392.89
+	                },
+	                {
+	                    "startTime": 1487022300,
+	                    "thresholdStatu": 0,
+	                    "value": 398.61
+	                },
+	                {
+	                    "startTime": 1487023200,
+	                    "thresholdStatu": 0,
+	                    "value": 436.77
+	                },
+	                {
+	                    "startTime": 1487024100,
+	                    "thresholdStatu": 0,
+	                    "value": 405.71
+	                },
+	                {
+	                    "startTime": 1487025000,
+	                    "thresholdStatu": 0,
+	                    "value": 408.19
+	                },
+	                {
+	                    "startTime": 1487025900,
+	                    "thresholdStatu": 0,
+	                    "value": 398.53
+	                },
+	                {
+	                    "startTime": 1487026800,
+	                    "thresholdStatu": 0,
+	                    "value": 397.03
+	                },
+	                {
+	                    "startTime": 1487027700,
+	                    "thresholdStatu": 0,
+	                    "value": 391.44
+	                },
+	                {
+	                    "startTime": 1487028600,
+	                    "thresholdStatu": 0,
+	                    "value": 399.86
+	                },
+	                {
+	                    "startTime": 1487029500,
+	                    "thresholdStatu": 0,
+	                    "value": 398.83
+	                },
+	                {
+	                    "startTime": 1487030400,
+	                    "thresholdStatu": 0,
+	                    "value": 414
+	                },
+	                {
+	                    "startTime": 1487031300,
+	                    "thresholdStatu": 0,
+	                    "value": 409.18
+	                },
+	                {
+	                    "startTime": 1487032200,
+	                    "thresholdStatu": 0,
+	                    "value": 415.76
+	                },
+	                {
+	                    "startTime": 1487033100,
+	                    "thresholdStatu": 0,
+	                    "value": 382.67
+	                },
+	                {
+	                    "startTime": 1487034000,
+	                    "thresholdStatu": 0,
+	                    "value": 378.55
+	                },
+	                {
+	                    "startTime": 1487034900,
+	                    "thresholdStatu": 0,
+	                    "value": 380.12
+	                },
+	                {
+	                    "startTime": 1487035800,
+	                    "thresholdStatu": 0,
+	                    "value": 387.99
+	                },
+	                {
+	                    "startTime": 1487036700,
+	                    "thresholdStatu": 0,
+	                    "value": 388.07
+	                },
+	                {
+	                    "startTime": 1487037600,
+	                    "thresholdStatu": 0,
+	                    "value": 388.72
+	                },
+	                {
+	                    "startTime": 1487038500,
+	                    "thresholdStatu": 0,
+	                    "value": 387.25
+	                },
+	                {
+	                    "startTime": 1487039400,
+	                    "thresholdStatu": 0,
+	                    "value": 389
+	                },
+	                {
+	                    "startTime": 1487040300,
+	                    "thresholdStatu": 0,
+	                    "value": 398.1
+	                },
+	                {
+	                    "startTime": 1487041200,
+	                    "thresholdStatu": 0,
+	                    "value": 404.17
+	                },
+	                {
+	                    "startTime": 1487042100,
+	                    "thresholdStatu": 0,
+	                    "value": 389.72
+	                },
+	                {
+	                    "startTime": 1487043000,
+	                    "thresholdStatu": 0,
+	                    "value": 395.2
+	                },
+	                {
+	                    "startTime": 1487043900,
+	                    "thresholdStatu": 0,
+	                    "value": 399.22
+	                },
+	                {
+	                    "startTime": 1487044800,
+	                    "thresholdStatu": 0,
+	                    "value": 393.96
+	                },
+	                {
+	                    "startTime": 1487045700,
+	                    "thresholdStatu": 0,
+	                    "value": 381.7
+	                },
+	                {
+	                    "startTime": 1487046600,
+	                    "thresholdStatu": 0,
+	                    "value": 398.29
+	                },
+	                {
+	                    "startTime": 1487047500,
+	                    "thresholdStatu": 0,
+	                    "value": 387.79
+	                },
+	                {
+	                    "startTime": 1487048400,
+	                    "thresholdStatu": 0,
+	                    "value": 374.95
+	                },
+	                {
+	                    "startTime": 1487049300,
+	                    "thresholdStatu": 0,
+	                    "value": 376.53
+	                },
+	                {
+	                    "startTime": 1487050200,
+	                    "thresholdStatu": 0,
+	                    "value": 382.55
+	                },
+	                {
+	                    "startTime": 1487051100,
+	                    "thresholdStatu": 0,
+	                    "value": 379.46
+	                },
+	                {
+	                    "startTime": 1487052000,
+	                    "thresholdStatu": 0,
+	                    "value": 383.4
+	                },
+	                {
+	                    "startTime": 1487052900,
+	                    "thresholdStatu": 0,
+	                    "value": 386.67
+	                },
+	                {
+	                    "startTime": 1487053800,
+	                    "thresholdStatu": 0,
+	                    "value": 379.96
+	                },
+	                {
+	                    "startTime": 1487054700,
+	                    "thresholdStatu": 0,
+	                    "value": 376.85
+	                },
+	                {
+	                    "startTime": 1487055600,
+	                    "thresholdStatu": 0,
+	                    "value": 375.55
+	                },
+	                {
+	                    "startTime": 1487056500,
+	                    "thresholdStatu": 0,
+	                    "value": 372.73
+	                },
+	                {
+	                    "startTime": 1487057400,
+	                    "thresholdStatu": 0,
+	                    "value": 381.22
+	                },
+	                {
+	                    "startTime": 1487058300,
+	                    "thresholdStatu": 0,
+	                    "value": 355.28
+	                },
+	                {
+	                    "startTime": 1487059200,
+	                    "thresholdStatu": 0,
+	                    "value": 355.97
+	                },
+	                {
+	                    "startTime": 1487060100,
+	                    "thresholdStatu": 0,
+	                    "value": 352.77
+	                },
+	                {
+	                    "startTime": 1487061000,
+	                    "thresholdStatu": 0,
+	                    "value": 347.42
+	                },
+	                {
+	                    "startTime": 1487061900,
+	                    "thresholdStatu": 0,
+	                    "value": 349.75
+	                },
+	                {
+	                    "startTime": 1487062800,
+	                    "thresholdStatu": 0,
+	                    "value": 335.01
+	                },
+	                {
+	                    "startTime": 1487063700,
+	                    "thresholdStatu": 0,
+	                    "value": 329.13
+	                },
+	                {
+	                    "startTime": 1487064600,
+	                    "thresholdStatu": 0,
+	                    "value": 345.49
+	                },
+	                {
+	                    "startTime": 1487065500,
+	                    "thresholdStatu": 0,
+	                    "value": 363.42
+	                },
+	                {
+	                    "startTime": 1487066400,
+	                    "thresholdStatu": 0,
+	                    "value": 377.17
+	                },
+	                {
+	                    "startTime": 1487067300,
+	                    "thresholdStatu": 0,
+	                    "value": 369.9
+	                },
+	                {
+	                    "startTime": 1487068200,
+	                    "thresholdStatu": 0,
+	                    "value": 378.54
+	                },
+	                {
+	                    "startTime": 1487069100,
+	                    "thresholdStatu": 0,
+	                    "value": 375.47
+	                },
+	                {
+	                    "startTime": 1487070000,
+	                    "thresholdStatu": 0,
+	                    "value": 377.38
+	                },
+	                {
+	                    "startTime": 1487070900,
+	                    "thresholdStatu": 0,
+	                    "value": 366.94
+	                },
+	                {
+	                    "startTime": 1487071800,
+	                    "thresholdStatu": 0,
+	                    "value": 377.25
+	                }
+	            ],
+	            "kqiConf": {
+	                "desc": true,
+	                "describle": "响应时长(ms)",
+	                "id": "global_4_kqi_allNet@2",
+	                "name": "SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_DELAY",
+	                "regex": "^(0|([1-9][0-9]*))(\\.\\d{1,2})?$",
+	                "show": true,
+	                "threshold": [
+	                    0,
+	                    650,
+	                    700,
+	                    750,
+	                    1500
+	                ]
+	            },
+	            "propertyName": "pageResponseDelay"
+	        },
+	        {
+	            "describle": "显示成功率(%)",
+	            "kqiArray": [
+	                {
+	                    "startTime": 1486998900,
+	                    "thresholdStatu": 0,
+	                    "value": 84.59
+	                },
+	                {
+	                    "startTime": 1486999800,
+	                    "thresholdStatu": 0,
+	                    "value": 84.06
+	                },
+	                {
+	                    "startTime": 1487000700,
+	                    "thresholdStatu": 0,
+	                    "value": 83.84
+	                },
+	                {
+	                    "startTime": 1487001600,
+	                    "thresholdStatu": 0,
+	                    "value": 82.21
+	                },
+	                {
+	                    "startTime": 1487002500,
+	                    "thresholdStatu": 0,
+	                    "value": 82.24
+	                },
+	                {
+	                    "startTime": 1487003400,
+	                    "thresholdStatu": 0,
+	                    "value": 83.12
+	                },
+	                {
+	                    "startTime": 1487004300,
+	                    "thresholdStatu": 0,
+	                    "value": 82.57
+	                },
+	                {
+	                    "startTime": 1487005200,
+	                    "thresholdStatu": 0,
+	                    "value": 81.86
+	                },
+	                {
+	                    "startTime": 1487006100,
+	                    "thresholdStatu": 0,
+	                    "value": 81.49
+	                },
+	                {
+	                    "startTime": 1487007000,
+	                    "thresholdStatu": 0,
+	                    "value": 81.97
+	                },
+	                {
+	                    "startTime": 1487007900,
+	                    "thresholdStatu": 0,
+	                    "value": 81.99
+	                },
+	                {
+	                    "startTime": 1487008800,
+	                    "thresholdStatu": 0,
+	                    "value": 83.4
+	                },
+	                {
+	                    "startTime": 1487009700,
+	                    "thresholdStatu": 0,
+	                    "value": 82.14
+	                },
+	                {
+	                    "startTime": 1487010600,
+	                    "thresholdStatu": 0,
+	                    "value": 82.08
+	                },
+	                {
+	                    "startTime": 1487011500,
+	                    "thresholdStatu": 0,
+	                    "value": 81.6
+	                },
+	                {
+	                    "startTime": 1487012400,
+	                    "thresholdStatu": 0,
+	                    "value": 82.19
+	                },
+	                {
+	                    "startTime": 1487013300,
+	                    "thresholdStatu": 0,
+	                    "value": 79.47
+	                },
+	                {
+	                    "startTime": 1487014200,
+	                    "thresholdStatu": 0,
+	                    "value": 77.7
+	                },
+	                {
+	                    "startTime": 1487015100,
+	                    "thresholdStatu": 0,
+	                    "value": 78.93
+	                },
+	                {
+	                    "startTime": 1487016000,
+	                    "thresholdStatu": 0,
+	                    "value": 80.95
+	                },
+	                {
+	                    "startTime": 1487016900,
+	                    "thresholdStatu": 0,
+	                    "value": 82.55
+	                },
+	                {
+	                    "startTime": 1487017800,
+	                    "thresholdStatu": 0,
+	                    "value": 81.88
+	                },
+	                {
+	                    "startTime": 1487018700,
+	                    "thresholdStatu": 0,
+	                    "value": 82.38
+	                },
+	                {
+	                    "startTime": 1487019600,
+	                    "thresholdStatu": 0,
+	                    "value": 83.05
+	                },
+	                {
+	                    "startTime": 1487020500,
+	                    "thresholdStatu": 0,
+	                    "value": 79.78
+	                },
+	                {
+	                    "startTime": 1487021400,
+	                    "thresholdStatu": 0,
+	                    "value": 80.52
+	                },
+	                {
+	                    "startTime": 1487022300,
+	                    "thresholdStatu": 0,
+	                    "value": 81.79
+	                },
+	                {
+	                    "startTime": 1487023200,
+	                    "thresholdStatu": 0,
+	                    "value": 83.42
+	                },
+	                {
+	                    "startTime": 1487024100,
+	                    "thresholdStatu": 0,
+	                    "value": 82.93
+	                },
+	                {
+	                    "startTime": 1487025000,
+	                    "thresholdStatu": 0,
+	                    "value": 83.78
+	                },
+	                {
+	                    "startTime": 1487025900,
+	                    "thresholdStatu": 0,
+	                    "value": 85.5
+	                },
+	                {
+	                    "startTime": 1487026800,
+	                    "thresholdStatu": 0,
+	                    "value": 85.41
+	                },
+	                {
+	                    "startTime": 1487027700,
+	                    "thresholdStatu": 0,
+	                    "value": 86.32
+	                },
+	                {
+	                    "startTime": 1487028600,
+	                    "thresholdStatu": 0,
+	                    "value": 86.73
+	                },
+	                {
+	                    "startTime": 1487029500,
+	                    "thresholdStatu": 0,
+	                    "value": 86.88
+	                },
+	                {
+	                    "startTime": 1487030400,
+	                    "thresholdStatu": 0,
+	                    "value": 86.76
+	                },
+	                {
+	                    "startTime": 1487031300,
+	                    "thresholdStatu": 0,
+	                    "value": 85.69
+	                },
+	                {
+	                    "startTime": 1487032200,
+	                    "thresholdStatu": 0,
+	                    "value": 86.57
+	                },
+	                {
+	                    "startTime": 1487033100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.63
+	                },
+	                {
+	                    "startTime": 1487034000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.62
+	                },
+	                {
+	                    "startTime": 1487034900,
+	                    "thresholdStatu": 0,
+	                    "value": 87.17
+	                },
+	                {
+	                    "startTime": 1487035800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.21
+	                },
+	                {
+	                    "startTime": 1487036700,
+	                    "thresholdStatu": 0,
+	                    "value": 86.92
+	                },
+	                {
+	                    "startTime": 1487037600,
+	                    "thresholdStatu": 0,
+	                    "value": 87.37
+	                },
+	                {
+	                    "startTime": 1487038500,
+	                    "thresholdStatu": 0,
+	                    "value": 87.25
+	                },
+	                {
+	                    "startTime": 1487039400,
+	                    "thresholdStatu": 0,
+	                    "value": 86.93
+	                },
+	                {
+	                    "startTime": 1487040300,
+	                    "thresholdStatu": 0,
+	                    "value": 87.35
+	                },
+	                {
+	                    "startTime": 1487041200,
+	                    "thresholdStatu": 0,
+	                    "value": 87.06
+	                },
+	                {
+	                    "startTime": 1487042100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.26
+	                },
+	                {
+	                    "startTime": 1487043000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.09
+	                },
+	                {
+	                    "startTime": 1487043900,
+	                    "thresholdStatu": 0,
+	                    "value": 86.57
+	                },
+	                {
+	                    "startTime": 1487044800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.18
+	                },
+	                {
+	                    "startTime": 1487045700,
+	                    "thresholdStatu": 0,
+	                    "value": 87.19
+	                },
+	                {
+	                    "startTime": 1487046600,
+	                    "thresholdStatu": 0,
+	                    "value": 87.23
+	                },
+	                {
+	                    "startTime": 1487047500,
+	                    "thresholdStatu": 0,
+	                    "value": 86.86
+	                },
+	                {
+	                    "startTime": 1487048400,
+	                    "thresholdStatu": 0,
+	                    "value": 86.26
+	                },
+	                {
+	                    "startTime": 1487049300,
+	                    "thresholdStatu": 0,
+	                    "value": 85.95
+	                },
+	                {
+	                    "startTime": 1487050200,
+	                    "thresholdStatu": 0,
+	                    "value": 86.07
+	                },
+	                {
+	                    "startTime": 1487051100,
+	                    "thresholdStatu": 0,
+	                    "value": 85.52
+	                },
+	                {
+	                    "startTime": 1487052000,
+	                    "thresholdStatu": 0,
+	                    "value": 85.7
+	                },
+	                {
+	                    "startTime": 1487052900,
+	                    "thresholdStatu": 0,
+	                    "value": 86.24
+	                },
+	                {
+	                    "startTime": 1487053800,
+	                    "thresholdStatu": 0,
+	                    "value": 86.27
+	                },
+	                {
+	                    "startTime": 1487054700,
+	                    "thresholdStatu": 0,
+	                    "value": 85.84
+	                },
+	                {
+	                    "startTime": 1487055600,
+	                    "thresholdStatu": 0,
+	                    "value": 86.47
+	                },
+	                {
+	                    "startTime": 1487056500,
+	                    "thresholdStatu": 0,
+	                    "value": 85.69
+	                },
+	                {
+	                    "startTime": 1487057400,
+	                    "thresholdStatu": 0,
+	                    "value": 84.75
+	                },
+	                {
+	                    "startTime": 1487058300,
+	                    "thresholdStatu": 0,
+	                    "value": 86.6
+	                },
+	                {
+	                    "startTime": 1487059200,
+	                    "thresholdStatu": 0,
+	                    "value": 87.37
+	                },
+	                {
+	                    "startTime": 1487060100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.51
+	                },
+	                {
+	                    "startTime": 1487061000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.39
+	                },
+	                {
+	                    "startTime": 1487061900,
+	                    "thresholdStatu": 0,
+	                    "value": 87.19
+	                },
+	                {
+	                    "startTime": 1487062800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.36
+	                },
+	                {
+	                    "startTime": 1487063700,
+	                    "thresholdStatu": 0,
+	                    "value": 86.91
+	                },
+	                {
+	                    "startTime": 1487064600,
+	                    "thresholdStatu": 0,
+	                    "value": 88.04
+	                },
+	                {
+	                    "startTime": 1487065500,
+	                    "thresholdStatu": 0,
+	                    "value": 87.85
+	                },
+	                {
+	                    "startTime": 1487066400,
+	                    "thresholdStatu": 0,
+	                    "value": 87.7
+	                },
+	                {
+	                    "startTime": 1487067300,
+	                    "thresholdStatu": 0,
+	                    "value": 87.21
+	                },
+	                {
+	                    "startTime": 1487068200,
+	                    "thresholdStatu": 0,
+	                    "value": 86.61
+	                },
+	                {
+	                    "startTime": 1487069100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.63
+	                },
+	                {
+	                    "startTime": 1487070000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.76
+	                },
+	                {
+	                    "startTime": 1487070900,
+	                    "thresholdStatu": 0,
+	                    "value": 86.26
+	                },
+	                {
+	                    "startTime": 1487071800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.14
+	                }
+	            ],
+	            "kqiConf": {
+	                "desc": false,
+	                "describle": "显示成功率(%)",
+	                "id": "global_4_kqi_allNet@4",
+	                "name": "SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SUCC_RATE",
+	                "regex": "^(([1-9][0-9]?)(\\.\\d{1,2})?)$",
+	                "show": true,
+	                "threshold": [
+	                    0,
+	                    50,
+	                    60,
+	                    70,
+	                    140
+	                ]
+	            },
+	            "propertyName": "pageShowSuccessRate"
+	        },
+	        {
+	            "describle": "显示时长(ms)",
+	            "kqiArray": [
+	                {
+	                    "startTime": 1486998900,
+	                    "thresholdStatu": 0,
+	                    "value": 853.06
+	                },
+	                {
+	                    "startTime": 1486999800,
+	                    "thresholdStatu": 0,
+	                    "value": 837.8
+	                },
+	                {
+	                    "startTime": 1487000700,
+	                    "thresholdStatu": 0,
+	                    "value": 824.53
+	                },
+	                {
+	                    "startTime": 1487001600,
+	                    "thresholdStatu": 0,
+	                    "value": 876.97
+	                },
+	                {
+	                    "startTime": 1487002500,
+	                    "thresholdStatu": 0,
+	                    "value": 816.76
+	                },
+	                {
+	                    "startTime": 1487003400,
+	                    "thresholdStatu": 0,
+	                    "value": 812.32
+	                },
+	                {
+	                    "startTime": 1487004300,
+	                    "thresholdStatu": 0,
+	                    "value": 754.08
+	                },
+	                {
+	                    "startTime": 1487005200,
+	                    "thresholdStatu": 0,
+	                    "value": 819.36
+	                },
+	                {
+	                    "startTime": 1487006100,
+	                    "thresholdStatu": 0,
+	                    "value": 814.02
+	                },
+	                {
+	                    "startTime": 1487007000,
+	                    "thresholdStatu": 0,
+	                    "value": 783.32
+	                },
+	                {
+	                    "startTime": 1487007900,
+	                    "thresholdStatu": 0,
+	                    "value": 767.89
+	                },
+	                {
+	                    "startTime": 1487008800,
+	                    "thresholdStatu": 0,
+	                    "value": 854.48
+	                },
+	                {
+	                    "startTime": 1487009700,
+	                    "thresholdStatu": 0,
+	                    "value": 821.18
+	                },
+	                {
+	                    "startTime": 1487010600,
+	                    "thresholdStatu": 0,
+	                    "value": 810.5
+	                },
+	                {
+	                    "startTime": 1487011500,
+	                    "thresholdStatu": 0,
+	                    "value": 813.79
+	                },
+	                {
+	                    "startTime": 1487012400,
+	                    "thresholdStatu": 0,
+	                    "value": 835.59
+	                },
+	                {
+	                    "startTime": 1487013300,
+	                    "thresholdStatu": 0,
+	                    "value": 831.23
+	                },
+	                {
+	                    "startTime": 1487014200,
+	                    "thresholdStatu": 0,
+	                    "value": 807
+	                },
+	                {
+	                    "startTime": 1487015100,
+	                    "thresholdStatu": 0,
+	                    "value": 817.03
+	                },
+	                {
+	                    "startTime": 1487016000,
+	                    "thresholdStatu": 0,
+	                    "value": 795.1
+	                },
+	                {
+	                    "startTime": 1487016900,
+	                    "thresholdStatu": 0,
+	                    "value": 802.76
+	                },
+	                {
+	                    "startTime": 1487017800,
+	                    "thresholdStatu": 0,
+	                    "value": 804.34
+	                },
+	                {
+	                    "startTime": 1487018700,
+	                    "thresholdStatu": 0,
+	                    "value": 820.75
+	                },
+	                {
+	                    "startTime": 1487019600,
+	                    "thresholdStatu": 0,
+	                    "value": 834.7
+	                },
+	                {
+	                    "startTime": 1487020500,
+	                    "thresholdStatu": 0,
+	                    "value": 835.38
+	                },
+	                {
+	                    "startTime": 1487021400,
+	                    "thresholdStatu": 0,
+	                    "value": 860.38
+	                },
+	                {
+	                    "startTime": 1487022300,
+	                    "thresholdStatu": 0,
+	                    "value": 876.37
+	                },
+	                {
+	                    "startTime": 1487023200,
+	                    "thresholdStatu": 0,
+	                    "value": 1046.83
+	                },
+	                {
+	                    "startTime": 1487024100,
+	                    "thresholdStatu": 0,
+	                    "value": 955.21
+	                },
+	                {
+	                    "startTime": 1487025000,
+	                    "thresholdStatu": 0,
+	                    "value": 944.36
+	                },
+	                {
+	                    "startTime": 1487025900,
+	                    "thresholdStatu": 0,
+	                    "value": 931.45
+	                },
+	                {
+	                    "startTime": 1487026800,
+	                    "thresholdStatu": 0,
+	                    "value": 971.79
+	                },
+	                {
+	                    "startTime": 1487027700,
+	                    "thresholdStatu": 0,
+	                    "value": 933.61
+	                },
+	                {
+	                    "startTime": 1487028600,
+	                    "thresholdStatu": 0,
+	                    "value": 922.41
+	                },
+	                {
+	                    "startTime": 1487029500,
+	                    "thresholdStatu": 0,
+	                    "value": 904.86
+	                },
+	                {
+	                    "startTime": 1487030400,
+	                    "thresholdStatu": 0,
+	                    "value": 914.84
+	                },
+	                {
+	                    "startTime": 1487031300,
+	                    "thresholdStatu": 0,
+	                    "value": 901.99
+	                },
+	                {
+	                    "startTime": 1487032200,
+	                    "thresholdStatu": 0,
+	                    "value": 913.98
+	                },
+	                {
+	                    "startTime": 1487033100,
+	                    "thresholdStatu": 0,
+	                    "value": 885.01
+	                },
+	                {
+	                    "startTime": 1487034000,
+	                    "thresholdStatu": 0,
+	                    "value": 904.47
+	                },
+	                {
+	                    "startTime": 1487034900,
+	                    "thresholdStatu": 0,
+	                    "value": 908.89
+	                },
+	                {
+	                    "startTime": 1487035800,
+	                    "thresholdStatu": 0,
+	                    "value": 929.66
+	                },
+	                {
+	                    "startTime": 1487036700,
+	                    "thresholdStatu": 0,
+	                    "value": 922.82
+	                },
+	                {
+	                    "startTime": 1487037600,
+	                    "thresholdStatu": 0,
+	                    "value": 937.07
+	                },
+	                {
+	                    "startTime": 1487038500,
+	                    "thresholdStatu": 0,
+	                    "value": 924.21
+	                },
+	                {
+	                    "startTime": 1487039400,
+	                    "thresholdStatu": 0,
+	                    "value": 922.35
+	                },
+	                {
+	                    "startTime": 1487040300,
+	                    "thresholdStatu": 0,
+	                    "value": 920.78
+	                },
+	                {
+	                    "startTime": 1487041200,
+	                    "thresholdStatu": 0,
+	                    "value": 948.98
+	                },
+	                {
+	                    "startTime": 1487042100,
+	                    "thresholdStatu": 0,
+	                    "value": 935.3
+	                },
+	                {
+	                    "startTime": 1487043000,
+	                    "thresholdStatu": 0,
+	                    "value": 942.18
+	                },
+	                {
+	                    "startTime": 1487043900,
+	                    "thresholdStatu": 0,
+	                    "value": 952.8
+	                },
+	                {
+	                    "startTime": 1487044800,
+	                    "thresholdStatu": 0,
+	                    "value": 944.48
+	                },
+	                {
+	                    "startTime": 1487045700,
+	                    "thresholdStatu": 0,
+	                    "value": 889.49
+	                },
+	                {
+	                    "startTime": 1487046600,
+	                    "thresholdStatu": 0,
+	                    "value": 924.55
+	                },
+	                {
+	                    "startTime": 1487047500,
+	                    "thresholdStatu": 0,
+	                    "value": 902.21
+	                },
+	                {
+	                    "startTime": 1487048400,
+	                    "thresholdStatu": 0,
+	                    "value": 898.57
+	                },
+	                {
+	                    "startTime": 1487049300,
+	                    "thresholdStatu": 0,
+	                    "value": 908.97
+	                },
+	                {
+	                    "startTime": 1487050200,
+	                    "thresholdStatu": 0,
+	                    "value": 917.77
+	                },
+	                {
+	                    "startTime": 1487051100,
+	                    "thresholdStatu": 0,
+	                    "value": 908.13
+	                },
+	                {
+	                    "startTime": 1487052000,
+	                    "thresholdStatu": 0,
+	                    "value": 913.49
+	                },
+	                {
+	                    "startTime": 1487052900,
+	                    "thresholdStatu": 0,
+	                    "value": 907.24
+	                },
+	                {
+	                    "startTime": 1487053800,
+	                    "thresholdStatu": 0,
+	                    "value": 905.88
+	                },
+	                {
+	                    "startTime": 1487054700,
+	                    "thresholdStatu": 0,
+	                    "value": 907.72
+	                },
+	                {
+	                    "startTime": 1487055600,
+	                    "thresholdStatu": 0,
+	                    "value": 907.93
+	                },
+	                {
+	                    "startTime": 1487056500,
+	                    "thresholdStatu": 0,
+	                    "value": 898.74
+	                },
+	                {
+	                    "startTime": 1487057400,
+	                    "thresholdStatu": 0,
+	                    "value": 910.47
+	                },
+	                {
+	                    "startTime": 1487058300,
+	                    "thresholdStatu": 0,
+	                    "value": 894.66
+	                },
+	                {
+	                    "startTime": 1487059200,
+	                    "thresholdStatu": 0,
+	                    "value": 908.58
+	                },
+	                {
+	                    "startTime": 1487060100,
+	                    "thresholdStatu": 0,
+	                    "value": 906.25
+	                },
+	                {
+	                    "startTime": 1487061000,
+	                    "thresholdStatu": 0,
+	                    "value": 904.05
+	                },
+	                {
+	                    "startTime": 1487061900,
+	                    "thresholdStatu": 0,
+	                    "value": 914.03
+	                },
+	                {
+	                    "startTime": 1487062800,
+	                    "thresholdStatu": 0,
+	                    "value": 848.89
+	                },
+	                {
+	                    "startTime": 1487063700,
+	                    "thresholdStatu": 0,
+	                    "value": 800.96
+	                },
+	                {
+	                    "startTime": 1487064600,
+	                    "thresholdStatu": 0,
+	                    "value": 866.49
+	                },
+	                {
+	                    "startTime": 1487065500,
+	                    "thresholdStatu": 0,
+	                    "value": 909.46
+	                },
+	                {
+	                    "startTime": 1487066400,
+	                    "thresholdStatu": 0,
+	                    "value": 907.7
+	                },
+	                {
+	                    "startTime": 1487067300,
+	                    "thresholdStatu": 0,
+	                    "value": 882.02
+	                },
+	                {
+	                    "startTime": 1487068200,
+	                    "thresholdStatu": 0,
+	                    "value": 888.57
+	                },
+	                {
+	                    "startTime": 1487069100,
+	                    "thresholdStatu": 0,
+	                    "value": 891.98
+	                },
+	                {
+	                    "startTime": 1487070000,
+	                    "thresholdStatu": 0,
+	                    "value": 915.59
+	                },
+	                {
+	                    "startTime": 1487070900,
+	                    "thresholdStatu": 0,
+	                    "value": 915.29
+	                },
+	                {
+	                    "startTime": 1487071800,
+	                    "thresholdStatu": 0,
+	                    "value": 953.05
+	                }
+	            ],
+	            "kqiConf": {
+	                "desc": true,
+	                "describle": "显示时长(ms)",
+	                "id": "global_4_kqi_allNet@5",
+	                "name": "SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SHOW_DELAY",
+	                "regex": "^(0|([1-9][0-9]*))(\\.\\d{1,2})?$",
+	                "show": true,
+	                "threshold": [
+	                    0,
+	                    3500,
+	                    4000,
+	                    4500,
+	                    9000
+	                ]
+	            },
+	            "propertyName": "pageShowDelay"
+	        }
+	    ]
+	},
+	"threeg":{   
+	    "data": [
+	        {
+	            "describle": "显示成功率(%)",
+	            "kqiArray": [
+	                {
+	                    "startTime": 1486998900,
+	                    "thresholdStatu": 0,
+	                    "value": 84.59
+	                },
+	                {
+	                    "startTime": 1486999800,
+	                    "thresholdStatu": 0,
+	                    "value": 84.06
+	                },
+	                {
+	                    "startTime": 1487000700,
+	                    "thresholdStatu": 0,
+	                    "value": 83.84
+	                },
+	                {
+	                    "startTime": 1487001600,
+	                    "thresholdStatu": 0,
+	                    "value": 82.21
+	                },
+	                {
+	                    "startTime": 1487002500,
+	                    "thresholdStatu": 0,
+	                    "value": 82.24
+	                },
+	                {
+	                    "startTime": 1487003400,
+	                    "thresholdStatu": 0,
+	                    "value": 83.12
+	                },
+	                {
+	                    "startTime": 1487004300,
+	                    "thresholdStatu": 0,
+	                    "value": 82.57
+	                },
+	                {
+	                    "startTime": 1487005200,
+	                    "thresholdStatu": 0,
+	                    "value": 81.86
+	                },
+	                {
+	                    "startTime": 1487006100,
+	                    "thresholdStatu": 0,
+	                    "value": 81.49
+	                },
+	                {
+	                    "startTime": 1487007000,
+	                    "thresholdStatu": 0,
+	                    "value": 81.97
+	                },
+	                {
+	                    "startTime": 1487007900,
+	                    "thresholdStatu": 0,
+	                    "value": 81.99
+	                },
+	                {
+	                    "startTime": 1487008800,
+	                    "thresholdStatu": 0,
+	                    "value": 83.4
+	                },
+	                {
+	                    "startTime": 1487009700,
+	                    "thresholdStatu": 0,
+	                    "value": 82.14
+	                },
+	                {
+	                    "startTime": 1487010600,
+	                    "thresholdStatu": 0,
+	                    "value": 82.08
+	                },
+	                {
+	                    "startTime": 1487011500,
+	                    "thresholdStatu": 0,
+	                    "value": 81.6
+	                },
+	                {
+	                    "startTime": 1487012400,
+	                    "thresholdStatu": 0,
+	                    "value": 82.19
+	                },
+	                {
+	                    "startTime": 1487013300,
+	                    "thresholdStatu": 0,
+	                    "value": 79.47
+	                },
+	                {
+	                    "startTime": 1487014200,
+	                    "thresholdStatu": 0,
+	                    "value": 77.7
+	                },
+	                {
+	                    "startTime": 1487015100,
+	                    "thresholdStatu": 0,
+	                    "value": 78.93
+	                },
+	                {
+	                    "startTime": 1487016000,
+	                    "thresholdStatu": 0,
+	                    "value": 80.95
+	                },
+	                {
+	                    "startTime": 1487016900,
+	                    "thresholdStatu": 0,
+	                    "value": 82.55
+	                },
+	                {
+	                    "startTime": 1487017800,
+	                    "thresholdStatu": 0,
+	                    "value": 81.88
+	                },
+	                {
+	                    "startTime": 1487018700,
+	                    "thresholdStatu": 0,
+	                    "value": 82.38
+	                },
+	                {
+	                    "startTime": 1487019600,
+	                    "thresholdStatu": 0,
+	                    "value": 83.05
+	                },
+	                {
+	                    "startTime": 1487020500,
+	                    "thresholdStatu": 0,
+	                    "value": 79.78
+	                },
+	                {
+	                    "startTime": 1487021400,
+	                    "thresholdStatu": 0,
+	                    "value": 80.52
+	                },
+	                {
+	                    "startTime": 1487022300,
+	                    "thresholdStatu": 0,
+	                    "value": 81.79
+	                },
+	                {
+	                    "startTime": 1487023200,
+	                    "thresholdStatu": 0,
+	                    "value": 83.42
+	                },
+	                {
+	                    "startTime": 1487024100,
+	                    "thresholdStatu": 0,
+	                    "value": 82.93
+	                },
+	                {
+	                    "startTime": 1487025000,
+	                    "thresholdStatu": 0,
+	                    "value": 83.78
+	                },
+	                {
+	                    "startTime": 1487025900,
+	                    "thresholdStatu": 0,
+	                    "value": 85.5
+	                },
+	                {
+	                    "startTime": 1487026800,
+	                    "thresholdStatu": 0,
+	                    "value": 85.41
+	                },
+	                {
+	                    "startTime": 1487027700,
+	                    "thresholdStatu": 0,
+	                    "value": 86.32
+	                },
+	                {
+	                    "startTime": 1487028600,
+	                    "thresholdStatu": 0,
+	                    "value": 86.73
+	                },
+	                {
+	                    "startTime": 1487029500,
+	                    "thresholdStatu": 0,
+	                    "value": 86.88
+	                },
+	                {
+	                    "startTime": 1487030400,
+	                    "thresholdStatu": 0,
+	                    "value": 86.76
+	                },
+	                {
+	                    "startTime": 1487031300,
+	                    "thresholdStatu": 0,
+	                    "value": 85.69
+	                },
+	                {
+	                    "startTime": 1487032200,
+	                    "thresholdStatu": 0,
+	                    "value": 86.57
+	                },
+	                {
+	                    "startTime": 1487033100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.63
+	                },
+	                {
+	                    "startTime": 1487034000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.62
+	                },
+	                {
+	                    "startTime": 1487034900,
+	                    "thresholdStatu": 0,
+	                    "value": 87.17
+	                },
+	                {
+	                    "startTime": 1487035800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.21
+	                },
+	                {
+	                    "startTime": 1487036700,
+	                    "thresholdStatu": 0,
+	                    "value": 86.92
+	                },
+	                {
+	                    "startTime": 1487037600,
+	                    "thresholdStatu": 0,
+	                    "value": 87.37
+	                },
+	                {
+	                    "startTime": 1487038500,
+	                    "thresholdStatu": 0,
+	                    "value": 87.25
+	                },
+	                {
+	                    "startTime": 1487039400,
+	                    "thresholdStatu": 0,
+	                    "value": 86.93
+	                },
+	                {
+	                    "startTime": 1487040300,
+	                    "thresholdStatu": 0,
+	                    "value": 87.35
+	                },
+	                {
+	                    "startTime": 1487041200,
+	                    "thresholdStatu": 0,
+	                    "value": 87.06
+	                },
+	                {
+	                    "startTime": 1487042100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.26
+	                },
+	                {
+	                    "startTime": 1487043000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.09
+	                },
+	                {
+	                    "startTime": 1487043900,
+	                    "thresholdStatu": 0,
+	                    "value": 86.57
+	                },
+	                {
+	                    "startTime": 1487044800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.18
+	                },
+	                {
+	                    "startTime": 1487045700,
+	                    "thresholdStatu": 0,
+	                    "value": 87.19
+	                },
+	                {
+	                    "startTime": 1487046600,
+	                    "thresholdStatu": 0,
+	                    "value": 87.23
+	                },
+	                {
+	                    "startTime": 1487047500,
+	                    "thresholdStatu": 0,
+	                    "value": 86.86
+	                },
+	                {
+	                    "startTime": 1487048400,
+	                    "thresholdStatu": 0,
+	                    "value": 86.26
+	                },
+	                {
+	                    "startTime": 1487049300,
+	                    "thresholdStatu": 0,
+	                    "value": 85.95
+	                },
+	                {
+	                    "startTime": 1487050200,
+	                    "thresholdStatu": 0,
+	                    "value": 86.07
+	                },
+	                {
+	                    "startTime": 1487051100,
+	                    "thresholdStatu": 0,
+	                    "value": 85.52
+	                },
+	                {
+	                    "startTime": 1487052000,
+	                    "thresholdStatu": 0,
+	                    "value": 85.7
+	                },
+	                {
+	                    "startTime": 1487052900,
+	                    "thresholdStatu": 0,
+	                    "value": 86.24
+	                },
+	                {
+	                    "startTime": 1487053800,
+	                    "thresholdStatu": 0,
+	                    "value": 86.27
+	                },
+	                {
+	                    "startTime": 1487054700,
+	                    "thresholdStatu": 0,
+	                    "value": 85.84
+	                },
+	                {
+	                    "startTime": 1487055600,
+	                    "thresholdStatu": 0,
+	                    "value": 86.47
+	                },
+	                {
+	                    "startTime": 1487056500,
+	                    "thresholdStatu": 0,
+	                    "value": 85.69
+	                },
+	                {
+	                    "startTime": 1487057400,
+	                    "thresholdStatu": 0,
+	                    "value": 84.75
+	                },
+	                {
+	                    "startTime": 1487058300,
+	                    "thresholdStatu": 0,
+	                    "value": 86.6
+	                },
+	                {
+	                    "startTime": 1487059200,
+	                    "thresholdStatu": 0,
+	                    "value": 87.37
+	                },
+	                {
+	                    "startTime": 1487060100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.51
+	                },
+	                {
+	                    "startTime": 1487061000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.39
+	                },
+	                {
+	                    "startTime": 1487061900,
+	                    "thresholdStatu": 0,
+	                    "value": 87.19
+	                },
+	                {
+	                    "startTime": 1487062800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.36
+	                },
+	                {
+	                    "startTime": 1487063700,
+	                    "thresholdStatu": 0,
+	                    "value": 86.91
+	                },
+	                {
+	                    "startTime": 1487064600,
+	                    "thresholdStatu": 0,
+	                    "value": 88.04
+	                },
+	                {
+	                    "startTime": 1487065500,
+	                    "thresholdStatu": 0,
+	                    "value": 87.85
+	                },
+	                {
+	                    "startTime": 1487066400,
+	                    "thresholdStatu": 0,
+	                    "value": 87.7
+	                },
+	                {
+	                    "startTime": 1487067300,
+	                    "thresholdStatu": 0,
+	                    "value": 87.21
+	                },
+	                {
+	                    "startTime": 1487068200,
+	                    "thresholdStatu": 0,
+	                    "value": 86.61
+	                },
+	                {
+	                    "startTime": 1487069100,
+	                    "thresholdStatu": 0,
+	                    "value": 87.63
+	                },
+	                {
+	                    "startTime": 1487070000,
+	                    "thresholdStatu": 0,
+	                    "value": 87.76
+	                },
+	                {
+	                    "startTime": 1487070900,
+	                    "thresholdStatu": 0,
+	                    "value": 86.26
+	                },
+	                {
+	                    "startTime": 1487071800,
+	                    "thresholdStatu": 0,
+	                    "value": 87.14
+	                }
+	            ],
+	            "kqiConf": {
+	                "desc": false,
+	                "describle": "显示成功率(%)",
+	                "id": "global_4_kqi_allNet@4",
+	                "name": "SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SUCC_RATE",
+	                "regex": "^(([1-9][0-9]?)(\\.\\d{1,2})?)$",
+	                "show": true,
+	                "threshold": [
+	                    0,
+	                    50,
+	                    60,
+	                    70,
+	                    140
+	                ]
+	            },
+	            "propertyName": "pageShowSuccessRate"
+	        },
+	        {
+	            "describle": "显示时长(ms)",
+	            "kqiArray": [
+	                {
+	                    "startTime": 1486998900,
+	                    "thresholdStatu": 0,
+	                    "value": 853.06
+	                },
+	                {
+	                    "startTime": 1486999800,
+	                    "thresholdStatu": 0,
+	                    "value": 837.8
+	                },
+	                {
+	                    "startTime": 1487000700,
+	                    "thresholdStatu": 0,
+	                    "value": 824.53
+	                },
+	                {
+	                    "startTime": 1487001600,
+	                    "thresholdStatu": 0,
+	                    "value": 876.97
+	                },
+	                {
+	                    "startTime": 1487002500,
+	                    "thresholdStatu": 0,
+	                    "value": 816.76
+	                },
+	                {
+	                    "startTime": 1487003400,
+	                    "thresholdStatu": 0,
+	                    "value": 812.32
+	                },
+	                {
+	                    "startTime": 1487004300,
+	                    "thresholdStatu": 0,
+	                    "value": 754.08
+	                },
+	                {
+	                    "startTime": 1487005200,
+	                    "thresholdStatu": 0,
+	                    "value": 819.36
+	                },
+	                {
+	                    "startTime": 1487006100,
+	                    "thresholdStatu": 0,
+	                    "value": 814.02
+	                },
+	                {
+	                    "startTime": 1487007000,
+	                    "thresholdStatu": 0,
+	                    "value": 783.32
+	                },
+	                {
+	                    "startTime": 1487007900,
+	                    "thresholdStatu": 0,
+	                    "value": 767.89
+	                },
+	                {
+	                    "startTime": 1487008800,
+	                    "thresholdStatu": 0,
+	                    "value": 854.48
+	                },
+	                {
+	                    "startTime": 1487009700,
+	                    "thresholdStatu": 0,
+	                    "value": 821.18
+	                },
+	                {
+	                    "startTime": 1487010600,
+	                    "thresholdStatu": 0,
+	                    "value": 810.5
+	                },
+	                {
+	                    "startTime": 1487011500,
+	                    "thresholdStatu": 0,
+	                    "value": 813.79
+	                },
+	                {
+	                    "startTime": 1487012400,
+	                    "thresholdStatu": 0,
+	                    "value": 835.59
+	                },
+	                {
+	                    "startTime": 1487013300,
+	                    "thresholdStatu": 0,
+	                    "value": 831.23
+	                },
+	                {
+	                    "startTime": 1487014200,
+	                    "thresholdStatu": 0,
+	                    "value": 807
+	                },
+	                {
+	                    "startTime": 1487015100,
+	                    "thresholdStatu": 0,
+	                    "value": 817.03
+	                },
+	                {
+	                    "startTime": 1487016000,
+	                    "thresholdStatu": 0,
+	                    "value": 795.1
+	                },
+	                {
+	                    "startTime": 1487016900,
+	                    "thresholdStatu": 0,
+	                    "value": 802.76
+	                },
+	                {
+	                    "startTime": 1487017800,
+	                    "thresholdStatu": 0,
+	                    "value": 804.34
+	                },
+	                {
+	                    "startTime": 1487018700,
+	                    "thresholdStatu": 0,
+	                    "value": 820.75
+	                },
+	                {
+	                    "startTime": 1487019600,
+	                    "thresholdStatu": 0,
+	                    "value": 834.7
+	                },
+	                {
+	                    "startTime": 1487020500,
+	                    "thresholdStatu": 0,
+	                    "value": 835.38
+	                },
+	                {
+	                    "startTime": 1487021400,
+	                    "thresholdStatu": 0,
+	                    "value": 860.38
+	                },
+	                {
+	                    "startTime": 1487022300,
+	                    "thresholdStatu": 0,
+	                    "value": 876.37
+	                },
+	                {
+	                    "startTime": 1487023200,
+	                    "thresholdStatu": 0,
+	                    "value": 1046.83
+	                },
+	                {
+	                    "startTime": 1487024100,
+	                    "thresholdStatu": 0,
+	                    "value": 955.21
+	                },
+	                {
+	                    "startTime": 1487025000,
+	                    "thresholdStatu": 0,
+	                    "value": 944.36
+	                },
+	                {
+	                    "startTime": 1487025900,
+	                    "thresholdStatu": 0,
+	                    "value": 931.45
+	                },
+	                {
+	                    "startTime": 1487026800,
+	                    "thresholdStatu": 0,
+	                    "value": 971.79
+	                },
+	                {
+	                    "startTime": 1487027700,
+	                    "thresholdStatu": 0,
+	                    "value": 933.61
+	                },
+	                {
+	                    "startTime": 1487028600,
+	                    "thresholdStatu": 0,
+	                    "value": 922.41
+	                },
+	                {
+	                    "startTime": 1487029500,
+	                    "thresholdStatu": 0,
+	                    "value": 904.86
+	                },
+	                {
+	                    "startTime": 1487030400,
+	                    "thresholdStatu": 0,
+	                    "value": 914.84
+	                },
+	                {
+	                    "startTime": 1487031300,
+	                    "thresholdStatu": 0,
+	                    "value": 901.99
+	                },
+	                {
+	                    "startTime": 1487032200,
+	                    "thresholdStatu": 0,
+	                    "value": 913.98
+	                },
+	                {
+	                    "startTime": 1487033100,
+	                    "thresholdStatu": 0,
+	                    "value": 885.01
+	                },
+	                {
+	                    "startTime": 1487034000,
+	                    "thresholdStatu": 0,
+	                    "value": 904.47
+	                },
+	                {
+	                    "startTime": 1487034900,
+	                    "thresholdStatu": 0,
+	                    "value": 908.89
+	                },
+	                {
+	                    "startTime": 1487035800,
+	                    "thresholdStatu": 0,
+	                    "value": 929.66
+	                },
+	                {
+	                    "startTime": 1487036700,
+	                    "thresholdStatu": 0,
+	                    "value": 922.82
+	                },
+	                {
+	                    "startTime": 1487037600,
+	                    "thresholdStatu": 0,
+	                    "value": 937.07
+	                },
+	                {
+	                    "startTime": 1487038500,
+	                    "thresholdStatu": 0,
+	                    "value": 924.21
+	                },
+	                {
+	                    "startTime": 1487039400,
+	                    "thresholdStatu": 0,
+	                    "value": 922.35
+	                },
+	                {
+	                    "startTime": 1487040300,
+	                    "thresholdStatu": 0,
+	                    "value": 920.78
+	                },
+	                {
+	                    "startTime": 1487041200,
+	                    "thresholdStatu": 0,
+	                    "value": 948.98
+	                },
+	                {
+	                    "startTime": 1487042100,
+	                    "thresholdStatu": 0,
+	                    "value": 935.3
+	                },
+	                {
+	                    "startTime": 1487043000,
+	                    "thresholdStatu": 0,
+	                    "value": 942.18
+	                },
+	                {
+	                    "startTime": 1487043900,
+	                    "thresholdStatu": 0,
+	                    "value": 952.8
+	                },
+	                {
+	                    "startTime": 1487044800,
+	                    "thresholdStatu": 0,
+	                    "value": 944.48
+	                },
+	                {
+	                    "startTime": 1487045700,
+	                    "thresholdStatu": 0,
+	                    "value": 889.49
+	                },
+	                {
+	                    "startTime": 1487046600,
+	                    "thresholdStatu": 0,
+	                    "value": 924.55
+	                },
+	                {
+	                    "startTime": 1487047500,
+	                    "thresholdStatu": 0,
+	                    "value": 902.21
+	                },
+	                {
+	                    "startTime": 1487048400,
+	                    "thresholdStatu": 0,
+	                    "value": 898.57
+	                },
+	                {
+	                    "startTime": 1487049300,
+	                    "thresholdStatu": 0,
+	                    "value": 908.97
+	                },
+	                {
+	                    "startTime": 1487050200,
+	                    "thresholdStatu": 0,
+	                    "value": 917.77
+	                },
+	                {
+	                    "startTime": 1487051100,
+	                    "thresholdStatu": 0,
+	                    "value": 908.13
+	                },
+	                {
+	                    "startTime": 1487052000,
+	                    "thresholdStatu": 0,
+	                    "value": 913.49
+	                },
+	                {
+	                    "startTime": 1487052900,
+	                    "thresholdStatu": 0,
+	                    "value": 907.24
+	                },
+	                {
+	                    "startTime": 1487053800,
+	                    "thresholdStatu": 0,
+	                    "value": 905.88
+	                },
+	                {
+	                    "startTime": 1487054700,
+	                    "thresholdStatu": 0,
+	                    "value": 907.72
+	                },
+	                {
+	                    "startTime": 1487055600,
+	                    "thresholdStatu": 0,
+	                    "value": 907.93
+	                },
+	                {
+	                    "startTime": 1487056500,
+	                    "thresholdStatu": 0,
+	                    "value": 898.74
+	                },
+	                {
+	                    "startTime": 1487057400,
+	                    "thresholdStatu": 0,
+	                    "value": 910.47
+	                },
+	                {
+	                    "startTime": 1487058300,
+	                    "thresholdStatu": 0,
+	                    "value": 894.66
+	                },
+	                {
+	                    "startTime": 1487059200,
+	                    "thresholdStatu": 0,
+	                    "value": 908.58
+	                },
+	                {
+	                    "startTime": 1487060100,
+	                    "thresholdStatu": 0,
+	                    "value": 906.25
+	                },
+	                {
+	                    "startTime": 1487061000,
+	                    "thresholdStatu": 0,
+	                    "value": 904.05
+	                },
+	                {
+	                    "startTime": 1487061900,
+	                    "thresholdStatu": 0,
+	                    "value": 914.03
+	                },
+	                {
+	                    "startTime": 1487062800,
+	                    "thresholdStatu": 0,
+	                    "value": 848.89
+	                },
+	                {
+	                    "startTime": 1487063700,
+	                    "thresholdStatu": 0,
+	                    "value": 800.96
+	                },
+	                {
+	                    "startTime": 1487064600,
+	                    "thresholdStatu": 0,
+	                    "value": 866.49
+	                },
+	                {
+	                    "startTime": 1487065500,
+	                    "thresholdStatu": 0,
+	                    "value": 909.46
+	                },
+	                {
+	                    "startTime": 1487066400,
+	                    "thresholdStatu": 0,
+	                    "value": 907.7
+	                },
+	                {
+	                    "startTime": 1487067300,
+	                    "thresholdStatu": 0,
+	                    "value": 882.02
+	                },
+	                {
+	                    "startTime": 1487068200,
+	                    "thresholdStatu": 0,
+	                    "value": 888.57
+	                },
+	                {
+	                    "startTime": 1487069100,
+	                    "thresholdStatu": 0,
+	                    "value": 891.98
+	                },
+	                {
+	                    "startTime": 1487070000,
+	                    "thresholdStatu": 0,
+	                    "value": 915.59
+	                },
+	                {
+	                    "startTime": 1487070900,
+	                    "thresholdStatu": 0,
+	                    "value": 915.29
+	                },
+	                {
+	                    "startTime": 1487071800,
+	                    "thresholdStatu": 0,
+	                    "value": 953.05
+	                }
+	            ],
+	            "kqiConf": {
+	                "desc": true,
+	                "describle": "显示时长(ms)",
+	                "id": "global_4_kqi_allNet@5",
+	                "name": "SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SHOW_DELAY",
+	                "regex": "^(0|([1-9][0-9]*))(\\.\\d{1,2})?$",
+	                "show": true,
+	                "threshold": [
+	                    0,
+	                    3500,
+	                    4000,
+	                    4500,
+	                    9000
+	                ]
+	            },
+	            "propertyName": "pageShowDelay"
+	        }
+	    ]
+	}
+}

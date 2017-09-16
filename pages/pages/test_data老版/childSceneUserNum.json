@@ -1,0 +1,39 @@
+{
+	"statuCode": "200",
+	"data": [
+		{
+			"userNum": 300,
+			"icon": "tecent.png",
+			"sceneCode": "1",
+			"areaCode": "1",
+			"sceneName": "上海大学",
+			"areaName": "上海大学",
+			"workOrder": {
+				"processing": 20,
+				"fixed": 30
+			}
+		},{
+			"userNum": 300,
+			"icon": "tecent.png",
+			"sceneCode": "1",
+			"areaCode": "1",
+			"sceneName": "上海大学",
+			"areaName": "上海大学",
+			"workOrder": {
+				"processing": 20,
+				"fixed": 30
+			}
+		},{
+			"userNum": 300,
+			"icon": "tecent.png",
+			"sceneCode": "1",
+			"areaCode": "1",
+			"sceneName": "上海大学",
+			"areaName": "上海大学",
+			"workOrder": {
+				"processing": 20,
+				"fixed": 30
+			}
+		}
+	]
+}

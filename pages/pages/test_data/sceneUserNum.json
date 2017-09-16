@@ -1,0 +1,189 @@
+{
+    "statuCode": "200",
+    "data": [
+        {
+            "areaName": "县级市及以上交通枢纽",
+            "icon": "cj17.png",
+            "sceneName": "县级市及以上交通枢纽",
+            "userNum": 16,
+            "workOrder": {
+                "belongto": "县级市及以上交通枢纽",
+                "fixed": 0,
+                "processing": 1
+            }
+        },
+        {
+            "areaName": "地铁",
+            "icon": "cj8.png",
+            "sceneName": "地铁",
+            "userNum": 320,
+            "workOrder": {
+                "belongto": "地铁",
+                "fixed": 0,
+                "processing": 5
+            }
+        },
+        {
+            "areaName": "工业园(国家级)",
+            "icon": "cj13.png",
+            "sceneName": "工业园(国家级)",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "工业园(国家级)",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "三甲医院",
+            "icon": "cj14.png",
+            "sceneName": "三甲医院",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "三甲医院",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "大型展览馆",
+            "icon": "cj7.png",
+            "sceneName": "大型展览馆",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "大型展览馆",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "高速",
+            "icon": "cj10.png",
+            "sceneName": "高速",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "高速",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "大型高档商业区",
+            "icon": "cj4.png",
+            "sceneName": "大型高档商业区",
+            "userNum": 0,
+            "workOrder": {
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "大型体育场馆",
+            "icon": "cj5.png",
+            "sceneName": "大型体育场馆",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "大型体育场馆",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "五星级以上宾馆酒店",
+            "icon": "cj16.png",
+            "sceneName": "五星级以上宾馆酒店",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "五星级以上宾馆酒店",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "高铁",
+            "icon": "cj11.png",
+            "sceneName": "高铁",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "高铁",
+                "fixed": 1,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "高架",
+            "icon": "cj9.png",
+            "sceneName": "高架",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "高架",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "CBD",
+            "icon": "cj1.png",
+            "sceneName": "CBD",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "CBD",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "大型文化体育场所",
+            "icon": "cj5.png",
+            "sceneName": "大型文化体育场所",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "大型文化体育场所",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "大型商业区",
+            "icon": "cj4.png",
+            "sceneName": "大型商业区",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "大型商业区",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "大型旅游风景区",
+            "icon": "cj3.png",
+            "sceneName": "大型旅游风景区",
+            "userNum": 0,
+            "workOrder": {
+                "belongto": "大型旅游风景区",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "市级以上政府机关",
+            "icon": "cj15.png",
+            "sceneName": "市级以上政府机关",
+            "userNum": 0,
+            "workOrder": {
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "areaName": "高校",
+            "icon": "cj12.png",
+            "sceneName": "高校",
+            "userNum": 0,
+            "workOrder": {
+                "fixed": 0,
+                "processing": 0
+            }
+        }
+    ]
+}

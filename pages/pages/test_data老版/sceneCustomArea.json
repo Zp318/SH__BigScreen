@@ -1,0 +1,145 @@
+{
+	"statuCode": "200",
+	"data": {
+		"sceneName": "高校",
+		"custAreas": [
+			{
+				"areaCode": 1,
+				"areaName": "中山小区1",
+				"userNum": 60,
+				"workOrder": {
+					"processing": 20,
+					"fixed": 50
+				},
+				"cells": [
+					{
+						"name": "中山小区-A",
+						"cellCode": "CDELLLSDF555",
+						"x": 121557729,
+						"y": 31254952,
+						"threshState": "GOOD"
+					}
+				]
+			}, {
+				"areaCode": 1,
+				"areaName": "中山小区",
+				"userNum": 60,
+				"workOrder": {
+					"processing": 20,
+					"fixed": 50
+				},
+				"cells": [
+					{
+						"name": "中山小区-A",
+						"cellCode": "CDELLLSDF555",
+						"x": 121537729,
+						"y": 31294952,
+						"threshState": "COMMON"
+					}
+				]
+			}, {
+				"areaCode": 1,
+				"areaName": "中山小区",
+				"userNum": 60,
+				"workOrder": {
+					"processing": 20,
+					"fixed": 50
+				},
+				"cells": [
+					{
+						"name": "中山小区-A",
+						"cellCode": "CDELLLSDF555",
+						"x": 121537729,
+						"y": 31294952,
+						"threshState": "COMMON"
+					}
+				]
+			}, {
+				"areaCode": 1,
+				"areaName": "中山小区",
+				"userNum": 60,
+				"workOrder": {
+					"processing": 20,
+					"fixed": 50
+				},
+				"cells": [
+					{
+						"name": "中山小区-A",
+						"cellCode": "CDELLLSDF555",
+						"x": 121537729,
+						"y": 31294952,
+						"threshState": "COMMON"
+					}
+				]
+			}, {
+				"areaCode": 1,
+				"areaName": "中山小区",
+				"userNum": 60,
+				"workOrder": {
+					"processing": 20,
+					"fixed": 50
+				},
+				"cells": [
+					{
+						"name": "中山小区-A",
+						"cellCode": "CDELLLSDF555",
+						"x": 121537729,
+						"y": 31294952,
+						"threshState": "COMMON"
+					}
+				]
+			}, {
+				"areaCode": 1,
+				"areaName": "中山小区",
+				"userNum": 60,
+				"workOrder": {
+					"processing": 20,
+					"fixed": 50
+				},
+				"cells": [
+					{
+						"name": "中山小区-A",
+						"cellCode": "CDELLLSDF555",
+						"x": 121537729,
+						"y": 31294952,
+						"threshState": "COMMON"
+					}
+				]
+			}, {
+				"areaCode": 1,
+				"areaName": "中山小区",
+				"userNum": 60,
+				"workOrder": {
+					"processing": 20,
+					"fixed": 50
+				},
+				"cells": [
+					{
+						"name": "中山小区-A",
+						"cellCode": "CDELLLSDF555",
+						"x": 121537729,
+						"y": 31294952,
+						"threshState": "COMMON"
+					}
+				]
+			}, {
+				"areaCode": 1,
+				"areaName": "中山小区",
+				"userNum": 60,
+				"workOrder": {
+					"processing": 20,
+					"fixed": 50
+				},
+				"cells": [
+					{
+						"name": "中山小区-A",
+						"cellCode": "CDELLLSDF555",
+						"x": 121537729,
+						"y": 31294952,
+						"threshState": "COMMON"
+					}
+				]
+			}
+		]
+	}
+}

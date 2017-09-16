@@ -1,0 +1,740 @@
+{
+    "statuCode": "200",
+    "data": {
+        "custAreas": [
+            {
+                "areaCode": "744",
+                "areaName": "地铁3号线3G",
+                "centerPoint": [
+                    121453510,
+                    31284095
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "belongto": "744",
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "693",
+                "areaName": "地铁8号线",
+                "centerPoint": [
+                    121497700,
+                    31193110
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "belongto": "693",
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "685",
+                "areaName": "地铁11号线",
+                "centerPoint": [
+                    121383150,
+                    31258980
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "1035",
+                "areaName": "地铁12号线3G",
+                "centerPoint": [
+                    121458120,
+                    31209475
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "1036",
+                "areaName": "地铁13号线3G",
+                "centerPoint": [
+                    121413140,
+                    31222685
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "1037",
+                "areaName": "地铁2号线3G",
+                "cells": [
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A821938C",
+                        "name": "地铁2号线陆家嘴站23",
+                        "threshState": 0,
+                        "userNum": 8,
+                        "x": 121497030,
+                        "y": 31240100
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A821BA9B",
+                        "name": "地铁2号线陆家嘴站14",
+                        "threshState": 0,
+                        "userNum": 2,
+                        "x": 121497030,
+                        "y": 31240100
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8039398",
+                        "name": "地铁2号线南京东路站43",
+                        "threshState": 0,
+                        "userNum": 15,
+                        "x": 121480130,
+                        "y": 31239580
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A803BAA7",
+                        "name": "地铁2号线南京东路站34",
+                        "threshState": 0,
+                        "userNum": 22,
+                        "x": 121480130,
+                        "y": 31239580
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A821BA9C",
+                        "name": "地铁2号线陆家嘴站24",
+                        "threshState": 0,
+                        "userNum": 24,
+                        "x": 121497030,
+                        "y": 31240100
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8219382",
+                        "name": "地铁2号线东昌路站23",
+                        "threshState": 0,
+                        "userNum": 11,
+                        "x": 121509740,
+                        "y": 31235750
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A803BAB2",
+                        "name": "地铁2号线人民广场站44",
+                        "threshState": 0,
+                        "userNum": 22,
+                        "x": 121468710,
+                        "y": 31235450
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A821BA9E",
+                        "name": "地铁2号线陆家嘴站44",
+                        "threshState": 0,
+                        "userNum": 11,
+                        "x": 121497030,
+                        "y": 31240100
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8036C88",
+                        "name": "地铁2号线南京东路站42",
+                        "threshState": 0,
+                        "userNum": 7,
+                        "x": 121480130,
+                        "y": 31239580
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8216C68",
+                        "name": "地铁2号线世纪大道站22",
+                        "threshState": 0,
+                        "userNum": 11,
+                        "x": 121522580,
+                        "y": 31230830
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A821BA89",
+                        "name": "地铁2号线世纪大道站34",
+                        "threshState": 0,
+                        "userNum": 1,
+                        "x": 121522580,
+                        "y": 31230830
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80A64C0",
+                        "name": "地铁2号线世纪公园站22",
+                        "threshState": 0,
+                        "userNum": 13,
+                        "x": 121546390,
+                        "y": 31211290
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8216C7B",
+                        "name": "地铁2号线陆家嘴站12",
+                        "threshState": 0,
+                        "userNum": 0,
+                        "x": 121497030,
+                        "y": 31240100
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A821BA93",
+                        "name": "地铁2号线东昌路站34",
+                        "threshState": 0,
+                        "userNum": 11,
+                        "x": 121509740,
+                        "y": 31235750
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8039397",
+                        "name": "地铁2号线南京东路站33",
+                        "threshState": 0,
+                        "userNum": 18,
+                        "x": 121480130,
+                        "y": 31239580
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8216C7E",
+                        "name": "地铁2号线陆家嘴站42",
+                        "threshState": 0,
+                        "userNum": 17,
+                        "x": 121497030,
+                        "y": 31240100
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80A8EAD",
+                        "name": "地铁2号线张江高科站53",
+                        "threshState": 0,
+                        "userNum": 8,
+                        "x": 121584110,
+                        "y": 31203920
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80A8BD0",
+                        "name": "地铁2号线世纪公园站23",
+                        "threshState": 0,
+                        "userNum": 10,
+                        "x": 121546390,
+                        "y": 31211290
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80393A2",
+                        "name": "地铁2号线人民广场站43",
+                        "threshState": 0,
+                        "userNum": 3,
+                        "x": 121468710,
+                        "y": 31235450
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8216C7C",
+                        "name": "地铁2号线陆家嘴站22",
+                        "threshState": 0,
+                        "userNum": 15,
+                        "x": 121497030,
+                        "y": 31240100
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80A8EAA",
+                        "name": "地铁2号线张江高科站23",
+                        "threshState": 0,
+                        "userNum": 3,
+                        "x": 121584110,
+                        "y": 31203920
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A803BAA8",
+                        "name": "地铁2号线南京东路站44",
+                        "threshState": 0,
+                        "userNum": 15,
+                        "x": 121480130,
+                        "y": 31239580
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80A64B7",
+                        "name": "地铁2号线龙阳路站32",
+                        "threshState": 0,
+                        "userNum": 2,
+                        "x": 121552830,
+                        "y": 31205220
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80AB2E0",
+                        "name": "地铁2号线世纪公园站24",
+                        "threshState": 0,
+                        "userNum": 24,
+                        "x": 121546390,
+                        "y": 31211290
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A803BABB",
+                        "name": "地铁2号线南京西路站34",
+                        "threshState": 0,
+                        "userNum": 10,
+                        "x": 121455850,
+                        "y": 31231970
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80AB2EA",
+                        "name": "地铁2号线上海科技馆站24",
+                        "threshState": 0,
+                        "userNum": 30,
+                        "x": 121538280,
+                        "y": 31221750
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80A64CB",
+                        "name": "地铁2号线上海科技馆站32",
+                        "threshState": 0,
+                        "userNum": 1,
+                        "x": 121538280,
+                        "y": 31221750
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8036C86",
+                        "name": "地铁2号线南京东路站22",
+                        "threshState": 0,
+                        "userNum": 4,
+                        "x": 121480130,
+                        "y": 31239580
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80AB5C4",
+                        "name": "地铁2号线金科路站24",
+                        "threshState": 0,
+                        "userNum": 18,
+                        "x": 121598560,
+                        "y": 31206640
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8036C87",
+                        "name": "地铁2号线南京东路站32",
+                        "threshState": 0,
+                        "userNum": 13,
+                        "x": 121480130,
+                        "y": 31239580
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A821938E",
+                        "name": "地铁2号线陆家嘴站43",
+                        "threshState": 0,
+                        "userNum": 19,
+                        "x": 121497030,
+                        "y": 31240100
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A8036C9B",
+                        "name": "地铁2号线南京西路站32",
+                        "threshState": 0,
+                        "userNum": 11,
+                        "x": 121455850,
+                        "y": 31231970
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80A8EA9",
+                        "name": "地铁2号线张江高科站13",
+                        "threshState": 0,
+                        "userNum": 4,
+                        "x": 121584110,
+                        "y": 31203920
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80AB2D7",
+                        "name": "地铁2号线龙阳路站34",
+                        "threshState": 0,
+                        "userNum": 7,
+                        "x": 121552830,
+                        "y": 31205220
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80A64B6",
+                        "name": "地铁2号线龙阳路站22",
+                        "threshState": 0,
+                        "userNum": 5,
+                        "x": 121552830,
+                        "y": 31205220
+                    },
+                    {
+                        "areaCode": "1037",
+                        "areaName": "地铁2号线3G",
+                        "cellCode": "46001A80A8BDC",
+                        "name": "地铁2号线上海科技馆站43",
+                        "threshState": 0,
+                        "userNum": 2,
+                        "x": 121538280,
+                        "y": 31221750
+                    }
+                ],
+                "centerPoint": [
+                    121549655,
+                    31196685
+                ],
+                "userNum": 320,
+                "workOrder": {
+                    "belongto": "1037",
+                    "fixed": 0,
+                    "processing": 5
+                }
+            },
+            {
+                "areaCode": "742",
+                "areaName": "地铁16号线3G",
+                "centerPoint": [
+                    121755995,
+                    31033455
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "689",
+                "areaName": "地铁1号线",
+                "centerPoint": [
+                    121426600,
+                    31252455
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "belongto": "689",
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "1040",
+                "areaName": "地铁9号线3G",
+                "centerPoint": [
+                    121382650,
+                    31109795
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "785",
+                "areaName": "地铁11号线3G",
+                "centerPoint": [
+                    121403730,
+                    31248970
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "743",
+                "areaName": "地铁1号线3G",
+                "centerPoint": [
+                    121426390,
+                    31259625
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "692",
+                "areaName": "地铁10号线",
+                "centerPoint": [
+                    121411850,
+                    31249175
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "695",
+                "areaName": "地铁2号线",
+                "centerPoint": [
+                    121546755,
+                    31200115
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "belongto": "695",
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "697",
+                "areaName": "地铁13号线",
+                "centerPoint": [
+                    121405650,
+                    31217600
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "1034",
+                "areaName": "地铁10号线3G",
+                "centerPoint": [
+                    121483726,
+                    31236924
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "698",
+                "areaName": "地铁4号线",
+                "centerPoint": [
+                    121475550,
+                    31223575
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "691",
+                "areaName": "地铁5号线",
+                "centerPoint": [
+                    121391745,
+                    31054400
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "686",
+                "areaName": "地铁3号线",
+                "centerPoint": [
+                    121451940,
+                    31284850
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "belongto": "686",
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "690",
+                "areaName": "地铁7号线",
+                "centerPoint": [
+                    121449705,
+                    31291650
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "786",
+                "areaName": "地铁6号线3G",
+                "centerPoint": [
+                    121547665,
+                    31253330
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "694",
+                "areaName": "地铁16号线",
+                "centerPoint": [
+                    121756390,
+                    31031180
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "788",
+                "areaName": "地铁8号线3G",
+                "centerPoint": [
+                    121497770,
+                    31193275
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "688",
+                "areaName": "地铁6号线",
+                "centerPoint": [
+                    121539715,
+                    31251675
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "1038",
+                "areaName": "地铁4号线3G",
+                "centerPoint": [
+                    121471955,
+                    31223575
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "1039",
+                "areaName": "地铁7号线3G",
+                "centerPoint": [
+                    121468370,
+                    31272545
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "787",
+                "areaName": "地铁5号线3G",
+                "centerPoint": [
+                    121391455,
+                    31055540
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "696",
+                "areaName": "地铁12号线",
+                "centerPoint": [
+                    121494700,
+                    31209525
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            },
+            {
+                "areaCode": "687",
+                "areaName": "地铁9号线",
+                "centerPoint": [
+                    121386660,
+                    31109795
+                ],
+                "userNum": 0,
+                "workOrder": {
+                    "fixed": 0,
+                    "processing": 0
+                }
+            }
+        ],
+        "sceneName": "地铁"
+    }
+}

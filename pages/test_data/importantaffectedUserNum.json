@@ -1,0 +1,32 @@
+{
+    "statuCode": "200",
+    "data": {
+        "netMeteData": {
+            "serviceType": "netMeteData",
+            "value": 350607,
+            "workOrder": {
+                "belongto": "netMeteData",
+                "fixed": 11,
+                "processing": 1
+            }
+        },
+        "scene": {
+            "serviceType": "scene",
+            "value": 336,
+            "workOrder": {
+                "belongto": "scene",
+                "fixed": 1,
+                "processing": 6
+            }
+        },
+        "sp": {
+            "serviceType": "",
+            "value": 0,
+            "workOrder": {
+                "belongto": "sp",
+                "fixed": 0,
+                "processing": 0
+            }
+        }
+    }
+}

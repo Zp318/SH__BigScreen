@@ -1,0 +1,391 @@
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { font-size: 0.3rem; font-weight: normal;}
+
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+small { font-size: 0.3rem; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+q:before, q:after { content: ''; }
+
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: white;
+}
+
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+    background: #000;
+}
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+html {
+	overflow: hidden;
+	height: 100%;
+	background: #fff;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+}
+
+body {
+	height: 10.8rem;
+	overflow: hidden;
+	position: fixed;
+	top: 50%;
+	margin-top: -5.4rem;
+	width: 19.2rem;
+	font-size: 0.3rem;
+	font-family: '方正兰亭细黑_GBK';
+}
+
+
+
+/*导出css样式*/
+.daochu{
+	width:7rem;
+	height: 5rem;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index:2999;
+	visibility: hidden;
+	font-size:0.18rem;
+	color:#fff;
+	border-radius: 10px;
+}
+.daochu.active{
+	visibility: inherit;
+	background: #1a2326;
+}
+.daochu .line{
+	width:6.85rem;
+	margin-left:0.1rem;
+	height:0.5rem;
+	line-height:0.5rem;
+	border-bottom: 0.005rem solid #2b3848;
+	display: inline-block;
+	font-size:0.18rem;
+	color:#fff;
+}
+.daochu .input_center{
+	margin:0.1rem;
+	margin-left: 1rem;
+	margin-top: 0.3rem;
+}
+.daochu .span_close{
+	float: right;
+	color:#6d92cc;
+	margin-right:0.1rem;
+	cursor: pointer;
+}
+.daochu input{
+	border-radius: 0.2rem ;
+	border:0.003rem solid #496389;
+	width:2rem;
+	height:0.3rem;
+	background: #1b212a;
+	outline: none;
+	text-align: center;
+	cursor: pointer;
+}
+.daochu_bottom{
+	position: absolute;
+	bottom: 0.08rem;
+	left:1rem;
+}
+.daochu_bottom button{
+	display: inline-block;
+	line-height: 0.3rem;
+	height: 0.3rem;
+	overflow: hidden;
+	width: 1.8rem;
+	background: #334d74;
+	border-radius: 0.05rem;
+	cursor: pointer;
+	border:0;
+	outline: none;
+	margin-left:1.75rem;
+	color: #5fb7af;
+	margin-bottom: 0.08rem;
+}
+.daochu_bottom button:hover{
+	color: #273a41;
+	background: #65fff1;
+}
+/*bootstrape中修改样式*/
+.glyphicon-time::before {
+	margin-left: -25px!important;
+}
+
+
+.daterangepicker{
+	/*left: 7.1rem !important;*/
+	top: 2rem !important;
+}
+
+.daterangepicker .month{
+	margin-top: 20px;
+}
+
+/*bootstrape中修改样式*/
+.glyphicon-time::before {
+	margin-left: -25px!important;
+}
+.range_inputs .btn{
+	width: 40px!important;
+	height: 17px!important;
+	font-size: 12px!important;
+	line-height: 12px;
+	margin-left: 48px;
+	margin-top: 5px;
+	border-radius: 15px;
+}
+/*适配1024屏幕分辨率*/
+/*@media screen and (max-width: 1600px) {
+	html {
+		font-size: 53.333333333px;
+	}
+}*/
+
+/*适配1920屏幕分辨率*/
+/*@media screen and (min-width: 1601px) {
+	html {
+		font-size: 100px;
+	}
+}*/
+
+.center {
+	text-align: center;
+}
+
+.f_left {
+	float: left;
+}
+
+.f_right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+}
+
+/*数字字母字体设置*/
+.font_num {
+	font-family: 'Century Gothic';
+}
+
+.font_chart {
+	font-family: 'HelveticaNeueLTStd-Roman';
+}
+
+.font_chart_up_down {
+	font-family: 'HelveticaNeueLTStd-Lt';
+}
+
+@font-face {
+	font-family: '方正兰亭细黑_GBK';
+	src: url('../fonts/lantingGBK.TTF');
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../fonts/GOTHIC.TTF');
+}
+
+@font-face {
+	font-family: 'HelveticaNeueLTStd-Lt';
+	src: url('../fonts/HelveticaNeueLTStd-Lt.otf');
+}
+
+@font-face {
+	font-family: 'HelveticaNeueLTStd-Roman';
+	src: url('../fonts/HelveticaNeueLTStd-Roman.otf');
+}
+
+/*header*/
+body {
+	background: url(../imgs/bg001.png) no-repeat center center / 100% 100%;
+}
+
+header {
+	height: 0.75rem;
+}
+
+header {
+	font-size: 0.31rem;
+	color: #65fff1;
+	line-height: 0.75rem;
+	position: relative;
+}
+
+header .title {
+	position: absolute;
+	width: 60%;
+	height: 100%;
+	letter-spacing: 0.1rem;
+	margin: 0 20%;
+}
+
+header .title a {
+	color: #65fff1;
+}
+
+header .title i {
+	display: inline-block;
+	width: 0.45rem;
+	height: 0.335rem;
+	background: url(../imgs/logo.png) no-repeat center center / 100% 100%;
+	vertical-align: middle;
+	margin-right: 0.15rem;
+	margin-top: -0.1rem;
+}
+
+header> div.f_left {
+	font-size: 0.15rem;
+	padding-left: 0.25rem;
+	padding-top: 0.19rem;
+	line-height: 0.19rem;
+}
+
+header> div.f_left div {
+	color: #5fb7af;
+}
+
+header> div.f_left .information {
+	color: #9bded5;
+	height: 0.366rem;
+	overflow: hidden;
+	width: 3.1rem;
+	line-height: 0.183rem;
+}
+
+header> div.f_left .information li {
+	width: 3.1rem;
+	min-height: 0.366rem;
+	padding-top: 0.005rem;
+}
+
+header> div.f_right {
+	padding-top: 0.15rem;
+}
+
+.countDownTimer {
+	font-size: 0.16rem;
+	color: #5fb7af;
+	line-height: 0.23rem;
+	text-align: right;
+}
+
+.lastUpdateTime em,
+.nextUpdateTime span {
+	color: #9bded5;
+	margin-left: 0.1rem;
+}
+
+.setAndImport {
+	margin-right: 0.2rem;
+	width: 0.8rem;
+	margin-left: 0.5rem;
+	padding-top: 0.05rem;
+}
+
+.setAndImport i {
+	float: left;
+}
+
+.import {
+	width: 0.26rem;
+	height: 0.23rem;
+	background: url(../imgs/import.png) no-repeat center center / 100% 100%;
+	margin-right: 0.15rem;
+	cursor: pointer;
+}
+
+.setting {
+	width: 0.24rem;
+	height: 0.24rem;
+	background: url(../imgs/setting.png) no-repeat center center / 100% 100%;
+	cursor: pointer;
+}
+
+body{
+	line-height: 1 !important;
+}
+
+.container{
+	padding-left: 0rem;
+}
+
+.ranges .applyBtn{
+	background: #1bafb4 !important;
+}
+
+.table-condensed tbody{
+	background: #283f5f !important;
+}
+
+.table-condensed thead{
+	background: #283f5f !important;
+}
+
+.dc_cancle_shaow{
+	position: absolute;
+	width:19.3rem ;
+	height: 10.8rem;
+	z-index: 1000;
+	left: 0rem;
+	top: 0rem;
+	background: rgba(255,255,255,0);
+}
+
+.glyphicon{
+	display: none !important;
+}

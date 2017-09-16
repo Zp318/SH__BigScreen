@@ -1,0 +1,55 @@
+{
+    "statuCode": "200",
+    "data": [
+        {
+            "netElementType": "MME",
+            "netMetaData": 0,
+            "userNum": 2992,
+            "workOrder": {
+                "belongto": "MME",
+                "fixed": 4,
+                "processing": 0
+            }
+        },
+        {
+            "netElementType": "SGSN",
+            "netMetaData": 1,
+            "userNum": 10986,
+            "workOrder": {
+                "belongto": "SGSN",
+                "fixed": 0,
+                "processing": 0
+            }
+        },
+        {
+            "netElementType": "GGSN",
+            "netMetaData": 2,
+            "userNum": 89873,
+            "workOrder": {
+                "belongto": "GGSN",
+                "fixed": 2,
+                "processing": 1
+            }
+        },
+        {
+            "netElementType": "SGW",
+            "netMetaData": 3,
+            "userNum": 259545,
+            "workOrder": {
+                "belongto": "SGW",
+                "fixed": 1,
+                "processing": 0
+            }
+        },
+        {
+            "netElementType": "RNC",
+            "netMetaData": 4,
+            "userNum": 38546,
+            "workOrder": {
+                "belongto": "RNC",
+                "fixed": 4,
+                "processing": 0
+            }
+        }
+    ]
+}

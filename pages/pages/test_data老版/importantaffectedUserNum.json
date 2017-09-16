@@ -1,0 +1,29 @@
+{
+	"statuCode": "200",
+	"data": {
+		"netMeteData": {
+			"value": 3400,
+			"thresholdStatu": 0,
+			"workOrder": {
+				"processing": 10,
+				"fixed" : 15
+			}
+		},
+		"scene": {
+			"value": 3500,
+			"thresholdStatu": 0,
+			"workOrder": {
+				"processing": 11,
+				"fixed" : 14
+			}
+		},
+		"sp": {
+			"value": 3600,
+			"thresholdStatu": 0,
+			"workOrder": {
+				"processing": 12,
+				"fixed" : 13
+			}
+		}
+	}
+}

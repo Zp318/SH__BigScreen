@@ -1,0 +1,46 @@
+{
+	"statuCode":"200",
+	"data": 
+		[
+			{
+				"describle":"页面显示时长(ms)",
+				"kqiArray":[{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":88},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":88},{"startTime":1479654900,"value":88},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":88},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":88},{"startTime":1479654900,"value":88},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":88},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107},{"startTime":1479654900,"value":107}],
+				"kqiConf":{
+					 "desc":true,
+					 "describle":"页面显示时长(ms)",
+					 "id":"global_4_kqi_4G@5",
+					 "name":"SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SHOW_DELAY",
+					 "regex":"^(0|([1-9][0-9]*))(\\.\\d{1,2})?$",
+					 "show":true,
+					 "threshold":[0,200,300,510,600]
+				}
+			},
+			{
+				"describle":"页面显示时长(ms)",
+				"kqiArray":[{"startTime":1479654900,"value":457}],
+				"kqiConf":{
+					 "desc":true,
+					 "describle":"页面显示时长(ms)",
+					 "id":"global_4_kqi_4G@5",
+					 "name":"SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SHOW_DELAY",
+					 "regex":"^(0|([1-9][0-9]*))(\\.\\d{1,2})?$",
+					 "show":true,
+					 "threshold":[0,200,250,460,600]
+				}
+			},
+			{
+				"describle":"页面显示时长(ms)",
+				"kqiArray":[{"startTime":1479654900,"value":112}],
+				"kqiConf":{
+					 "desc":true,
+					 "describle":"页面显示时长(ms)",
+					 "id":"global_4_kqi_4G@5",
+					 "name":"SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SHOW_DELAY",
+					 "regex":"^(0|([1-9][0-9]*))(\\.\\d{1,2})?$",
+					 "show":true,
+					 "threshold":[0,100,200,300,400]
+				}
+			}
+		]
+	
+}

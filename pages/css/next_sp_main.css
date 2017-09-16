@@ -1,0 +1,435 @@
+.SP_show .SP_main .wyback2{
+	width: 15.34rem;
+	height: 9.2rem;
+	background-image: url("../imgs/bgmap001.png");
+	background-size: 15.34rem 9.2rem;
+	position: absolute;
+	z-index: 9;
+}
+
+.SP_show .SP_main .wyback3{
+	width: 15.34rem;
+	height: 9.2rem;
+	background: rgba(13,21,23,0.9);
+	z-index: 10;
+	position: absolute;
+}
+
+.SP_main .banner{
+    width: 100%;
+    height: 0.45rem;
+    padding: 0.1rem 0.25rem;
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.1rem;
+    position: absolute;
+    z-index: 11;
+    display: none;
+}
+.SP_list {
+	height: 9.17rem;
+	overflow: auto;
+	width: 15.335rem;
+	position: absolute;
+	z-index: 11;
+}
+
+.SP_main .containerbig {
+	width: 14rem;
+	/*background: red;*/
+}
+
+.SP_list .SP_list_scroll {
+	width: 15.335rem;
+	/*width: 100%;*/
+	height: 100%;
+}
+
+.SP_main .SP_list .classfied dl p{
+	font-size: 0.12rem;
+	height: 0.16rem;
+	width:1rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+.SP_main .SP_list .SP_main_center .about_soft ul li p{
+	font-size: 0.12rem;
+	height: 0.16rem;
+	width:1rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.SP_main .SP_list .SP_main_center .about_soft ul li p .using_have{
+	font-size: 0.12rem;
+}
+
+.SP_list_scroll .scroll_container {
+	overflow: hidden;
+	position: relative;
+	height:9.09rem ;
+}
+.SP_list_scroll .scroll_absolute {
+    position: absolute;
+    height: auto;
+}
+.SP_list_scroll .scroll_vertical_bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+	/*width: 0.135rem;
+	margin-left: 0.09rem;
+    height: 100%;*/
+    margin: 0;
+    padding: 0;
+}
+
+.SP_list_scroll .scroll_track {
+	position: relative;
+	width: 0.06rem;
+}
+
+.SP_list_scroll .scroll_drag {
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	/*background-color: #43a79f;*/
+	border-radius: 0.07rem;
+	border:0.005rem solid #27393b;
+ 	box-sizing: border-box;
+}
+
+.SP_list_scroll .scroll_arrow {
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+	background-color: #369DB4;
+}
+
+.SP_list_scroll .scroll_vertical_bar .scroll_arrow {
+    height: 16px;
+}
+
+.SP_main .banner span{
+    width: 0.9rem;
+    height:0.25rem;
+    line-height:0.28rem;
+    border:1px solid #192c2f;
+    text-align: center;
+    color:#65fff1;
+    display: inline-block;
+    margin-right: 0.085rem;
+    font-size:0.15rem;
+    background-color: #19373a;
+    cursor: pointer;
+    border: solid 2px #366266;
+}
+.SP_main .banner .first{
+    background: #32858c;
+}
+.SP_main .classfied{
+    height:0.855rem;
+    margin:0.35rem auto 0 0.25rem;
+    margin-top:0.22rem;
+    white-space: nowrap;
+}
+.SP_main dl{
+    display: inline-block;
+    width:2rem;
+    height:0.85rem;
+    background-color: #1f3132;
+    position: relative;
+    margin-right:0.147rem;
+    cursor: pointer;
+}
+.SP_main .border_color {
+    box-shadow:0 0 0.2rem rgba(0, 198, 255, 0.3), 0 0 0.2rem rgba(0, 198, 255, 0.3) inset;
+    /*border-color: rgba(153, 245, 255, 0.5);*/
+   background: rgba(39,77,85,0.7);
+}
+.SP_main .border_colorr {
+    box-shadow:0 0 0.2rem rgba(0, 198, 255, 0.3), 0 0 0.2rem rgba(0, 198, 255, 0.3) inset;
+    border-color: rgba(153, 245, 255, 0.5);
+}
+.SP_main .wai::before,
+.SP_main .wai::after{
+    content: '';
+    width:0.15rem;
+    height:0.15rem;
+    position: absolute;
+}
+/*.SP_main .waii::before,
+.SP_main .waii::after{
+    content: '';
+    width:0.15rem;
+    height:0.15rem;
+    position: absolute;
+}*/
+.SP_main .wai::before{
+    border-left:1px solid #65fff1;
+    border-top: 1px solid #65fff1;
+    top:0px;
+    left:0px;
+}
+.SP_main .wai::after{
+    border-right:1px solid #65fff1;
+    border-bottom: 1px solid #65fff1;
+    right:0px;
+    bottom:0px;
+}
+/*.SP_main .waii::before{
+    border-left:1px solid #65fff1;
+    border-top: 1px solid #65fff1;
+    top:0px;
+    left:0px;
+}
+.SP_main .waii::after{
+    border-right:1px solid #65fff1;
+    border-bottom: 1px solid #65fff1;
+    right:0px;
+    bottom:0px;
+}*/
+
+.SP_main .waii{
+	border: 1px solid #65fff1;
+	box-sizing: border-box;
+}
+
+.SP_main .news{
+    display: inline-block;
+    width:0.41rem;
+    height:0.43rem;
+    margin:0.23rem 0 0 0.2rem;
+    background: url(../imgs/xiecheng.png)  no-repeat center center / 100% auto;
+    float: left;
+    border-radius: 0.1rem;
+}
+.SP_main .classfied_right{
+    float: right;
+    width:1.15rem;
+    height:0.5rem;
+    margin-top:0.2rem;
+}
+.SP_main dl p{
+    font-size:0.18rem;
+    color: #82fff4;
+}
+.SP_main dl .using_have{
+    font-size:0.12rem;
+    margin-left: 0.1rem;
+}
+.SP_main dl .using{
+    width: 0.585rem;
+    height: 0.05rem;
+    border-radius: 0.025rem;
+    background: #51c7bd;
+    display: inline-block;
+    position: relative;
+}
+.SP_main dl .all_works{
+    height: 0.05rem;
+    width: 0.25rem;
+    background: #5191c7 !important;
+    display: inline-block;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.SP_main .head{
+    display: inline-block;
+    width: 0.11rem;
+    height: 0.11rem;
+    vertical-align: middle;
+    background: url(../imgs/front_user.png) no-repeat center center / 100% auto;
+}
+.SP_main h5{
+    font-size:0.12rem;
+    color: #bcb849;
+}
+.SP_main .SP_main_center{
+    width:94%;
+    height: 0;
+    overflow: hidden;
+   margin-top: 0.22rem;
+   margin-left: 0.5rem;
+   background: url("../imgs/spbg001.png");
+   background-size: 14.32rem 100%;
+   background-repeat: no-repeat;
+}
+
+.show {
+    height: auto !important;
+}
+
+
+.SP_main .SP_list .classfied dl .classfied_right .sanjiao{
+	width:0.3rem;
+	height:0.15rem;   
+	position: relative;
+	top: 0.28rem !important;
+	left: 0.02rem !important;
+	background: url("../imgs/spbg002.png");
+	background-size: 0.3rem 0.15rem;
+}
+
+.SP_main .SP_main_center .auto_box {
+	/*margin-top: 0.5rem;*/
+	width: 14.41rem;
+}
+
+.SP_main .SP_main_center .auto_box .wyboxtwo,.SP_main .SP_main_center .auto_box .wyboxthree,.SP_main .SP_main_center .auto_box .wyboxfour{
+	width: 14.41rem;
+}
+
+.SP_main .SP_main_center .auto_box .wyboxtwo{
+	margin-top: 0rem;
+}
+
+.SP_main .SP_main_center .auto_box{
+	font-family: "方正兰亭细黑_GBK";
+	color: #c8fef9;
+}
+
+.SP_main .SP_main_center .auto_box .wybox11{
+	height: 0.34rem;
+	width: 14rem;
+	float: left;
+	margin-left: 0.23rem;
+	margin-top: 0.15rem;
+	font-size: 0.18rem;
+}
+
+.SP_main .SP_main_center .auto_box .wybox11 .wybox111{
+	float: left;
+	width: 0.28rem;
+	height: 0.28rem;
+	margin-top: 0.03rem;
+	background: url("../imgs/icons/dd.png");
+	background-size: 0.28rem 0.28rem;
+}
+
+.SP_main .SP_main_center .auto_box .wybox11 .wybox112{
+	float: left;
+	width: 5rem;
+	height: 0.28rem;
+	line-height: 0.28rem;
+	margin-left: 0.08rem;
+	margin-top: 0.03rem;
+	font-size: 0.18rem;
+}
+
+.SP_main .SP_main_center .auto_box .wybox12{
+	height: 0.34rem;
+	width: 14rem;
+	float: left;
+	margin-left: 0.23rem;
+	background: url("../imgs/wybox12.png");
+	background-size: 14rem 0.34rem;
+	background-repeat:no-repeat;
+	font-size: 0.16rem;
+	line-height: 0.34rem;
+	margin-top: 0.15rem;
+	margin-bottom: 0.15rem;
+	padding-left: 0.13rem;
+}
+
+.SP_main .SP_main_center .auto_box .wybox13{
+	height: 0.34rem;
+	width: 14rem;
+	float: left;
+	margin-left: 0.23rem;
+	background: url("../imgs/wybox13.png");
+	background-size: 14rem 0.34rem;
+	background-repeat:no-repeat;
+	font-size: 0.16rem;
+	line-height: 0.34rem;
+	margin-top: 0.04rem;
+	margin-bottom: 0.15rem;
+	padding-left: 0.13rem;
+}
+
+.about_soft {
+	padding-left: 0.25rem;
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 0.5rem;
+	margin-top: 1.4rem;
+}
+
+.about_soft h5 {
+	color: #c8fef9;
+	font-size: 0.12rem;
+	padding-left: 0.1rem;
+}
+
+.about_soft ul li {
+	float: left;
+	width: 2rem;
+    height: 0.85rem;
+    background-color: #19272a;
+    position: relative;
+    margin-right: 0.147rem;
+    cursor: pointer;
+    margin-bottom:0.147rem;
+}
+
+.about_soft ul {
+	overflow: hidden;
+	padding-top: 0.15rem;
+}
+
+.about_soft ul li p {
+    font-size: 0.18rem;
+    color: #82fff4;
+}
+
+.about_soft ul li .using {
+    width: 0.585rem;
+    height: 0.05rem;
+    border-radius: 0.025rem;
+    background: #51c7bd;
+    display: inline-block;
+    position: relative;
+    margin-right: 0.1rem;
+}
+
+.about_soft ul li .all_works {
+    height: 0.05rem;
+    width: 0.25rem;
+    background: #5191c7 !important;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.about_soft ul li .using_have {
+    font-size: 0.15rem;
+}
+
+.sptableonebox{
+	height: 0.2rem;
+	overflow: hidden;
+	padding-bottom: 0.05rem;
+	border-bottom: solid 1px #27393b;
+}
+
+.SP_main .ajcircle{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 0.05rem;
+	/*background: red;*/
+}
+
+.SP_main .SP_list .containerbig .mybox{
+	width: 14rem;
+}
+
+.SP_main .SP_list .containerbig .container{
+	width: 14rem;
+}

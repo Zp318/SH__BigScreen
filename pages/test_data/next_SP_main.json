@@ -1,0 +1,262 @@
+{
+  "statuCode": "200",
+  "data": [
+    {
+      "bigSpName": "视频",
+      "spList": [
+        {
+          "spCode": "1202",
+          "spName": "视频",
+          "userNum": "100",
+          "icon": "/imgs/tecentVedio.png",
+          "spType": "视频",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+        }, {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "视频",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "新闻",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "电商",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "打车",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/图层-26.png",
+          "spType": "IM",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/qulaer.png",
+          "spType": "电商",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        }
+
+      ]
+    }, {
+      "bigSpName": "新闻",
+      "spList": [
+        {
+          "spCode": "1202",
+          "spName": "新闻",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "旅游",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/xiecheng.png",
+          "spType": "视频",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+        },
+        {
+          "spCode": "1202",
+          "spName": "音乐",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "IM",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "打车",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "视频",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/xiecheng.png",
+          "spType": "新闻",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "电商",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        }
+      ]
+    }, {
+      "bigSpName": "旅游",
+      "spList": [
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/tecentVedio.png",
+          "spType": "IM",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+        }, {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/xiecheng.png",
+          "spType": "打车",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+        }, {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "新闻",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "旅游",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "电商",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "新闻",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        },
+        {
+          "spCode": "1202",
+          "spName": "腾讯视频",
+          "userNum": "100",
+          "icon": "/imgs/iqiyiLogo01.png",
+          "spType": "旅游",
+          "workOrder": {
+            "processing": "30",
+            "fixed": "20"
+          }
+
+        }
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+	"statuCode": "200",
+	"data": {
+		"allNet": {
+			"thirdKeyKqi": {
+				"scene": [
+					{
+						"id":"page_delay",
+						"name": "page_delay1",
+						"describle": "页面显示时延1",
+						"threshold": [
+							0,
+							11,
+							21,
+							31,
+							51
+						],
+						"show": false,
+						"desc":true
+					}, {
+						"id":"page_delay",
+						"name": "page_delay2",
+						"describle": "页面显示时延1",
+						"threshold": [
+							0,
+							12,
+							22,
+							32,
+							52
+						],
+						"show": false,
+						"desc":true
+					}, {
+						"id":"page_delay",
+						"name": "page_delay3",
+						"describle": "页面显示9",
+						"threshold": [
+							0,
+							8,
+							22,
+							32,
+							52
+						],
+						"show": true,
+						"desc":true
+					}, {
+						"id":"page_delay",
+						"name": "page_delay4",
+						"describle": "页面时延1",
+						"threshold": [
+							0,
+							15,
+							20,
+							30,
+							50
+						],
+						"show": false,
+						"desc":false
+					}
+				],
+				"netMeta": [
+					{
+						"id":"page_delay11",
+						"name": "page_delay11",
+						"describle": "页面显示时延1",
+						"threshold": [
+							0,
+							19,
+							29,
+							39,
+							59
+						],
+						"show": true,
+						"desc":true
+					},
+					{
+						"id":"page_delay00",
+						"name": "page_delay00",
+						"describle": "页面555",
+						"threshold": [
+							0,
+							10,
+							20,
+							30,
+							50
+						],
+						"show": false,
+						"desc":true
+					}
+				],
+				"sp": [
+					{
+						"id":"page_delay12",
+						"name": "page_delay12",
+						"describle": "页面显示时延1",
+						"threshold": [
+							0,
+							101,
+							201,
+							301,
+							501
+						],
+						"show": true,
+						"desc":false
+					},
+					{
+						"id":"page_delay13",
+						"name": "page_delay13",
+						"describle": "页面显1",
+						"threshold": [
+							0,
+							10,
+							20,
+							30,
+							50
+						],
+						"show": false,
+						"desc":true
+					}
+				]
+			},
+			"kqi": {
+				"allNet": {
+					"web": [
+						{
+							"id":"page_delay1",
+							"name":"page_delay1",
+							"describle":"页面显示时延1",
+							"threshold":[0,101,201,301,50],
+							"show":false,
+							"desc":true
+						},  {
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延2",
+							"threshold":[0,101,202,303,50],
+							"show":false,
+							"desc":true
+						},  {
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延3",
+							"threshold":[0,10,20,30,50],
+							"show":true,
+							"desc":true
+						}
+					],
+					"stream": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延4",
+							"threshold":[0,10,20,30,50],
+							"show":false,
+							"desc":true
+						}, {
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延5",
+							"threshold":[0,10,20,30,50],
+							"show":true,
+							"desc":true
+						}, {
+							"id":"page_delay",
+							"name":"page_delay6",
+							"describle":"页面显示时延",
+							"threshold":[0,10,20,30,50],
+							"show":false,
+							"desc":true
+						}
+					],
+					"webChat": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延7",
+							"threshold":[0,10,20,30,50],
+							"show":false,
+							"desc":true
+						}, {
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延8",
+							"threshold":[0,10,20,30,50],
+							"show":false,
+							"desc":true
+						}
+					],
+					"ResidentRatio": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"驻留比123",
+							"threshold":[0,10,20,30,50],
+							"show":true,
+							"desc":true
+						}
+					]
+				},
+				"3G": {
+					"web": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延9",
+							"threshold":[0,10,20,30,50],
+							"show":true,
+							"desc":true
+						}
+					],
+					"stream": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延11",
+							"threshold":[0,10,20,30,50],
+							"show":true,
+							"desc":true
+						}
+					],
+					"webChat": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延12",
+							"threshold":[0,10,20,30,50],
+							"show":true,
+							"desc":true
+						}
+					],
+					"ResidentRatio": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"驻留比123",
+							"threshold":[0,10,20,30,50],
+							"show":true,
+							"desc":true
+						}
+					]
+				},
+				"4G": {
+					"web": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延33",
+							"threshold":[0,10,20,30,50],
+							"show":false,
+							"desc":true
+						},{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延444",
+							"threshold":[0,10,20,30,50],
+							"show":false,
+							"desc":true
+						}
+					],
+					"stream": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延56",
+							"threshold":[0,10,20,30,50],
+							"show":true,
+							"desc":true
+						}
+					],
+					"webChat": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"页面显示时延77",
+							"threshold":[0,10,20,30,50],
+							"show":true,
+							"desc":true
+						}
+					],
+					"ResidentRatio": [
+						{
+							"id":"page_delay",
+							"name":"page_delay",
+							"describle":"驻留比88",
+							"threshold":[0,10,20,30,50],
+							"show":true,
+							"desc":true
+						}
+					]
+				}
+			},
+			"opinion": [
+				"台风1",
+				"台风2",
+				"台风3"
+			],
+			"alarm": [
+				{
+					"name": "serial_no",
+					"describle": "流水号",
+					"show": true,
+					"fixed": true
+				},{
+					"name": "serial_no",
+					"describle": "流水号",
+					"show": true,
+					"fixed": false
+				},{
+					"name": "serial_no",
+					"describle": "流水号",
+					"show": true,
+					"fixed": false
+				},{
+					"name": "serial_no",
+					"describle": "名称",
+					"show": true,
+					"fixed": false
+				},{
+					"name": "serial_no",
+					"describle": "流水号",
+					"show": true,
+					"fixed": false
+				},{
+					"name": "serial_no",
+					"describle": "名称",
+					"show": false,
+					"fixed": false
+				},{
+					"name": "serial_no",
+					"describle": "名称",
+					"show": false,
+					"fixed": false
+				},{
+					"name": "serial_no",
+					"describle": "名称",
+					"show": false,
+					"fixed": false
+				},{
+					"name": "serial_no",
+					"describle": "详细信息",
+					"show": false,
+					"fixed": false
+				},{
+					"name": "serial_no",
+					"describle": "详细信息",
+					"show": false,
+					"fixed": false
+				},{
+					"name": "serial_no",
+					"describle": "详细信息",
+					"show": false,
+					"fixed": false
+				}
+			]
+		},
+		"scene": {
+			"threshold": [
+				0,
+				100,
+				200
+			],
+			"kqi": [
+				{
+					"id":"page_delay03",
+					"name":"page_delay03",
+					"describle":"页面显示时延03",
+					"show":false,
+					"desc":true
+				},{
+					"id":"page_delay04",
+					"name":"page_delay04",
+					"describle":"页面显示时延04",
+					"show":true,
+					"desc":true
+				},{
+					"id":"page_delay02",
+					"name":"page_delay02",
+					"describle":"页面显示时延02",
+					"show":false,
+					"desc":true
+				},{
+					"id":"page_delay03",
+					"name":"page_delay03",
+					"describle":"页面显示时延03",
+					"show":true,
+					"desc":true
+				},{
+					"id":"page_delay04",
+					"name":"page_delay04",
+					"describle":"页面显示时延04",
+					"show":false,
+					"desc":true
+				}
+			]
+		},
+		"netMeta": {
+			"RNC": [
+				{
+					"id":"page_delay11",
+					"name":"page_delay11",
+					"describle":"页面显示时延11",
+					"show":true,
+					"desc":true
+				},{
+					"id":"page_delay12",
+					"name":"page_delay12",
+					"describle":"页面显示时延12",
+					"show":false,
+					"desc":true
+				},{
+					"id":"page_delay13",
+					"name":"page_delay13",
+					"describle":"页面显示时延13",
+					"show":true,
+					"desc":true
+				}
+			],
+			"GGSN": [
+				
+				{
+					"id":"page_delay23",
+					"name":"page_delay23",
+					"describle":"页面显示时延23",
+					"show":false,
+					"desc":true
+				},
+				{
+					"id":"page_delay24",
+					"name":"page_delay24",
+					"describle":"页面显示时延24",
+					"show":false,
+					"desc":true
+				},
+				{
+					"id":"page_delay24",
+					"name":"page_delay24",
+					"describle":"页面显示时延24",
+					"show":true,
+					"desc":true
+				},
+				{
+					"id":"page_delay23",
+					"name":"page_delay23",
+					"describle":"页面显示时延23",
+					"show":false,
+					"desc":true
+				},
+				{
+					"id":"page_delay24",
+					"name":"page_delay24",
+					"describle":"页面显示时延24",
+					"show":true,
+					"desc":true
+				}
+			],
+			"SGW": [
+				{
+					"id":"page_delay31",
+					"name":"page_delay31",
+					"describle":"页面显示时延31",
+					"show":true,
+					"desc":true
+				},
+				{
+					"id":"page_delay32",
+					"name":"page_delay32",
+					"describle":"页面显示时延32",
+					"show":true,
+					"desc":true
+				}
+			],
+			"SGSN": [
+				{
+					"id":"page_delay41",
+					"name":"page_delay41",
+					"describle":"页面显示时延41",
+					"show":true,
+					"desc":true
+				},{
+					"id":"page_delay42",
+					"name":"page_delay42",
+					"describle":"页面显示时延42",
+					"show":true,
+					"desc":true
+				}
+			],
+			"MME": [
+				{
+					"id":"page_delay51",
+					"name":"page_delay51",
+					"describle":"页面显示时延51",
+					"show":true,
+					"desc":true
+				},{
+					"id":"page_delay52",
+					"name":"page_delay52",
+					"describle":"页面显示时延52",
+					"show":true,
+					"desc":true
+				}
+			]
+		},
+		"sp": {
+			
+	        "kqiList":{
+		        "Web":[
+		            {
+		                "id":"page_delay",
+		                "name":"page_delay",  
+		                "describle":"页面显示时延",
+		                "show":true,
+		                "desc":true      
+		            },
+		            {
+		                "id":"page_delay",
+		                "name":"page_delay",  
+		                "describle":"页面显示时延",
+		                "show":true,
+		                "desc":true      
+		            },
+		            {
+		                "id":"page_delay",
+		                "name":"page_delay",  
+		                "describle":"页面显示时延",
+		                "show":false,
+		                "desc":true      
+		            }
+				],
+				"Streaming":[
+		            {
+		                "id":"page_delay",
+		                "name":"page_delay",  
+		                "describle":"页面显示时延",
+		                "show":true,
+		                "desc":true      
+		            },
+		            {
+		                "id":"page_delay",
+		                "name":"page_delay",  
+		                "describle":"页面显示时延",
+		                "show":true,
+		                "desc":true      
+		            }
+				],
+				"Weixin":[
+		            {
+		                "id":"page_delay",
+		                "name":"page_delay",  
+		                "describle":"页面显示时延",
+		                "show":true,
+		                "desc":true      
+		            },
+		            {
+		                "id":"page_delay",
+		                "name":"page_delay",  
+		                "describle":"页面显示时延",
+		                "show":true,
+		                "desc":true      
+		            }
+				],
+				"Other":[
+		            {
+		                "id":"page_delay",
+		                "name":"page_delay",  
+		                "describle":"页面显示时延",
+		                "show":true,
+		                "desc":true      
+		            },
+		            {
+		                "id":"page_delay",
+		                "name":"page_delay",  
+		                "describle":"页面显示时延",
+		                "show":false,
+		                "desc":true      
+		            },{
+		                "id":"page_delay",
+		                "name":"page_delay",  
+		                "describle":"页面显示时延",
+		                "show":true,
+		                "desc":true      
+		            }
+				]
+			},
+	       "spList":[
+		        {
+		           "id":"1231",
+					"name":"webCat",
+					"alias":"微信",
+					"icon":"123131313",
+					"serviceType":"Web",
+					"checked":true
+				},
+				{
+		           "id":"1231",
+					"name":"webCat",
+					"alias":"微信",
+					"icon":"123131313",
+					"serviceType":"Web",
+					"checked":true
+				},{
+		           "id":"1231",
+					"name":"webCat",
+					"alias":"微信",
+					"icon":"123131313",
+					"serviceType":"Web",
+					"checked":true
+				},{
+		           "id":"1231",
+					"name":"webCat",
+					"alias":"微信",
+					"icon":"123131313",
+					"serviceType":"Web",
+					"checked":true
+				},{
+		           "id":"1231",
+					"name":"webCat",
+					"alias":"微信",
+					"icon":"123131313",
+					"serviceType":"Web",
+					"checked":true
+				}
+			]
+
+		}
+	}
+} 

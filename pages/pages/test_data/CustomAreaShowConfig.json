@@ -1,0 +1,28 @@
+{
+	"statuCode": "200",
+	"data": [
+		{
+			"userNum": 200,
+			"icon": "tecent.png",
+			"sceneCode": "1",
+			"areaCode": "1",
+			"sceneName": "中山小区",
+			"areaName": "中山小区",
+			"workOrder": {
+				"processing": 10,
+				"fixed": 30
+			}
+		},{
+			"userNum": 200,
+			"icon": "tecent.png",
+			"sceneCode": "1",
+			"areaCode": "1",
+			"sceneName": "中山小区",
+			"areaName": "中山小区",
+			"workOrder": {
+				"processing": 10,
+				"fixed": 30
+			}
+		}
+	]
+}

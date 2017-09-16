@@ -1,0 +1,226 @@
+.WY_show .WY_main{
+	background: rgba(13,21,23,0.9);
+}
+
+.WY_show .WY_main .wyback{
+	width: 5.2rem;
+	height: 6.945rem;
+	background-image: url("../imgs/next/wyback3.png");
+	background-repeat: no-repeat;
+	background-size: 5.2rem 6.945rem;
+	margin-left: 4.75rem;
+	margin-top: 0.5rem;
+	position: absolute;
+	z-index: 11;
+}
+
+.WY_show .WY_main .wyback2{
+	width: 15.34rem;
+	height: 9.2rem;
+	background-image: url("../imgs/bgmap001.png");
+	background-size: 15.34rem 9.2rem;
+	position: absolute;
+	z-index: 9;
+}
+
+.WY_show .WY_main .wyback3{
+	width: 15.34rem;
+	height: 9.2rem;
+	background: rgba(13,21,23,0.9);
+	z-index: 10;
+	position: absolute;
+	/*z-index: 10;*/
+}
+
+/*底部框*/
+.wybox{
+	width: 15.34rem;
+	height: 3.18rem;
+	background: rgba(9,11,10,0.9);
+	position: absolute;
+	bottom: 0rem;
+	z-index: 12;
+}
+/*背景点击框*/
+.wypicbox_1{
+	width: 0.55rem;
+	height: 0.775rem;
+	position: absolute;
+	left: 4.765rem;
+	top: 2.7rem;
+	z-index: 11;
+	cursor: pointer;
+}
+
+.wypicbox_2{
+	width: 0.55rem;
+	height: 0.775rem;
+	position: absolute;
+	left: 9.389rem;
+	top: 2.68rem;
+	z-index: 11;
+	cursor: pointer;
+}
+
+.wypicbox_3{
+	width: 0.55rem;
+	height: 0.775rem;
+	position: absolute;
+	left: 9.39rem;
+	top: 3.96rem;
+	z-index: 11;
+	cursor: pointer;
+}
+
+.wypicbox_4{
+	width: 0.55rem;
+	height: 0.775rem;
+	position: absolute;
+	left: 9.39rem;
+	top: 5.09rem;
+	z-index: 11;
+	cursor: pointer;
+}
+
+.wypicbox_5{
+	width: 0.55rem;
+	height: 0.775rem;
+	position: absolute;
+	left: 6.14rem;
+	top: 4.72rem;
+	z-index: 11;
+	cursor: pointer;
+}
+
+.wyjnbox_3,.wyjnbox_2,.wyjnbox_1,.wyjnbox_4,.wyjnbox_0{
+	width: 1.525rem;
+	height: 0.325rem;
+	position: absolute;
+	z-index: 10;
+	left: 3.95rem;
+	top: 2.9rem;
+	/*display: none;*/
+	background: rgba(13, 21, 23, 0);
+	/*background: red;*/
+}
+
+.wyjnbox_2{
+	left: 10.05rem;
+	top: 2.9rem;
+}
+
+.wyjnbox_1{
+	left: 10.05rem;
+	top: 4.2rem;
+}
+
+.wyjnbox_4{
+	left: 10.05rem;
+	top: 5.3rem;
+}
+
+.wyjnbox_0{
+	left: 6.8rem;
+	top: 5.15rem;
+}
+
+.wypercent{
+	float: left;
+	width: 0.7rem;
+	border-radius: 0.04rem;
+	overflow: hidden;
+}
+
+.wya{
+	background: #43a5c8;
+	float: left;
+	height: 0.07rem;
+}
+
+.wyb{
+	background: #51c6bd;
+	float: left;
+	height: 0.07rem;
+}
+
+.wyc{
+	/*float: left;*/
+	font-size: 0.15rem;
+	color: #54c5d3;
+	margin-left: 0.02rem;
+	margin-top: 0.1rem;
+}
+
+.wyd{
+	float: left;
+	width: 0.1425rem;
+	height: 0.1275rem;
+	background-image: url("../imgs/front_user.png");
+	background-size: 0.1425rem 0.1275rem;
+	/*margin-left: -0.25rem;*/
+	margin-top: 0.05rem;
+
+}
+
+.wye{
+	float: left;
+	color: #bbb94c;
+	font-size: 0.15rem;
+	margin-top: 0.04rem;
+	/*margin-left: -0.09rem;*/
+	margin-left: 0.04rem;
+}
+
+.wypicbox_active{
+	background-image: url("../imgs/next/wy_box.png");
+	background-size: 0.55rem 0.775rem;	
+}
+.wybox .wy_box_headerone{
+	color: #66feef;
+	font-size: 0.19rem;
+	font-family: "微软雅黑";
+	float: left;
+	margin-left: 0.43rem;
+	margin-top: 0.1rem;
+}
+
+.wybox .wy_box_headertwo{
+	width: 0.22rem;
+	height: 0.22rem;
+	border-left: solid 0.015rem #42a7a1;
+	border-bottom: solid 0.015rem #42a7a1;
+	float: left;
+	transform:rotate(-45deg) translateY(-0.09rem);
+	cursor: pointer;
+	position: absolute;
+	right: 0.6rem;
+	top: 0.05rem;
+}
+
+.wybox .totop{
+	transform:rotate(135deg) translateY(-0.04rem) translateX(0.09rem);
+}
+
+.wybox .wy_box_headerthree{
+	width: 0.25rem;
+	height: 0.25rem;
+	/*float: left;*/
+	background-image: url("../imgs/next/tomax.png");
+	background-size: 0.25rem 0.25rem;
+	cursor: pointer;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.05rem;
+}
+
+.wybox .wy_box_tomin{
+	background-image: url("../imgs/next/tomin.png");
+	background-size: 0.25rem 0.25rem;
+}
+
+.WY_main .ajcircle{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 0.05rem;
+	/*background: red;*/
+}
