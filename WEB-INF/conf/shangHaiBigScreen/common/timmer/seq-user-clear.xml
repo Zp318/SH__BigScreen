@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<!-- 数据老化定时任务 -->
+	<bean id="generalScheduEventHandler"
+		class="com.huawei.shanghaiBigScreen.schedu.event.handler.GeneralScheduEventHandler" />
+	<bean id="dropUserParamHandler"
+		class="com.huawei.shanghaiBigScreen.schedu.handler.DropUserParamHandler" />
+
+	<bean id="clearUserJob"
+		class="com.huawei.shanghaiBigScreen.schedu.job.GeneralDropScheduJob">
+		<property name="scheduEventHandler" ref="generalScheduEventHandler" />
+		<property name="paramHandler" ref="dropUserParamHandler" />
+		<property name="sql">
+			<list>
+				<value><![CDATA[delete from pms.third_shru_num where starttime >=:starttime and starttime <:endtime]]></value>
+				<value><![CDATA[delete from pms.third_shsp_num where starttime >=:starttime and starttime <:endtime]]></value>
+				<value><![CDATA[delete from pms.third_shcj_num where starttime >=:starttime and starttime <:endtime]]></value>
+				<value><![CDATA[delete from pms.third_shwy_num where starttime >=:starttime and starttime <:endtime]]></value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="clearUserJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="clearUserJob" />
+		<property name="targetMethod" value="excute" />
+		<property name="concurrent" value="true" />
+	</bean>
+
+	<bean id="clearUserJobTime" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="clearUserJobDetail" />
+		<property name="cronExpression">
+			<value>0 0 1 * * ?</value>
+		</property>
+	</bean>
+
+</beans>

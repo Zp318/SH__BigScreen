@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="workTaskcache" class="com.huawei.shanghaiBigScreen.workorder.service.iml.WorkTask" init-method="init"  ></bean>
+
+	<bean id="workOrderHander"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="workTaskcache">
+			
+		</property>
+		<property name="targetMethod" value="execute" />
+		<property name="concurrent" value="true" />
+	</bean>
+
+	<bean id="workOrderHanderDetail" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="workOrderHander" />
+		<property name="cronExpression">
+			<!--  --><value>0 5,20,35,50 * * * ?</value>
+		</property>
+	</bean>
+</beans>

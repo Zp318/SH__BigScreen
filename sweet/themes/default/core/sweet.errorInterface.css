@@ -1,0 +1,141 @@
+﻿/**
+ * @description sweet errorInterface组件样式文件
+ * @date 2013/9/2
+ * @version 1.0
+ */
+
+.sweet-errorInterface-img{
+    display: block;
+    float: left;
+    height: 180px;
+    width: 180px;
+}
+
+.sweet-errorInterface-imgOnly{
+    display: block;
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+.sweet-errorInterface-gap{
+    height: 10px;
+}
+
+.sweet-errorInterface-errorTextSpan{
+}
+
+.sweet-errorInterface-tipTextSpan{
+    display: block;
+    text-align: left;
+}
+
+.sweet-errorInterface-textSpan{
+    display: block;
+    position: absolute;
+    left: 220px;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+     transform: translate(0, -50%);
+}
+
+.sweet-errorInterface-textOnly{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     max-width: 400px;
+}
+
+.sweet-errorInterface-contentDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 620px;
+    height: 180px;
+    text-align: left;
+}
+
+.sweet-errorInterface-align{
+    text-align: center;
+}
+
+.sweet-errorInterface-div{
+    position: relative;
+}
+
+.sweet-errorInterface-serverUnconnected{ 
+     background: url("images/errorPic/server_unconnected_error.png") no-repeat;
+}
+
+.sweet-errorInterface-serverUnknown{ 
+     background: url("images/errorPic/server_unknown_error.png") no-repeat;
+}
+
+.sweet-errorInterface-common{ 
+     background: url("images/errorPic/common_error.png") no-repeat;
+}
+
+.sweet-errorInterface-errorTextUnconnected{
+     font-size: 30px;
+     color: #b35354;
+     font-weight: bold;
+}
+
+.sweet-errorInterface-errorTextUnknown{
+     font-size: 30px;
+     color: #b35354;
+     font-weight: bold;
+}
+
+.sweet-errorInterface-errorTextCommon{
+     font-size: 30px;
+     color: #b35354;
+     font-weight: bold;
+}
+
+.sweet-errorInterface-errorTextOnly{
+     font-size: 30px;
+     color: #b35354;
+     font-weight: bold;
+}
+
+.sweet-errorInterface-tipTextUnconnected{
+     font-size: 18px;
+     color: #333333;
+     font-weight: bold;
+}
+
+.sweet-errorInterface-tipTextUnknown{
+     font-size: 18px;
+     color: #333333;
+     font-weight: bold;
+}
+
+.sweet-errorInterface-tipTextCommon{
+     font-size: 18px;
+     color: #333333;
+     font-weight: bold;
+}
+
+.sweet-errorInterface-tipTextOnly{
+     font-size: 18px;
+     color: #333333;
+     font-weight: bold;
+}

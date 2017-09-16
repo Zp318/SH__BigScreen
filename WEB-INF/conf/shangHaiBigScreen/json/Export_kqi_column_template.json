@@ -1,0 +1,6 @@
+{
+	"id": "@MODEL@",
+	"type": "MODEL",
+	"style": "IDENTIFIER",
+	"ignoreCase": false
+}

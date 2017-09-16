@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 四川派单应用自定义鉴权白名单配置 -->
+<list>
+    <!-- 请求前缀白名单配置(多个前缀使用英文逗号分隔) -->
+    <ignoreReq value="ws,south,webservice,workOrderProcess" />
+    <!-- 请求后缀白名单配置(多个后缀使用英文逗号分隔) -->
+    <ignoreReqSuffix value="bmp,gif,jpg,jpeg,png,js,css,TTF,otf,action" />
+</list>

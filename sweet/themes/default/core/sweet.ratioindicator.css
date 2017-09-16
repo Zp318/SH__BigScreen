@@ -1,0 +1,87 @@
+﻿/**
+ * @description sweet 比率指示灯组件样式文件
+ * @date 2013/07/01
+ * @version 1.0
+ */
+
+.sweet-ratioIndicator-loading{
+    height: 60px;
+    padding: 10px;
+    width: 267px;
+}
+.sweet-ratioIndicator-color-common{
+    float: left;
+    height: 21px;
+}
+
+.sweet-ratioIndicator-color-green-left{
+    background-color: #87C390;
+    border-radius: 10px 0 0 10px;
+}
+
+.sweet-ratioIndicator-color-red-left{
+    background-color: #E68080;
+    border-radius: 10px 0 0 10px;
+}
+
+.sweet-ratioIndicator-color-yellow-left{
+    background-color: #EDB93D;
+    border-radius: 10px 0 0 10px;
+}
+
+.sweet-ratioIndicator-color-shadow{
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+.sweet-ratioIndicator-color-gray-right{
+    background-color: #D5D7DC;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 1px 0 #FFFFFF, -2px 5px 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+.sweet-ratioIndicator-loading-text{
+    color: #696D7D;
+    font-size: 14px;
+    font-style: normal;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.sweet-ratioIndicator-color-green-all {
+    background-color: #87C390;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sweet-ratioIndicator-color-red-all {
+    background-color: #E68080;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sweet-ratioIndicator-color-yellow-all {
+    background-color: #EDB93D;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sweet-ratioIndicator-color-gray-all{
+    background-color: #D5D7DC;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sweet-ratioIndicator-loading-text em {
+    color: #089E1F;
+    font-weight: bold;
+}
+
+
+.sweet-ratioIndicator-loading-text i {
+    color: #E25050;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.sweet-ratioIndicator-loading-text  .yellowtext  {
+    color: #D68E02;
+    font-style: normal;
+    font-weight: bold;
+}

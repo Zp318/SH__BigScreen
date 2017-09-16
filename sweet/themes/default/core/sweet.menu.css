@@ -1,0 +1,76 @@
+/**
+ * @description sweet menu组件样式文件
+ * @date 2013/02/22
+ * @version 1.0
+ */
+
+/***************************************menu组件 begin*/
+.sweet-widget-menu{
+    min-width:150px;
+    z-index: 15000;
+    position: absolute;
+    visibility: visible;
+    border-radius:7px;
+    border:1px #989faa solid;	
+    padding:4px 0px;		
+    box-shadow:1px 1px 4px rgba(0, 0, 0, 0.3),inset 0 0px 1px #efefef;
+}
+.sweet-widget-menu-alpha{      
+    background-color:transparent;           
+}
+.sweet-widget-menu-color{
+    background-color:#ececec;
+    background-image: -moz-linear-gradient(top, #f7f7f7, #d8d8d8);
+    background-image: -webkit-linear-gradient(top, #f7f7f7, #d8d8d8);
+}
+.sweet-widget-menu a{
+    text-decoration: none !important;
+}
+
+.sweet-widget-menu li{
+    line-height: 100%;
+}
+.sweet-widget-menu-list{
+    background-color: transparent;
+    border: 0 none;
+    overflow: hidden;
+}
+
+.sweet-widget-menu-list-item{
+    height:24px;
+    line-height:24px;
+    padding:0px 11px;
+    display: block;
+    white-space: nowrap;
+}
+a.sweet-widget-menu-item{
+    display: block;
+}
+.sweet-widget-menu-item-icon{
+    position:relative;
+    top:5px;
+    margin-right:5px;
+    width:16px;	
+    height:16px;	
+}
+.sweet-widget-menu-item-arrow{
+    padding-right: 10px;
+    background: url(images/menu/sweetMenuParent.gif) no-repeat right 9px;
+}
+.sweet-widget-menu-item-text{
+    font-size:12px;
+    color:#3b3b3b;
+}
+.sweet-widget-menu-item-active{
+    background-color:#b8c8e2;
+}
+.sweet-widget-menu-item-active-tosubmenu{
+    background-color: #b8c8e2;
+}
+.sweet-widget-menu-item-disabled{
+    opacity: 0.35;
+}
+.sweet-widget-menu-item-mouseover-disabled a{
+    cursor: default;
+}
+/***************************************menu组件 end*/

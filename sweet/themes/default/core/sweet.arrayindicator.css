@@ -1,0 +1,118 @@
+﻿/**
+ * @description sweet 阵列指示灯
+ * @date 2013/7/1
+ * @version 1.0
+ */
+
+/**************************业务组件-阵列指示灯 begin*/
+.sweet-arrayindicator-widget {
+    position: relative;
+    display: inline-block;
+}
+.sweet-arrayindicator-image {
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 16px;
+    background-image: url("images/arrayindicator/monitor.png");
+    background-repeat: no-repeat;
+}
+.sweet-arrayindicator-content {
+    bottom: 0;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    float: left;
+    overflow: auto;
+}
+.sweet-arrayindicator-serverGreen {
+    background-position: 0 0;
+    height: 16px;
+    margin: 4px 5px 4px 0;
+}
+.sweet-arrayindicator-serverRed {
+    background-position: -19px 0;
+    height: 16px;
+    margin: 4px 5px 4px 0;
+}
+.sweet-arrayindicator-serverGray{
+    background-position: right 0;
+    height: 16px;
+    margin: 4px 5px 4px 0;
+}
+.sweet-arrayindicator-raidGreen {
+    background-position: 0 -19px;
+    width: 46px;
+    height: 46px;
+    margin: 4px 10px 4px 0;
+}
+.sweet-arrayindicator-raidRed {
+    background-position: 0 -77px;
+    width: 46px;
+    height: 46px;
+    margin: 4px 10px 4px 0;
+}
+.sweet-arrayindicator-raidGray{
+    background-position: 0 -136px;
+    width: 46px;
+    height: 46px;
+    margin: 4px 10px 4px 0;
+}
+.sweet-arrayindicator-infoDiv {
+	position: absolute;
+	border-radius: 5px;
+	border:1px #b9b8b8 solid;
+	background-color: #f6f7f9;
+	box-shadow:4px 4px 10px rgba(0, 0,0, 0.2); 
+	padding:3px 5px;
+}
+.sweet-arrayindicator-infoUl {
+    padding: 3px 0 0 7px;
+}
+.sweet-arrayindicator-infoTr {
+    height: 20px;
+    line-height: 20px;
+}
+.sweet-arrayindicator-infoTrName {
+    line-height: 20px;
+	color: #3c3c3c;
+    font-weight: bold;
+	color: #000;
+	display: block;
+	float: left;
+    padding:0 5px;
+}
+.sweet-arrayindicator-infoTrValue {
+    line-height: 20px;
+	color: #3c3c3c;
+    font-family: Arial;
+    padding:0 5px;
+}
+.sweet-arrayindicator-infoTrValue-green {
+    color: #1DA915;
+    font-style: normal;
+}
+.sweet-arrayindicator-infoTrValue-red {
+    color: #EF3838;
+    font-style: normal;
+}
+.sweet-arrayindicator-label-server {
+    color: #3C3C3C;
+    float: left;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.sweet-arrayindicator-label-raid {
+    color: #3C3C3C;
+    float: left;
+    line-height: 54px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+/**************************业务组件-阵列指示灯 end*/

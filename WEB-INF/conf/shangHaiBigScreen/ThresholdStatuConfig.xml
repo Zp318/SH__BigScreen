@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelThresholdConfig>
+	<modelThresholds>
+  	<entry>  
+    <string>ImportantUserNum0</string>  
+    <ModelThreshold>
+    		<describle>重点场景用户数</describle>
+			<common>
+				<high>300</high>
+				<middle>100</middle>
+				<low>50</low>
+			</common>
+	</ModelThreshold>  
+  	</entry> 
+  	  	<entry>  
+    <string>ImportantUserNum1</string>  
+    <ModelThreshold>
+    		<describle>重点SP用户数</describle>
+			<common>
+				<high>300</high>
+				<middle>100</middle>
+				<low>50</low>
+			</common>
+	</ModelThreshold>  
+  	</entry> 
+  	  	<entry>  
+    <string>ImportantUserNum2</string>  
+    <ModelThreshold>
+    		<describle>重点网元用户数</describle>
+			<common>
+				<high>300</high>
+				<middle>100</middle>
+				<low>50</low>
+			</common>
+	</ModelThreshold>  
+  	</entry> 
+  	
+  	
+  	<entry>
+  		<string>ImportSceneKqi_pageResponseSuccessRate</string>  
+    	<ModelThreshold>
+    		<describle>页面响应成功率</describle>
+    		
+			<common>
+			  <asc>true</asc>
+			  	<buttomLimit>20</buttomLimit>
+			  		<topLimit>1000</topLimit>
+				<high>300</high>
+				<middle>100</middle>
+				<low>50</low>
+			</common>
+		</ModelThreshold>  
+  	</entry>
+  	
+	</modelThresholds>
+</ModelThresholdConfig>  

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+<!--配置数据源 -->
+
+<bean id="fuBaoDataJdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate"> 
+  <constructor-arg index="0"> 
+    <bean class="org.springframework.jdbc.core.JdbcTemplate"> 
+      <property name="dataSource"> 
+        <bean id="fuBaoDataSource" class="org.apache.commons.dbcp.BasicDataSource"> 
+          <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>  
+          <property name="url" value="jdbc:oracle:thin:@134.74.22.7:1521:iomdb1"/>  
+          <property name="username" value="V_HW_USER"/>  
+          <property name="password" value="V_HW_PASSWORD12"/>
+ <property name="maxWait" value="30000"/>  
+        </bean> 
+      </property> 
+    </bean> 
+  </constructor-arg> 
+</bean>
+
+<bean id="myIq" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate"> 
+  <constructor-arg index="0"> 
+    <bean class="org.springframework.jdbc.core.JdbcTemplate"> 
+      <property name="dataSource"> 
+        <bean id="myiqDataSource" class="org.apache.commons.dbcp.BasicDataSource"> 
+          <property name="driverClassName" value="com.sybase.jdbc4.jdbc.SybDriver"/>  
+          <property name="url" value="jdbc:sybase:Tds:172.16.15.2:2988/netview"/>  
+          <property name="username" value="nethouse"/>  
+          <property name="password" value="NetViewCommon2012"/>
+ 			<property name="maxWait" value="30000"/>  
+        </bean> 
+      </property> 
+    </bean> 
+  </constructor-arg> 
+</bean>
+	
+</beans>

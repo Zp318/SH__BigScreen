@@ -1,0 +1,1 @@
+select b.sgw_id from pms.DIM_LOC_SGW b

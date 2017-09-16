@@ -1,0 +1,1 @@
+select bscrnc_id from pms.DIM_DYN_BSCRNC_SPC

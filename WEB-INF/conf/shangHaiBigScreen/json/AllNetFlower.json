@@ -1,0 +1,49 @@
+{
+    "action": "AGGRE_SDR",
+    "cubes": [
+        "SDR_FLOW_CELL"
+    ],
+    "columns": [
+
+     {
+            "id": "@timeGranularity@",
+            "alias": "STARTTIME",
+            "type": "TIME",
+            "style": "IDENTIFIER"
+        }    
+   ,  
+{
+    "id": "COMMON_GRP_FLOW_TOTAL_TRAFFIC",
+    "type": "MODEL",
+    "alias": "VALUE",
+    "style": "IDENTIFIER"
+}
+    ],
+    
+    "conditions":{
+        "relation":"AND",
+        "childs":[
+            {
+            	"id":"225010101",
+                "operator":"CONTAIN",
+                "values":[1],
+                 "type":"DIMENSION",
+                "style":"IDENTIFIER",
+                "ignoreCase":false
+            }, 
+            @queryCondition@
+        ]
+    }    
+	,
+    "orders": [
+        {
+            "id": "@timeGranularity@",
+            "type": "TIME",
+            "style": "IDENTIFIER",
+             "descending": true
+        }
+    ],
+
+    "start": 0,
+    "limit": "96"
+}

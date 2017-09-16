@@ -1,0 +1,61 @@
+{
+	"action": "AGGRE_SDR",
+	"cubes": [
+		"SEQ_SDR_WALLBOX_CELL_GROUP_KQI"
+	],
+	"columns": [
+		{
+			"id": "900",
+			"alias": "STARTTIME",
+			"type": "TIME",
+			"style": "IDENTIFIER",
+			"ignoreCase": false
+		},
+		{
+			"id": "@MODEL@",
+			"type": "MODEL",
+			"style": "IDENTIFIER",
+			"ignoreCase": false
+		}
+	],
+	"conditions": {
+		"relation": "AND",
+		"childs": [
+			{
+				"id": "5101010101",
+				"operator": "ISNOTEMPTY",
+				"type": "DIMENSION",
+				"style": "IDENTIFIER",
+				"ignoreCase": false
+			},
+			{
+				"id": "900",
+				"operator": "GE",
+				"values": [
+					"@STARTTIME@"
+				],
+				"type": "TIME",
+				"style": "IDENTIFIER",
+				"ignoreCase": false
+			},
+			{
+				"id": "900",
+				"operator": "LT",
+				"values": [
+					"@ENDTIME@"
+				],
+				"type": "TIME",
+				"style": "IDENTIFIER",
+				"ignoreCase": false
+			}
+		]
+	},
+	"orders": [
+		{
+			"id": "900",
+			"type": "TIME",
+			"style": "IDENTIFIER",
+			"descending": true
+		}
+	]
+}

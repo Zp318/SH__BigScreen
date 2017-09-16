@@ -1,0 +1,126 @@
+/* 
+    Document   : sweet.scoreCard
+    Created on : 2013-9-14, 15:11:05
+    Description:
+        记分卡组件样式.
+*/
+
+.sweet-scoreCard-unit {
+    display: inline-block;
+    color: #647796;
+    font-family: Arial,Verdana,Sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sweet-scoreCard-offset {
+    display: inline-block;
+    font-size: 14px;
+    color: #546890;
+    height: 15px;
+    padding-left: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sweet-scoreCard-equal{ 
+    background: url("images/scoreCard/arrow.png") 0 -33px no-repeat;
+}
+
+.sweet-scoreCard-increase{ 
+    background: url("images/scoreCard/arrow.png") 0 -16px no-repeat;
+}
+
+.sweet-scoreCard-decrease{ 
+    background: url("images/scoreCard/arrow.png") 0 0 no-repeat;
+}
+
+.sweet-scoreCard-yellow{
+    color: #e09c4c;
+}
+
+.sweet-scoreCard-green{
+    color: #249b00;
+}
+
+.sweet-scoreCard-red{   
+    color: #e41d3d;  
+}
+
+.sweet-scoreCard-textOR{
+    color: #647796;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sweet-scoreCard-card{
+    width: 200px;
+    height: 77px;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    min-width: 110px;
+}
+.sweet-scoreCard-card-click {
+    background-color: #EDEDED;
+}
+
+.sweet-scoreCard-num{
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial,Verdana,Sans-serif;
+    font-weight: bold;
+}
+
+.sweet-scoreCard-textTR{
+    white-space: nowrap;
+}
+
+.sweet-scoreCard-value{
+    height: 30px;
+    line-height: 30px;
+}
+
+.sweet-scoreCard-diff{
+    
+}
+
+.sweet-scoreCard-icon{
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    margin-bottom: -0.5px;
+    margin-left: 3px;
+}
+
+.sweet-scoreCard-noValue{
+    display: inline-block;
+    font-size: 23px;
+    height: 40px;
+    float: left;
+    color: #949ba9;
+    padding-right: 10px;
+}
+
+.sweet-scoreCard-noValue2{
+    display: inline-block;
+    font-size: 14px;
+    color: #949ba9;
+    height: 15px;
+    padding-left: 3px;
+}
+
+.sweet-scoreCard-icon2{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-bottom: -3.5px;
+    margin-left: 3px;
+}

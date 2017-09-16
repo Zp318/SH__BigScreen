@@ -1,0 +1,54 @@
+/* 
+    Document   : sweet.slider
+    Created on : 2013-9-16, 12:25:32
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.sweet-slider {
+    position: relative;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+.sweet-slider-container {
+    position: relative;
+}
+
+.sweet-text-div {
+    text-align: right;
+}
+
+.sweet-text-content {
+    text-align: right;
+    float: right;
+}
+
+.sweet-slider-stick {
+    background-color: #C9D0DA;
+}
+
+.sweet-slider-block {
+    background-color: #647797;
+    bottom: 5px;
+    cursor:default;
+    top : 0px;
+    position: relative;
+    float:right;
+}
+
+.sweet-tick-div {
+}
+.sweet-slider-tick {
+    border-right: 1px solid #C9D0DA;
+    float: right;
+}
+
+.sweet-all-move-slider {
+    height: 20px;
+    margin-top: 5px;
+    overflow: auto;
+}
+
+.sweet-all-move-real-slider {
+    height: 10px;
+}

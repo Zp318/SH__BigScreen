@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd 
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+	http://www.springframework.org/schema/mvc 
+	http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd 
+	">
+	<context:annotation-config />
+	<aop:aspectj-autoproxy />
+	<!-- 避免IE执行AJAX时,返回JSON出现下载文件 -->
+	<bean id="mappingJacksonHttpMessageConverter"
+		class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+		<property name="supportedMediaTypes">
+			<list>
+				<value>text/html;charset=UTF-8</value>
+				<value>application/json; charset=UTF-8</value> 
+			</list>
+		</property>
+	</bean>
+
+	<!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射 -->
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<ref bean="mappingJacksonHttpMessageConverter" /><!-- json转换器 -->
+			</list>
+		</property>
+	</bean>
+	<context:component-scan base-package="com.huawei.*" />
+
+	<!-- SQM拦截Flex、Ext请求 -->
+	<bean id="handlerMapping"
+		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<bean class="com.huawei.seq.controller.DispatchByCommandInterceptor" />
+			</list>
+		</property>
+		<property name="order" value="-1" />
+	</bean>
+
+	<!-- SQM请求映射 -->
+	<bean id="mapping" init-method="init"
+		class=" com.huawei.seq.controller.LoadMapping" scope="prototype">
+		<property name="filename" value="commandmapping.properties"></property>
+		<property name="typefilename" value="typeconfig.properties"></property>
+	</bean>
+
+	<bean id="springUtils" class="com.huawei.seq.SpringContextUtils" />
+
+	<bean id="widgetAppContext" class="com.huawei.ApplicationAwareImpl" />
+
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:jdbc.properties</value>
+			</list>
+		</property>
+	</bean>
+
+
+
+	<!-- 定义应用程序的资源文件 -->
+	<bean id="messageSource" class="com.huawei.seq.SEQBundleMessageSource">
+		<property name="basePath" value="WEB-INF/conf" />
+		<property name="cacheSeconds" value="0" />
+	</bean>
+
+	<mvc:annotation-driven />
+
+	<!-- 定义jsp文件视图解析器 -->
+	<bean class="com.huawei.HuaweiViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.JstlView"></property>
+		<property name="contentType"><value>text/html;charset=UTF-8</value></property>
+		<property name="prefix" value="/WEB-INF/pages/;/pages/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- one of the properties available; the maximum file size in bytes -->
+		<property name="maxUploadSize" value="100000000" />
+		<property name="resolveLazily" value="true"/>
+	</bean>
+	
+	<!-- 定义Spring的线程池，用于执行多线程任务 -->
+	<bean id="bigthreadPool" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+	    <property name="corePoolSize" value="5" />
+	    <property name="maxPoolSize" value="5" />
+	</bean>
+	
+	<!-- Spring的线程池，用于执行定时任务 -->
+	<bean id="smallthreadPool" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+	    <property name="corePoolSize" value="0" />
+	    <property name="maxPoolSize" value="1" />
+	</bean>
+	    
+
+	<bean id="configMgr" class="com.huawei.ecmAdpater.localImpl.ConfigMgrImpl" />		
+	<bean id="licenseMgr" class="com.huawei.ecmAdpater.localImpl.LicenseMgrImpl" />
+	<bean id="operationLogMgr" class="com.huawei.ecmAdpater.localImpl.OperationLogMgrImpl" />
+	<import resource="./seq-validate.xml" />
+	<!-- <import resource="seq-quartz-complain.xml"/> -->
+</beans>

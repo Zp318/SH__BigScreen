@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelThresholdConfig>
+	<modelThresholds>
+		<entry>
+			<string>ImportantUserNum0</string>
+			<ModelThreshold>
+				<describle>重点场景用户数</describle>
+				<common>
+					<high>300</high>
+					<middle>100</middle>
+					<low>50</low>
+				</common>
+			</ModelThreshold>
+		</entry>
+		<entry>
+			<string>userCell</string>
+			<ModelThreshold>
+				<describle>小区用户数阈值</describle>
+				<common>
+					<high>300</high>
+					<middle>100</middle>
+					<low>50</low>
+				</common>
+			</ModelThreshold>
+		</entry>
+	</modelThresholds>
+</ModelThresholdConfig>  

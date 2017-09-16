@@ -1,0 +1,97 @@
+.sweet-stateitem-body{
+    background-color: #F2F2F2;
+}
+.sweet-stateitem-header{
+    height: 22px;
+    padding: 0 10px;
+    margin-bottom: 3px;
+}
+.sweet-stateitem-header-text {
+    height: 22px;
+    color: #384967;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sweet-stateitem-header-add {
+    height: 16px;
+    width: 16px;
+    background: url("images/form/module_icon_bg.png") no-repeat scroll 0 -96px transparent;
+    display: block;
+    float: right;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.sweet-stateitem-header-add:hover {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -16px -96px transparent;
+}
+.sweet-stateitem-list-body {
+    overflow: auto;
+    position: relative;
+}
+.sweet-stateitem-list-ul {
+    overflow: visible;
+    position: relative;
+}
+.sweet-stateitem-list-item {
+    cursor: pointer;
+    height: 22px;
+    position: relative;
+    padding-left: 2px;
+    padding-right: 10px;
+    line-height: 22px;
+    list-style: none outside none;
+}
+.sweet-stateitem-list-item:hover {
+    background-color: #FFFFFF;
+}
+.sweet-stateitem-list-item-text {
+    display: block;
+    overflow: hidden;
+    left: 20px;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sweet-stateitem-list-error{
+    height: 16px;
+    width: 16px;
+    background: url("images/form/error_tips.png") no-repeat scroll 0 0 transparent;
+    display: none;
+    position: absolute;
+    top: 0;
+    margin-top: 3px;
+}
+.sweet-stateitem-list-delete{
+    height: 16px;
+    width: 16px;
+    background: url("images/form/stateitem_opt.png") no-repeat scroll 0 0 transparent;
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    margin-top: 3px;
+}
+.sweet-stateitem-list-check{
+    height: 16px;
+    width: 16px;
+    background: url("images/form/stateitem_opt.png") no-repeat scroll 0 -46px transparent;
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    margin-top: 3px;
+}
+.sweet-stateitem-list-item:hover .sweet-stateitem-list-delete, .sweet-stateitem-list-item:hover .sweet-stateitem-list-check{
+    display: block;
+}
+.sweet-stateitem-list-item-selected {
+    background-color: #B8C7E1 !important;
+}
+.sweet-stateitem-list-item-checked .sweet-stateitem-list-check{
+    display: block;
+}

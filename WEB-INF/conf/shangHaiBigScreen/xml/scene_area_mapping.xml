@@ -1,0 +1,14 @@
+<list>
+  <com.huawei.shanghaiBigScreen.important.model.req.AreaSceneReq>
+    <id>183</id>
+    <name>虹桥火车站</name>
+  </com.huawei.shanghaiBigScreen.important.model.req.AreaSceneReq>
+  <com.huawei.shanghaiBigScreen.important.model.req.AreaSceneReq>
+    <id>175</id>
+    <name>虹桥机场</name>
+  </com.huawei.shanghaiBigScreen.important.model.req.AreaSceneReq>
+  <com.huawei.shanghaiBigScreen.important.model.req.AreaSceneReq>
+    <id>230</id>
+    <name>上海火车站</name>
+  </com.huawei.shanghaiBigScreen.important.model.req.AreaSceneReq>
+</list>

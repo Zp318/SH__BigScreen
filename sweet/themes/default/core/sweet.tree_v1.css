@@ -1,0 +1,236 @@
+.sweet-treev1-panel{
+    overflow: hidden;
+    position: relative;
+}
+.sweet-treev1-body {
+    background-color: #F2F2F2;
+    background-repeat: repeat-x;
+    border: 1px solid #989FAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 1px #FFFFFF inset;
+    overflow: auto;
+    padding: 5px 0;
+    position: relative;
+}
+.sweet-treev1-search {
+    margin-bottom: 5px;
+}
+.sweet-treev1-node {
+    height: 22px;
+    display: block;
+    padding-left: 5px;
+    position: relative;
+    overflow: visible;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 22px;
+    white-space: nowrap;
+}
+.sweet-treev1-node-text {
+    height: 22px;
+    display: block;
+    float: left;
+}
+.sweet-treev1-node-cc-text {
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.sweet-treev1-node-selected {
+    background-color: #B8C7E1 !important;
+}
+.sweet-treev1-node-collapsed{
+    background: url("images/form/module_icon_bg.png") no-repeat scroll 0 -96px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 3px;
+    margin-top: 3px;
+    width: 16px;
+}
+.sweet-treev1-node-expanded {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll 0 -112px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 3px;
+    margin-top: 3px;
+    width: 16px;
+}
+.sweet-treev1-node-eblow {
+    background: url("images/form/tree_icon.png") no-repeat scroll 7px -112px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    width: 20px;
+}
+.sweet-treev1-node-eblow-end {
+    background: url("images/form/tree_icon.png") no-repeat scroll 7px -137px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    width: 20px;
+}
+.sweet-treev1-node-leaf-ioc {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -128px -48px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 3px;
+    width: 16px;
+}
+.sweet-treev1-node-line{
+    width:20px;
+    display: block;
+    float:left;
+    height:22px;
+    background:url("images/form/tree_icon.png") no-repeat  7px -75px;
+}
+.sweet-treev1-node-line-minus {
+    width:20px;
+    display: block;
+    float:left;
+    height:22px;
+}
+.sweet-treev1-node-eblow-minus {
+    width:13px;
+    display: block;
+    float:left;
+    height:22px;
+}
+.sweet-treev1-node-folder-ioc {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -128px 0 transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 3px;
+    width: 16px;
+}
+.sweet-treev1-node-unchecked {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll 0 -32px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 3px;
+    width: 16px;
+}
+.sweet-treev1-node-fullchecked {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll 0 -48px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 3px;
+    width: 16px;
+}
+.sweet-treev1-node-checked {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll 0 -144px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 3px;
+    width: 16px;
+}
+.sweet-treev1-node-leaf-index{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 -14px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 16px;
+}
+.sweet-treev1-node-leaf-userDefine{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 -199px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 16px;
+}
+.sweet-treev1-node-leaf-dimension{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 -37px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 16px;
+}
+.sweet-treev1-node-leaf-comp{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 -156px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 16px;;
+}
+.sweet-treev1-node:hover {
+    background-color: #FFFFFF;
+}
+.sweet-treev1-node:hover .sweet-treev1-node-unchecked{
+    background: url(images/form/module_icon_bg.png) -16px -32px no-repeat;
+}
+.sweet-treev1-node:hover .sweet-treev1-node-fullchecked{
+    background: url(images/form/module_icon_bg.png) -16px -48px no-repeat;
+}
+.sweet-treev1-node:hover .sweet-treev1-node-checked {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -16px -144px transparent;
+}
+.sweet-treev1-node:hover .sweet-treev1-node-expanded{
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -16px -112px transparent;
+}
+.sweet-treev1-node:hover .sweet-treev1-node-collapsed{
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -16px -96px transparent;
+}
+.sweet-treev1-node:hover .sweet-treev1-node-folder-ioc {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -144px 0 transparent;
+}
+.sweet-treev1-node:hover .sweet-treev1-node-leaf-ioc {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -144px -48px transparent;
+}
+
+.sweet-treev1-disabled {
+    color: #CCCCCC;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-fullchecked, .sweet-treev1-disabled .sweet-treev1-node:hover .sweet-treev1-node-fullchecked {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -32px -48px;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-unchecked, .sweet-treev1-disabled .sweet-treev1-node:hover .sweet-treev1-node-unchecked {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -32px -32px transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-checked, .sweet-treev1-disabled .sweet-treev1-node:hover .sweet-treev1-node-checked {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -32px -144px transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-folder-ioc, .sweet-treev1-disabled .sweet-treev1-node:hover .sweet-treev1-node-folder-ioc {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -160px 0 transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-leaf-ioc, .sweet-treev1-disabled .sweet-treev1-node:hover .sweet-treev1-node-leaf-ioc {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -160px -48px transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-expanded, .sweet-treev1-disabled .sweet-treev1-node:hover .sweet-treev1-node-expanded {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -32px -112px transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-collapsed, .sweet-treev1-disabled .sweet-treev1-node:hover .sweet-treev1-node-collapsed {
+    background: url("images/form/module_icon_bg.png") no-repeat scroll -32px -96px transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-leaf-dimension {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 0 -35px transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-leaf-comp{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 -176px transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-leaf-index {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 0 -14px transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-line  {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 7px -75px transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-eblow  {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 7px -112px transparent;
+}
+.sweet-treev1-disabled  .sweet-treev1-node-eblow-end  {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 7px -137px  transparent;
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 四川移动派单应用自定义CSRF白名单配置 -->
+<map>
+	
+	<entry key="/export/downloadExportFile.action" value="GET"/>
+
+<entry key="/service/initPage/activeFlower.action" value="GET|POST"/>
+<entry key="/service/initPage/index.action" value="GET|POST"/>
+<entry key="/**/*.TTF" value="GET"/>
+<entry key="/**/*.otf" value="GET"/>
+<entry key="/service/initPage/timeInfo.action" value="GET|POST"/>
+<entry key="/service/twoPage/index.action" value="GET|POST"/>
+<entry key="/export/cemDownloadFile.action" value="GET"/>
+</map>

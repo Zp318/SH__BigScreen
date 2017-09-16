@@ -1,0 +1,154 @@
+/**
+ * @description sweet 列表组件样式文件
+ * @date 2012/12/6
+ * @version 1.0
+ * @author 
+ */
+.sweet-list-optimizelist-body{
+    background-color: #F2F2F2;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) inset;
+    padding: 0px 0;
+}
+.sweet-list-optimizelist-body-border{
+    border: 1px solid #989FAA;
+}		
+.sweet-list-optimizelist-select-item{
+    cursor: pointer;
+    line-height: 22px;
+    height: 22px;
+    padding: 0 10px;
+    white-space:nowrap;
+    overflow : visible;
+    text-overflow : ellipsis ;
+    list-style: none outside none;
+    position: absolute;
+}
+
+.sweet-list-optimizelist-select-item a{
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 3px;
+    width: 16px;
+}
+
+.sweet-list-optimizelist-search{
+    margin-bottom: 5px;
+}
+
+.list-select:hover {
+    background-color: #FFFFFF;
+}
+
+.list-select:hover .sweet-form-checkbox-unchecked{
+    background: url(images/form/module_icon_bg.png) -16px -32px no-repeat;
+}
+
+.list-select:hover .sweet-form-checkbox-checked{
+    background: url(images/form/module_icon_bg.png) -16px -48px no-repeat;
+}
+
+.list-select:hover .close {
+    display: block;
+}
+
+.list-select:hover .edit {
+    display: block;
+}
+
+.list-select:hover .delete {
+    display: block;
+}
+
+.sweet-list-optimizelist-ul{
+    position:relative; 
+    overflow: visible;
+}
+
+.sweet-list-optimizelist-ul > li .left {
+    float: left;
+}
+
+.sweet-list-optimizelist-ul > li .close {
+    background: url(images/form/module_icon.png) right -228px no-repeat;
+    display: none;
+    height: 16px;
+    margin-top: 3px;
+    width: 16px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.sweet-list-optimizelist-ul > li .edit {
+    background: url(images/table/table_ope_icon.png) 0 -143px no-repeat;
+    display: none;
+    height: 16px;
+    margin-top: 3px;
+    width: 16px;
+    padding-left: 5px;
+    position: absolute;
+    top: 0;
+    right: 23px;
+}
+
+.sweet-list-optimizelist-ul > li .delete {
+    background: url(images/table/table_ope_icon.png) no-repeat scroll 0 -371px transparent;
+    display: none;
+    height: 16px;
+    margin-top: 3px;
+    width: 16px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.sweet-list-optimizelist-action{
+    background-color: #B8C7E1 !important;
+    cursor: pointer;
+    line-height: 22px;
+    padding: 0 10px;
+}
+
+.sweet-list-optimizelist-disabled {
+    color: #CCCCCC;
+}
+
+.sweet-form-checkbox-checked-disabled{
+    background: url(images/form/module_icon_bg.png) -32px -48px no-repeat;
+}
+
+.sweet-form-checkbox-unchecked-disabled{
+    background: url(images/form/module_icon_bg.png) -32px -32px no-repeat;
+}
+
+.sweet-list-optimizelist-scorll{
+    overflow:auto;
+    position:relative;
+}
+
+.sweet-list-optimizelist-select-all{
+    position:relative;
+}
+
+.sweet-list-optimizelist-viewbar-body {
+    background: none repeat scroll 0 0 #DCDBDB;
+    border-radius: 2px 2px 2px 2px;
+    height: 18px;
+    margin: 2px;
+    padding: 5px 0 2px;
+}
+
+.sweet-list-optimizelist-viewbar-body ul li {
+    display: inline;
+}
+
+.sweet-list-optimizelist-viewbar-body a {
+    text-decoration: none;
+}
+
+.sweet-list-optimizelist-viewbar-body span {
+    padding: 0 4px 0 6px;
+}

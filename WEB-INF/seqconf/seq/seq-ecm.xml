@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd 
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+	http://www.springframework.org/schema/mvc 
+	http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd 
+	">
+
+
+	<bean id="dataSource" class="com.huawei.seq.dao.PTSchemaDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="schema" value="${jdbc.schema}" />
+		<property name="initialSize" value="${jdbc.initialSize}" />
+		<property name="maxIdle" value="${jdbc.maxIdle}" />
+		<property name="minIdle" value="${jdbc.minIdle}" />
+		<property name="maxActive" value="${jdbc.maxActive}" />
+		<property name="logAbandoned" value="${jdbc.logAbandoned}" />
+		<property name="removeAbandoned" value="${jdbc.removeAbandoned}" />
+		<property name="removeAbandonedTimeout" value="${jdbc.removeAbandonedTimeout}" />
+		<property name="maxWait" value="${jdbc.maxWait}" />
+		<property name="testOnBorrow" value="${jdbc.testOnBorrow}" />
+		<property name="validationQuery" value="${jdbc.validationQuery}" />
+		<property name="timeBetweenEvictionRunsMillis" value="${jdbc.timeBetweenEvictionRunsMillis}" />
+		<property name="minEvictableIdleTimeMillis" value="${jdbc.minEvictableIdleTimeMillis}" />
+	</bean>
+	
+	
+		<bean id="IQ_dataSource" class="com.huawei.seq.dao.SecurityDataSource" 
+		destroy-method="close"> <property name="driverClassName" value="${netview.sybase.PSSdr.jdbc.driverClassName}" 
+		/> <property name="url" value="${netview.sybase.PSSdr.jdbc.url}" /> <property 
+		name="username" value="${netview.sybase.PSSdr.jdbc.username}" /> <property 
+		name="password" value="${netview.sybase.PSSdr.jdbc.password}" /> <property 
+		name="initialSize" value="${netview.sybase.PSSdr.jdbc.initialSize}" /> <property 
+		name="maxActive" value="${netview.sybase.PSSdr.jdbc.maxActive}" /> <property 
+		name="maxIdle" value="${netview.sybase.PSSdr.jdbc.maxIdle}" /> <property 
+		name="minIdle" value="${netview.sybase.PSSdr.jdbc.minIdle}" /> <property 
+		name="logAbandoned" value="${netview.sybase.PSSdr.jdbc.logAbandoned}" /> 
+		<property name="removeAbandoned" value="${netview.sybase.PSSdr.jdbc.removeAbandoned}" 
+		/> <property name="removeAbandonedTimeout" value="${netview.sybase.PSSdr.jdbc.removeAbandonedTimeout}" 
+		/> <property name="maxWait" value="${netview.sybase.PSSdr.jdbc.maxWait}" 
+		/> <property name="testOnBorrow" value="${netview.sybase.PSSdr.jdbc.testOnBorrow}" 
+		/> <property name="validationQuery" value="${netview.sybase.PSSdr.jdbc.validationQuery}" 
+		/> <property name="timeBetweenEvictionRunsMillis" value="${netview.sybase.PSSdr.jdbc.timeBetweenEvictionRunsMillis}" 
+		/> <property name="minEvictableIdleTimeMillis" value="${netview.sybase.PSSdr.jdbc.minEvictableIdleTimeMillis}" 
+		/> <property name="schema" value="SybaseIQ" /> </bean>
+	
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:jdbc.properties</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>

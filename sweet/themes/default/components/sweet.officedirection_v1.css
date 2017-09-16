@@ -1,0 +1,19 @@
+.sweet-cmp-officedirectionv1-lpanel,.sweet-cmp-officedirectionv1-mpanel,.sweet-cmp-officedirectionv1-rpanel{
+    float: left;
+}
+.sweet-cmp-officedirectionv1-btnpanel{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sweet-cmp-officedirectionv1-combobox, .sweet-cmp-officedirectionv1-title{
+    margin-bottom: 5px;
+}
+.sweet-cmp-officedirectionv1-tree{
+    margin-bottom: 10px;
+}
+.sweet-cmp-officedirectionv1-listbody{
+    background-color: #F2F2F2;
+}
+.sweet-cmp-officedirectionv1-listbody .sweet-list-optimizelist-body-border{
+    border-radius: 5px 5px 5px 5px;
+}

@@ -1,0 +1,64 @@
+/**
+ * @description sweet 分数卡组件样式文件
+ * @date 2014/08/14
+ * @version 1.0
+ * @author 
+ */
+.sweet-numcard-label-panel, .sweet-numcard-body{
+    float: left;
+}
+.sweet-numcard-label-panel{
+    margin-right: 10px;
+}
+.sweet-numcard-body{
+    background: -moz-linear-gradient(center top, #dddddd, #eeeeee) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(top, #dddddd, #eeeeee) repeat scroll 0 0 transparent;
+    border: 1px solid #989FAA;
+    box-shadow: 0 0 2px #FFFFFF inset;
+    cursor: pointer;
+}
+.sweet-numcard-body-active{
+    background: #F5F5F5;
+}
+.sweet-numcard-num-body{
+} 
+.sweet-numcard-num-item{
+    float: left;
+    overflow: hidden;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 18px;
+    text-align: center;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+.sweet-numcard-title{
+    height: 30px;
+    overflow: hidden;
+    font-family: Tahoma,Arial,微软雅黑;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+.sweet-numcard-titledata{
+    height: 30px;
+    overflow: hidden;
+    font-family: Tahoma,Arial,微软雅黑;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+.sweet-numcard-label-text {
+    display: block;
+    overflow: hidden;
+    text-align: right;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+.sweet-numcard-num-panel {
+    margin-left: 10px;
+    overflow: hidden;
+}

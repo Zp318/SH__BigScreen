@@ -1,0 +1,16 @@
+.sweet-cmp-treewindow-title{
+    height: 13px;
+    color: #384967;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.sweet-cmp-treewindow-lpanel,.sweet-cmp-treewindow-mpanel,.sweet-cmp-treewindow-rpanel{
+    float: left;
+}
+
+.sweet-cmp-treewindow-btnpanel{
+    margin-left: 10px;
+    margin-right: 10px;
+}

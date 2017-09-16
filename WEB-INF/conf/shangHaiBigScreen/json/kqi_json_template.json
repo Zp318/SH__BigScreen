@@ -1,0 +1,26 @@
+{
+	"action": "AGGRE_SDR",
+	"cubes": [
+		"@table@"
+	],
+	"columns": [
+		{
+			"id": "900",
+			"alias": "STARTTIME",
+			"type": "TIME",
+			"style": "IDENTIFIER"
+		},"@columns@"
+	],
+	"conditions": {
+		"relation": "AND",
+		"childs": "@condition@"
+	},
+	"orders": [
+		{
+			"id": "900",
+			"type": "TIME",
+			"style": "IDENTIFIER",
+			"descending": true
+		}
+	]
+}

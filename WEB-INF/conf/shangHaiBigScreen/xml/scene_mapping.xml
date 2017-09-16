@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	
+	<scene><id>1</id><name>市级以上政府机关</name><icon>cj15.png</icon></scene>   
+ <scene><id>2</id><name>三甲医院</name><icon>cj14.png</icon></scene>       
+ <scene><id>3</id><name>CBD</name><icon>cj1.png</icon></scene>        
+ <scene><id>4</id><name>大型体育场馆</name><icon>cj5.png</icon></scene>     
+ <scene><id>5</id><name>五星级以上宾馆酒店</name><icon>cj16.png</icon></scene>  
+ <scene><id>6</id><name>大型文化体育场所</name><icon>cj5.png</icon></scene>   
+ <scene><id>7</id><name>大型展览馆</name><icon>cj7.png</icon></scene>          
+ <scene><id>9</id><name>地铁</name><icon>cj8.png</icon></scene>         
+ <scene><id>10</id><name>高校</name><icon>cj12.png</icon></scene>         
+ <scene><id>11</id><name>高铁</name><icon>cj11.png</icon></scene>              
+ <scene><id>14</id><name>大型旅游风景区</name><icon>cj3.png</icon></scene>    
+ <scene><id>15</id><name>大型商业区</name><icon>cj4.png</icon></scene>  
+ <scene><id>8</id><name>大型高档商业区</name><icon>cj4.png</icon></scene> 
+ <scene><id>16</id><name>县级市及以上交通枢纽</name><icon>cj17.png</icon></scene>  
+ <scene><id>18</id><name>高架</name><icon>cj9.png</icon></scene>         
+ <scene><id>19</id><name>工业园(国家级)</name><icon>cj13.png</icon></scene>        
+ <scene><id>20</id><name>高速</name><icon>cj10.png</icon></scene>  
+	
+</list>

@@ -1,0 +1,89 @@
+/**
+ * @description sweet app管理面板
+ * @date 2014/10/9
+ * @version 1.0
+ * @author 
+ */
+
+/**************************业务组件-app管理面板 begin*/
+
+.sweet-cmp-app-container {
+    overflow: auto;
+}
+
+.sweet-cmp-app-item {
+    float: left;
+    border: solid 1px #787878;
+    background-color: #dadada;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sweet-cmp-app-item-over {
+    float: left;
+    border: solid 1px #66AFE9;
+    background-color: #dadada;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sweet-cmp-app-content {
+    overflow:hidden;
+    width : 100%;
+    height : 100%;
+}
+
+.sweet-cmp-app-img-container {
+    width: 96px;
+    height: 96px;
+    margin: 15px 52px;
+}
+
+.sweet-cmp-app-img {
+    width: 96px;
+    height: 96px;
+    display: block;
+}
+
+.sweet-cmp-app-text {
+    text-align: center;
+    color: #000000;
+    font-size: 2em;
+    padding-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sweet-cmp-app-state-text {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    background-color: #486080;
+    line-height: 80px;
+}
+
+.sweet-cmp-app-opertor {
+    height: 80px;
+    color: #ffffff;
+    font-size: 1em;
+    background-color: #486080;
+}
+
+.sweet-cmp-app-action {
+    cursor: pointer;
+    text-align: left;
+    color: #ffffff;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    float: left;
+    margin-left: 25px;
+    margin-top: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width : 75px;
+}
+
+.sweet-cmp-app-action:hover {
+    color: #3399FF;
+}

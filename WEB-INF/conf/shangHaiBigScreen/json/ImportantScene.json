@@ -1,0 +1,29 @@
+{
+    "action": "AGGRE_SDR",
+    "cubes": [
+        "SEQ_SDR_WALLBOX_CELL_GROUP_KQI"
+    ],
+    "columns":@columns@,
+    "conditions": {    
+        "relation" : "AND",       
+        "childs" : [ @queryCondition@ 
+       ,{
+            "id": "5101010101",
+            "operator": "ISNOTEMPTY",
+            "type": "DIMENSION",
+            "style": "IDENTIFIER",
+            "ignoreCase": false
+        }]},
+
+    "orders": [
+        {
+            "id": "@timeGranularity@",
+            "type": "TIME",
+            "style": "IDENTIFIER",
+             "descending": false
+        }
+    ],
+
+    "start": 0,
+    "limit": "96"
+}

@@ -1,0 +1,4 @@
+{
+  "sql":"select '@startTime@' AS starttime,rat||'G' rat,count(1) userNum from  ( select dim_51,max((case when dim_1=1  then 3 when dim_1=6 then 4 when dim_1=2 then 2 else 0 end)) rat from  ( select dim_51,dim_1 from @table@ where DIM_2=1  group by dim_51,dim_1 ) a  group by dim_51 ) a  group by rat",
+   "datasource":"IQ_SDR"
+}

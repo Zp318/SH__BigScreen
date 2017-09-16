@@ -1,0 +1,44 @@
+﻿/**
+ * @description sweet 树组件样式文件
+ * @date 2013/4/3
+ * @version 1.0
+ */
+
+/**************************listbox begin*/
+.sweet-listbox-div2 {
+    background-color: #FAFAFA;
+    border: 1px solid #989FAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3) inset;
+    padding: 3px;
+    resize: none;
+    float: right;
+    position: relative;
+}
+.sweet-listbox-li {
+    margin: 0 5px 5px 0;
+    float: left;
+}
+.sweet-listbox-clearPic{
+    display: block;
+    height: 18px;
+    width: 16px;
+    background: url(images/common_ope_icon.png) 0 0 no-repeat;
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+    float:right;
+}
+.sweet-listbox-emptyDiv{
+    color: gray;
+    left: 3;
+    position: absolute;
+    top: 3px;
+    margin-left: 10px;
+}
+.ui-sortable-placeholder{
+    height:30px !important;
+    display:block;
+}
+/**************************listbox end*/

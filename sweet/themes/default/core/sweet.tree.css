@@ -1,0 +1,554 @@
+﻿/**
+ * @description sweet 树组件样式文件
+ * @date 2012/12/7
+ * @version 1.0
+ * @author 
+ */
+
+/***************************************树样式 begin*/
+.select_win_bg {
+    /*background-color: #D8D8D8;
+    background-image: -moz-linear-gradient(center top , #EFEFEF, #D8D8D8);*/
+    background-repeat: repeat-x;
+    border: 1px solid #989FAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 1px #FFFFFF inset;
+    padding: 5px 0;
+}
+.sweet-tree-panel{
+    height: auto;
+    position: absolute;
+    z-index: 2;
+}
+.sweet-tree-node-select{
+    cursor: pointer;
+    line-height: 22px;
+    padding: 0 5px;
+    font-size: 12px;
+    white-space:nowrap;
+    overflow : hidden;
+    text-overflow : ellipsis ;
+}
+.select_treenode_div{
+    width:20px;
+    display: block;
+    float:left;
+    height:22px;
+}
+.sweet-tree-node-line{
+    width:20px;
+    display: block;
+    float:left;
+    height:22px;
+    background:url("images/form/tree_icon.png") no-repeat  7px -75px;
+}
+.sweet-tree-node-eblow{
+    width:20px;
+    display: block;
+    float:left;
+    height:22px;
+    background:url("images/form/tree_icon.png") no-repeat  7px -112px;
+}
+.sweet-tree-node-eblow-end{
+    width:20px;
+    display: block;
+    float:left;
+    height:22px;
+    background:url("images/form/tree_icon.png") no-repeat  7px -137px;
+}
+.sweet-tree-node{
+    cursor: pointer;
+    line-height: 22px;
+    padding: 0 5px;
+    font-size: 12px;
+    white-space:nowrap;
+    overflow : hidden;
+    text-overflow : ellipsis ;
+
+}
+.sweet-tree-node:hover{
+    background-color: #FFFFFF;
+}
+.sweet-tree-leaf-node{
+    cursor: pointer;
+    line-height: 22px;
+    padding: 0 10px;
+}
+.sweet-tree-expand{
+    background: url(images/form/module_icon_bg.png) no-repeat 0 -96px;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 3px;
+    margin-top: 4px;
+    width: 16px;
+}
+.sweet-tree-expand:hover{
+    background: url(images/form/module_icon_bg.png) no-repeat -16px -96px;
+}
+.sweet-tree-coll{
+    background: url(images/form/module_icon_bg.png) no-repeat 0 -112px;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 3px;
+    width: 16px;
+    margin-top: 4px;
+}
+.sweet-tree-coll:hover{
+    background: url(images/form/module_icon_bg.png) no-repeat -16px -112px;
+}
+.sweet-tree-list{
+    overflow: hidden;
+    position: relative;
+}
+.sweet-tree-uncheck{
+    background: url(images/form/module_icon_bg.png) 0px -32px no-repeat;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 3px;
+    width: 16px;
+}
+.sweet-tree-uncheck:hover{
+    background: url(images/form/module_icon_bg.png) -16px -32px no-repeat
+}
+.sweet-tree-check{
+    background: url(images/form/module_icon_bg.png) 0px -48px no-repeat;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 3px;
+    width: 16px;
+}
+.sweet-tree-check:hover{
+    background: url(images/form/module_icon_bg.png) -16px -48px no-repeat;
+}
+.sweet-tree-full-check{
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 3px;
+    width: 16px;
+    background: url(images/form/module_icon_bg.png) 0px -48px no-repeat;
+}
+.sweet-tree-full-check:hover{
+    background: url(images/form/module_icon_bg.png) -16px -48px no-repeat;
+}
+.sweet-tree-action-node{
+    background-color: #B8C7E1;
+    cursor: pointer;
+    line-height: 22px;
+    padding: 0 5px;
+}
+.sweet-tree-list-root{
+    overflow: auto;
+}
+.sweet-tree-list-root1{
+    overflow: auto;
+    height: auto !important
+}
+.sweet-tree-list-ul{
+    left: 10px;
+    position: relative;
+}
+.sweet-tree-node-blank{
+    display: block;
+    float: left;
+    height: 22px;
+    width: 40px;
+}
+.sweet-tree-title{
+    line-height: 22px;
+}
+.sweet-tree-editable{
+    line-height: 22px;
+    color:blue;
+    text-decoration:underline;
+}
+.sweet-tree-state{
+    line-height: 22px;
+    color:red;
+    text-decoration:none;
+}
+.sweet-tree-leaf-ioc{
+    background: url("images/form/tree_icon.png") no-repeat scroll -16px 5px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 16px;
+}
+.sweet-tree-leaf-userDefine{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 -199px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 16px;
+}
+.sweet-tree-leaf-dimension{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 -35px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 16px;
+}
+.sweet-tree-leaf-comp{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 -156px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 16px;;
+}
+.sweet-tree-leaf-index{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 -14px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 16px;
+}
+.sweet-tree-node-ioc{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 5px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 16px;
+}
+.sweet-tree-node-div{
+    cursor: pointer;
+    line-height: 22px;
+    padding: 0 10px;
+}
+.sweet-tree-search-div{
+    margin-bottom: 5px;
+}
+.sweet-tree-item-dragging {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, 0.3);
+    opacity: 1.0;
+    z-index: 10000;
+}
+
+.sweet-tree-tree-disabled {
+    color: #CCCCCC;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-full-check {
+    background: url("images/form/module_icon_gray.png") no-repeat scroll 0 -40px transparent;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-uncheck {
+    background: url("images/form/module_icon_gray.png") no-repeat scroll 0 -13px transparent;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-expand {
+    background: url("images/form/module_icon_gray.png") no-repeat scroll 0 -132px transparent;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-coll {
+    background: url("images/form/module_icon_gray.png") no-repeat scroll 0 -105px transparent;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-check {
+    background: url("images/form/module_icon_gray.png") no-repeat scroll 0 -270px transparent;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-node-ioc {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 0 5px transparent;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-leaf-dimension {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 0 -35px transparent;
+}
+.sweet-tree-tree-disabled  .sweet-tree-leaf-comp{
+    background: url("images/form/tree_icon.png") no-repeat scroll 0 -176px transparent;
+}
+.sweet-tree-tree-disabled  .sweet-tree-leaf-index {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 0 -14px transparent;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-leaf-ioc  {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll -16px 5px  transparent;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-node-line  {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 7px -75px transparent;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-node-eblow  {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 7px -112px transparent;
+}
+
+.sweet-tree-tree-disabled  .sweet-tree-node-eblow-end  {
+    background: url("images/form/tree_icon_gray.png") no-repeat scroll 7px -137px  transparent;
+}
+.tree-load-more {
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 18px;
+    margin: 0 3px;
+    text-align: center;
+    background: #637696;
+    bottom: 3px;
+    position: absolute;
+    right: 3px;
+    left: 3px;
+}
+.tree-load-more:hover {
+    background-color: #5d81be;
+}
+.tree_load_more:active{
+    box-shadow: inset 0 2px 2px rgba(0,0,0,0.2);
+}
+/***************************************树样式 end*/
+
+/*************************************** KQITree begin */
+.sweet-tree-kqitree {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.sweet-kqitree-zoom {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    left: 20px;
+    top: 20px;
+    width: 47px;
+    height: 47px;
+}
+.fit {
+    background-image: url("images/tree/zoom-fit.gif");
+}
+.act {
+    background-image: url("images/tree/zoom-act.gif");
+}
+
+.sweet-kqitree-light {
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.sweet-kqitree-light label {
+    font-size: 10pt;
+    font-weight: bold;
+    padding-left: 18px;
+}
+
+.sweet-kqitree-light label:first-child {
+    background: url("images/tree/light-info.gif") no-repeat;
+    margin-right: 10px;
+}
+
+.sweet-kqitree-light label:last-child {
+    background: url("images/tree/light-warn.gif") no-repeat;
+}
+/*************************************** KQITree end */
+
+
+/* optimizeTree css begin */
+
+
+.sweet-optimizetree-empty-block{
+    width: 10px;
+}
+
+.sweet-optimizetree-panel
+{
+    clear: both;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    position: relative;
+    /*margin-left: 5px;*/
+    /*margin-right: 5px;*/
+}
+
+.sweet-optimizetree-parent{
+    /*border: 1px solid black;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*overflow-y: auto;*/
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/*普通节点样式*/
+.sweet-optimizetree-node{
+    cursor: pointer;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 5px;
+    position: absolute;
+    display: inline;
+    white-space: nowrap;
+    width: calc(100% - 10px);
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+}
+
+.sweet-optimizetree-node-width{
+    width: calc(100% - 10px);
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+}
+
+.sweet-optimizetree-root-node-empty{
+
+}
+
+.sweet-optimizetree-root-node{
+    background-color: #647796;
+    border: 1px solid #536684;
+    color: #FFFFFF;
+}
+
+.sweet-optimizetree-node-selected{
+    background-color: #B8C7E1;
+}
+
+.sweet-optimizetree-node div{
+    /*float: left;*/
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+
+/*展开节点样式*/
+.sweet-optimizetree-expand{
+    background: url("images/form/module_icon.png") no-repeat scroll 0 -132px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 15px;
+}
+
+/*收起节点样式*/
+.sweet-optimizetree-coll{
+    background: url("images/form/module_icon.png") no-repeat scroll 0 -105px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 2px;
+    width: 17px;
+}
+
+.sweet-optimizetree-ico-empty-block{
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 15px;
+}
+
+/*勾选节点样式*/
+.sweet-optimizetree-check{
+    background: url("images/form/module_icon.png") no-repeat scroll 0 -270px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    width: 13px;
+}
+
+.sweet-optimizetree-full-check{
+    background: url("images/form/module_icon.png") no-repeat scroll 0 -40px transparent;
+    display: block;
+    float: left;
+    height: 13px;
+    margin-right: 4px;
+    margin-top: 5px;
+    width: 13px;
+}
+
+.sweet-optimizetree-uncheck{
+    background: url("images/form/module_icon.png") no-repeat scroll 0 -14px transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 4px;
+    margin-top: 0;
+    width: 13px;
+}
+
+.sweet-optimizetree-text-node{
+    /*float: left;*/
+    line-height: 22px;
+    margin-left: 2px;
+}
+
+.sweet-optimizetree-tool-add{
+    cursor: pointer;
+    margin-left: 3px; margin-top: 3px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("images/table/table_ope.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.sweet-optimizetree-tool-add:hover{
+    background: url("images/table/table_ope.png") no-repeat scroll -16px 0 rgba(0, 0, 0, 0);
+}
+
+.sweet-optimizetree-tool-modify{
+    cursor: pointer;
+    margin-left: 3px; margin-top: 3px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("images/table/table_ope.png") no-repeat scroll 0 -16px rgba(0, 0, 0, 0);
+}
+.sweet-optimizetree-tool-modify:hover{
+    background: url("images/table/table_ope.png") no-repeat scroll -16px -16px rgba(0, 0, 0, 0);
+}
+
+.sweet-optimizetree-tool-delete{
+    cursor: pointer;
+    margin-left: 3px; margin-top: 3px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("images/table/table_ope.png") no-repeat scroll 0 -32px rgba(0, 0, 0, 0);
+}
+.sweet-optimizetree-tool-delete:hover{
+    background: url("images/table/table_ope.png") no-repeat scroll -16px -32px rgba(0, 0, 0, 0);
+}
+
+.sweet-optimizetree-fieldset-pic-expand {
+    width:16px;
+    height:16px;
+    margin-top: 2px;
+    display:block;
+    cursor: pointer;
+    float: left;
+    background: url("./images/form/module_icon_bg.png") -16px -239px no-repeat;
+}
+
+.sweet-optimizetree-fieldset-pic-collapsed {
+    display:block;
+    cursor: pointer;
+    margin-top: 2px;
+    width:16px;
+    height:16px;
+    float: left;
+    background: url("./images/form/module_icon_bg.png") -16px -64px no-repeat;
+}
+
+.sweet-optimizetree-empty-bg{
+}
+
+/* optimizeTree css begin */

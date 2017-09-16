@@ -1,0 +1,51 @@
+/* 查询按钮*/
+.queryBtnClass {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+/* form查询头底部的分割线*/
+.queryPanelLineClass {
+     border-bottom: 1px solid #878F9F;
+}
+
+/* 自定义的模板选择窗口*/
+.sweet-dialog-bg {
+    background-color: #F6F7F9;
+    border: 1px solid #6D7E9A;
+    border-radius: 5px 5px 5px 5px;
+    height: auto;
+    position: absolute;
+    width: 330px;
+    z-index: 1000;
+}
+.moreWindow{
+    background: -moz-linear-gradient(center top , #F4F4F4, #E5E5E5) repeat scroll 0 0 #F4F4F4;
+    padding: 0;
+}
+.moreWindow > .sweet-dialog-content {
+    padding: 0;
+}
+.moreWindow .sweet-tabpanel-2 > .tab-card {
+    margin-left: 10px;
+}
+
+.business-cmp-listwindw-area .sweet-treev1-panel .sweet-treev1-ul .sweet-treev1-node .sweet-treev1-node-eblow-minus{
+    width: 5px;
+}
+.fontBolder *{
+    font-weight: bolder;    
+}
+.query-template-delete-icon {
+    width:16px;
+    height:16px;
+    background: url("../../../themes/default/core/images/common_ope_icon.png");
+    display:block;
+    cursor: pointer;
+}
+.query-template-delete-gray-icon {
+    width:16px;
+    height:16px;
+    background: url("../../../themes/default/core/images/common_ope_icon_gray.png");
+    display:block;
+}

@@ -1,0 +1,21 @@
+{
+    "action": "AGGRE_SDR",
+    "cubes": [
+        "SEQ_SDR_WALLBOX_PROT_TYPE_KQI"
+    ],
+    "columns": @columns@,
+   
+    "conditions": @queryCondition@, 
+ 
+    "orders": [
+        {
+            "id": "@timeGranularity@",
+            "type": "TIME",
+            "style": "IDENTIFIER",
+             "descending": false
+        }
+    ],
+
+    "start": 0,
+    "limit": "96"
+}

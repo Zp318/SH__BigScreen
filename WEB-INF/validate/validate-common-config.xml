@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<common-configs>
+	<root allUrlCheck="true" failPath="/error.html" stateCode="505">
+		<exclude-url>
+			<url-pattern>/*/service/main/index</url-pattern>
+			<url-pattern>/*/</url-pattern>
+			<url-pattern>/*/j_spring_cas_security_check</url-pattern>
+			<url-pattern>/*/login/cas</url-pattern>
+			<url-pattern>/*/service/sec/core/res/refreshSession</url-pattern>
+			<url-pattern>/*/service/sec/core/lockScreen/add</url-pattern>
+			<url-pattern>/*/service/sec/core/lockScreen/delete</url-pattern>
+			<url-pattern>/*/ws/**</url-pattern>
+			<url-pattern>/**/*.bmp</url-pattern>
+			<url-pattern>/**/*.gif</url-pattern>
+			<url-pattern>/**/*.jpg</url-pattern>
+			<url-pattern>/**/*.jpeg</url-pattern>
+			<url-pattern>/**/*.png</url-pattern>
+			<url-pattern>/**/*.js</url-pattern>
+			<url-pattern>/**/*.css</url-pattern>
+			<url-pattern>/**/*.htm</url-pattern>
+			<url-pattern>/**/*.html</url-pattern>
+			<url-pattern>/**/*.xml</url-pattern>
+            <url-pattern>*.html</url-pattern>
+			<url-pattern>/**/*.swf</url-pattern>
+  <url-pattern>/**/*.TTF</url-pattern>
+ <url-pattern>/**/*.otf</url-pattern>
+
+
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/timeInfo.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/activeUserNumber.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/activeFlower.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/alarmNum.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/important/kqi.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/important/affectedUserNum.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/important/affectedWorkOrder.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/allRate/kqi.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/keyScene/sceneUserNum.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/keyScene/sceneWorkOrder.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/keyScene/childSceneUserNum.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/keyScene/childSceneWorkOrder.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/netElement/top3UserNum.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/netElement/workOrder.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/keySP/spUserNum.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/keySP/spWorkOrder.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/keySP/protocalUserNum.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/keySP/protocalWorkOrder.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/service/initPage/allNetAlertInformation.action</url-pattern>
+<url-pattern>/SF_QUALITY_WALLBOX/**/*.action</url-pattern>
+
+		</exclude-url>
+	</root>
+    <exclued-parameter allParameterCheck="false">
+        <parameter-name>_dc</parameter-name>
+        <parameter-name>_csrf</parameter-name>
+        <parameter-name>now</parameter-name>
+        <parameter-name>rdm</parameter-name>
+    </exclued-parameter>
+</common-configs>

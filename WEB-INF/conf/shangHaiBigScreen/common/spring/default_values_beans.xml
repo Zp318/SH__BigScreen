@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!--配置数据源 -->
+
+	<bean id="RatActiveUserNumDefault" class="java.util.ArrayList">
+
+		<constructor-arg>
+			<list>
+				<bean class="com.huawei.shanghaiBigScreen.allNet.RatActiveUserNum">
+					<property name="rat" value="2"></property>
+				</bean>
+				<bean class="com.huawei.shanghaiBigScreen.allNet.RatActiveUserNum">
+					<property name="rat" value="3"></property>
+				</bean>
+
+				<bean class="com.huawei.shanghaiBigScreen.allNet.RatActiveUserNum">
+					<property name="rat" value="4"></property>
+				</bean>
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="rnc" class="java.util.ArrayList">
+
+		<constructor-arg>
+			<list>
+				<bean class="com.huawei.shanghaiBigScreen.allNet.RatActiveUserNum">
+					<property name="rat" value="2"></property>
+				</bean>
+				<bean class="com.huawei.shanghaiBigScreen.allNet.RatActiveUserNum">
+					<property name="rat" value="3"></property>
+				</bean>
+
+				<bean class="com.huawei.shanghaiBigScreen.allNet.RatActiveUserNum">
+					<property name="rat" value="4"></property>
+				</bean>
+			</list>
+		</constructor-arg>
+	</bean>
+
+
+
+</beans>

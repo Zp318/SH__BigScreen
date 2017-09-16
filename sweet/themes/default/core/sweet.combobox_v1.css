@@ -1,0 +1,144 @@
+.sweet-form-comboboxv1{
+    background-image:url("images/form/select_box_bg.png");
+    background-repeat:repeat-x;
+    background-image: -webkit-linear-gradient(top, #efefef, #d8d8d8);  
+    background-image: -moz-linear-gradient(top, #efefef, #d8d8d8);
+    border:1px #989eaa solid;
+    border-radius:5px;
+    box-shadow:inset 0px 0px 2px rgba(255, 255, 255, 1);
+    padding:0px 10px;
+    float:left;
+    outline: medium none;
+}
+.sweet-form-comboboxv1:hover{
+    background-image:url("images/form/select_box_bg_hover.png");
+    background-repeat:repeat-x;
+    background-image: -webkit-linear-gradient(top, #d8d8d8, #efefef);  
+    background-image: -moz-linear-gradient(top, #d8d8d8, #efefef);
+    box-shadow:inset 0px 0px 2px rgba(255, 255, 255, 1);
+}
+.sweet-form-comboboxv1-input{
+    height:23px;
+    line-height:23px;
+    border:none;
+    background:none;
+    overflow : hidden;
+    text-overflow : ellipsis;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 5px;
+    width: calc(100% - 25px);
+    width: -webkit-calc(100% - 25px);
+    width: -moz-calc(100% - 25px);
+    height: 100%;
+}
+.sweet-form-comboboxv1-arrow{
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 10px;
+    width: 13px;
+    float: right;
+
+    cursor: pointer;
+
+    background: url(images/form/module_icon_bg.png) no-repeat 0px -64px;
+}
+.sweet-form-comboboxv1-arrow:hover{
+    background: url(images/form/module_icon_bg.png) no-repeat -16px -64px;
+}
+.sweet-form-comboboxv1-arrow-gray{
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 10px;
+    width: 13px;
+    float: right;
+    background: url(images/form/module_icon_bg.png) no-repeat -32px -64px;
+}
+.sweet-form-comboboxv1:hover .sweet-form-comboboxv1-arrow{
+    background: url(images/form/module_icon_bg.png) no-repeat -16px -64px;
+}
+.sweet-form-comboboxv1 a{
+    height:23px;
+    float:right;
+    display:block;
+    margin-left: 10px;
+}
+.sweet-form-comboboxv1 > .sweet-form-input-emptyDiv{
+    padding-right: 0;
+    right: 25px;
+}
+.sweet-form-comboboxv1-gray{
+    background-image: -moz-linear-gradient(top , #F8F8F8, #EFEFEF);
+    background-image:url(images/form/select_box_gray_bg.png);
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #efefef);
+    background-repeat: repeat-x;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow:inset 0px 0px 2px rgba(255, 255, 255, 1);
+    padding: 0 10px;
+    float:left;
+}
+.sweet-form-comboboxv1-gray a{
+    display: block;
+    float: right;
+    height: 23px;
+    margin-left: 10px;
+}
+.sweet-form-comboboxv1-win-body {
+    margin: 0 3px;
+    max-height: 220px;
+    overflow: auto;
+}
+.sweet-form-comboboxv1-win{
+    position:absolute;
+    top: 24px;
+    z-index:100;
+    background-color:#d8d8d8;
+    border:1px #989faa solid;
+    border-radius:5px;
+    background-image:url("images/form/select_win_bg.png");
+    background-repeat:repeat-x;
+    background-image: -webkit-linear-gradient(top, #efefef, #d8d8d8);  
+    background-image: -moz-linear-gradient(top, #efefef, #d8d8d8);
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.3),inset 0px 0px 1px rgba(255, 255, 255, 1);
+    outline: medium none;
+    height: auto;
+}
+.sweet-form-comboboxv1-win .sweet-treev1-body{ 
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.sweet-form-comboboxv1-win li{ 
+    list-style: none;
+}
+.sweet-form-comboboxv1-bigDataImage-delete{
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 10px;
+    width: 17px;
+    float: right;
+    background: url(images/form/module_icon_bg.png) no-repeat 5px -80px;
+    cursor: pointer;
+}
+.sweet-form-comboboxv1-bigDataImage-delete:hover{
+    background: url(images/form/module_icon_bg.png) no-repeat -11px -80px;
+}
+.sweet-form-comboboxv1:hover .sweet-form-comboboxv1-bigDataImage-delete{
+    background: url(images/form/module_icon_bg.png) no-repeat -11px -80px;
+}
+.sweet-form-comboboxv1-tree-win .select_win_bg{
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}

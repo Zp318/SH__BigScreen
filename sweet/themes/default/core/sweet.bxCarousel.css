@@ -1,0 +1,361 @@
+/**
+ * @description sweet carousel样式文件
+ * @date 2013/01/31
+ * @version 1.0
+ */
+
+ @charset "utf-8";
+/* CSS Document */
+.sweet-bxCarousel-component a,.sweet-bxCarousel-component button {outline:none}
+a:focus{outline:0;}
+.sweet-bxCarousel-component{
+    background-color: #D3D5DA;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset, 0 1px 0 rgba(255, 255, 255, 0.7);
+    position: relative;
+}
+.sweet-bxCarousel-component ul{
+	position:relative;
+	left:0;
+	float:left;
+}
+
+.sweet-bxCarousel-item-desp {
+    width: 100%;
+    height: 40px;
+    top: 115px;
+    position: absolute;
+    background-color: #2F3137;
+    border-radius: 0 0 4px 4px;
+    color: #FFFFFF;
+}
+.sweet-bxCarousel-item-desp-text{
+    margin: 5px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.sweet-bxCarousel-liEm-userDefindPic{
+	height:97px;
+	width: 159px;
+    display: block;
+}
+.sweet-bxCarousel-userDefindPic-unSelect {
+    border-radius: 4px;
+    width: 159px;
+    border:3px solid transparent;
+    cursor: pointer;
+}
+.sweet-bxCarousel-userDefindPic-select {
+    border-radius: 4px;
+    width: 159px;
+    border:3px solid #2294c9;
+    cursor: pointer;
+}
+.sweet-bxCarousel-userDefindPic-tick{
+    background: url("images/bxCarousel/dashboard_arrow.png") no-repeat scroll 0 -226px transparent;
+    height: 28px;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    width: 26px;
+}
+.sweet-bxCarousel-leftArrow-preDiv {
+    background: #FFFFFF;
+    filter:alpha(opacity=60); 
+	-moz-opacity:0.6;
+    opacity: 0.6;
+	width:40px;
+    cursor: pointer;
+	left: 0;
+    top: 0;
+    position: absolute;
+}
+.sweet-bxCarousel-rightArrow-preDiv {
+    background: #FFFFFF;
+    filter:alpha(opacity=60); 
+	-moz-opacity:0.6;
+    opacity: 0.6;
+	width: 40px;
+    cursor: pointer;
+	right: 0;
+    top: 0;
+    position: absolute;
+}
+.sweet-bxCarousel-upArrow-preDiv {
+    background: #FFFFFF;
+    filter:alpha(opacity=60); 
+	-moz-opacity:0.6;
+    opacity: 0.6;
+	height: 40px;
+	cursor: pointer;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.sweet-bxCarousel-downArrow-preDiv {
+    background: #FFFFFF;
+    filter:alpha(opacity=60); 
+	-moz-opacity:0.6;
+    opacity: 0.6;
+	height: 40px;
+	cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.sweet-bxCarousel-ArrowPreDiv-gray {
+    filter:alpha(opacity=0) !important; 
+	-moz-opacity:0 !important;
+    opacity: 0 !important;
+}
+.sweet-bxCarousel-arrow-left{
+	background: url(images/bxCarousel/scale_card_left.png) no-repeat center center;
+	width:40px;
+	left: 0;
+    top: 0;
+	cursor: pointer;
+    position: absolute;
+}
+.sweet-bxCarousel-arrow-right{
+	background: url(images/bxCarousel/scale_card_right.png) no-repeat center center;
+	width: 40px;
+	right: 0;
+    top: 0;
+	cursor: pointer;
+    position: absolute;
+}
+
+.sweet-bxCarousel-arrow-up{
+	background: url(images/bxCarousel/scale_card_up.png) no-repeat center center;
+	height: 40px;
+	cursor: pointer;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.sweet-bxCarousel-arrow-down{
+	background: url(images/bxCarousel/scale_card_down.png) no-repeat center center;
+	height: 40px;
+	cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.sweet-bxCarousel-arrow-gray{
+    background: url("images/bxCarousel/big_transparent.gif") repeat !important;
+}
+.sweet-bxCarousel-leftArrow-preDiv-img {
+    background-color: #8487AC;
+    border-radius: 5px 5px 5px 5px;
+    width: 18px;
+    height: 107px;
+    opacity: 0.4;
+    position: absolute;
+    left: 3px;
+    top: 4px;
+}
+.sweet-bxCarousel-rightArrow-preDiv-img {
+    background-color: #8487AC;
+    border-radius: 5px 5px 5px 5px;
+    width: 18px;
+    height: 107px;
+    opacity: 0.4;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+}
+.sweet-bxCarousel-upArrow-preDiv-img {
+    background-color: #8487AC;
+    border-radius: 5px 5px 5px 5px;
+    width: 172px;
+    height: 18px;
+    opacity: 0.4;
+    position: absolute;
+    left: 4px;
+    top: 3px;
+}
+.sweet-bxCarousel-downArrow-preDiv-img {
+    background-color: #8487AC;
+    border-radius: 5px 5px 5px 5px;
+    width: 172px;
+    height: 18px;
+    opacity: 0.4;
+    position: absolute;
+    left: 4px;
+    bottom: 3px;
+}
+.sweet-bxCarousel-arrow-left-image {
+    background: url("images/bxCarousel/dashboard_arrow.png") no-repeat scroll 0 -283px transparent;
+    cursor: pointer;
+    display: block;
+    width: 18px;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    height: 107px;
+}
+.sweet-bxCarousel-arrow-right-image {
+    background: url("images/bxCarousel/dashboard_arrow.png") no-repeat scroll right -283px transparent;
+    cursor: pointer;
+    display: block;
+    width: 18px;
+    position: absolute;
+    top: 4px;
+    right: 0px;
+    height: 107px;
+}
+.sweet-bxCarousel-arrow-up-image {
+    background: url("images/bxCarousel/dashboard_arrow.png") no-repeat scroll center 2px transparent;
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    position: absolute;
+    top: -2px;
+    left: 4px;
+    width: 172px;
+}
+.sweet-bxCarousel-arrow-down-image {
+    background: url("images/bxCarousel/dashboard_arrow.png") no-repeat scroll center -17px transparent;
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    position: absolute;
+    bottom: 1px;
+    left: 4px;
+    width: 172px;
+}
+.sweet-bxCarousel-liChild{
+	margin:0px 10px;
+	width:145px;
+	height:52px;
+	padding:10px;
+	border-top:1px #fbfbfb solid;
+	border-bottom:1px #cbccce solid;
+	border-radius:4px;
+	background-image: url(images/bxCarousel/scale_card_contbg.png);
+	background-repeat:repeat-x;
+	background-image: -webkit-linear-gradient(top, #f1f1f1, #fcfcfc);  
+	background-image: -moz-linear-gradient(top, #f1f1f1, #fcfcfc);
+	float:left;	
+	display:block;
+    outline:none;
+    cursor:pointer;
+}
+.sweet-bxCarousel-liChild:hover{
+	background-image: url(images/bxCarousel/scale_card_contbg_hover.png);
+	background-repeat:repeat-x;
+	background-image: -webkit-linear-gradient(top, #fff, #EEF0F4);  
+	background-image: -moz-linear-gradient(top, #fff, #EEF0F4);	
+}
+.sweet-bxCarousel-liChild-active{
+	margin:0px 10px;
+	width:145px;
+	height:52px;
+	padding:10px;
+	border:1px #6d87ac solid;
+	border-radius:4px;
+	background-image: url(images/bxCarousel/scale_card_contbg_hover.png);
+	background-repeat:repeat-x;
+	background-image: -webkit-linear-gradient(top, #fff, #eef0f4);  
+	background-image: -moz-linear-gradient(top, #fff, #eef0f4);
+	float:left;
+    display:block;
+    cursor:pointer;
+}
+.sweet-bxCarousel-liGrendChild-left{
+	width:auto;
+	float:left;	
+}
+.sweet-bxCarousel-liGrendChild-left span{
+	width:28px;
+	height:32px;
+	display:block;
+	margin:0px 0px 3px 5px;
+}
+.sweet-bxCarousel-liGrendChild-left span.sweet-bxCarousel-arrow-down-red{
+	background:url(images/bxCarousel/card_arrow_down_red.png) no-repeat center center;	
+}
+.sweet-bxCarousel-liGrendChild-left span.sweet-bxCarousel-arrow-up-red{
+	background:url(images/bxCarousel/card_arrow_up_red.png) no-repeat center center;	
+}
+.sweet-bxCarousel-liGrendChild-left span.sweet-bxCarousel-arrow-down-green{
+	background:url(images/bxCarousel/card_arrow_down_green.png) no-repeat center center;	
+}
+.sweet-bxCarousel-liGrendChild-left span.sweet-bxCarousel-arrow-up-green{
+	background:url(images/bxCarousel/card_arrow_up_green.png) no-repeat center center;	
+}
+.sweet-bxCarousel-liGrendChild-left span.sweet-bxCarousel-arrow-down-yel{
+	background:url(images/bxCarousel/card_arrow_down_yel.png) no-repeat center center;	
+}
+.sweet-bxCarousel-liGrendChild-left span.sweet-bxCarousel-arrow-up-yel{
+	background:url(images/bxCarousel/card_arrow_up_yel.png) no-repeat center center;	
+}
+.sweet-bxCarousel-liEm-left{
+	font-family: Arial;
+	font-size:12px;
+}
+.sweet-bxCarousel-liGrendChild-right{
+	margin-left:5px;
+	width:90px;
+	float:left;
+}
+.sweet-bxCarousel-liGrendChild-right span{
+	line-height:21px;
+	font-size:24px;
+	font-weight:bold;
+	font-family:Arial;
+	display:block;
+	margin-bottom:5px;
+}
+.sweet-bxCarousel-liGrendChild-right em{
+	color:#647796;
+	text-align:center;
+	word-break:break-all;
+	word-wrap:break-word;
+	font-weight:bold;
+}
+.sweet-bxCarousel-visibleWin{
+	overflow: hidden;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sweet-bxCarousel-visibleWin ul{
+	position: relative;
+	left: 0px;
+    top: 0px;
+}
+.sweet-bxCarousel-li{
+	background: url("images/bxCarousel/scale_card_listbg.png") no-repeat scroll left bottom transparent;
+    float:left;
+	height:82px;
+	margin:5px 5px 0 5px;
+	width: 185px;
+}
+.sweet-bxCarousel-li:hover{
+	background: url("images/bxCarousel/scale_card_listbg_hover.png") left bottom no-repeat;
+	cursor: pointer;
+    float:left;
+	height:82px;
+	margin:5px;
+	width: 185px;
+}
+.sweet-bxCarousel-li-userImage {
+    position:relative;
+    width: 165px;
+    float: left;
+    margin: 6px;
+    background-color: #f2f2f2;
+    border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.2) inset, 0 3px 5px rgba(36, 36, 36, 0.2);
+}
+.sweet-bxCarousel-li-active{
+	background: url("images/bxCarousel/scale_card_listbg_hover.png") no-repeat scroll left bottom transparent;
+    float:left;
+	height:82px;
+	margin:5px;
+	width: 185px;
+}

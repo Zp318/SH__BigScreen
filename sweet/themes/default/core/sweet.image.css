@@ -1,0 +1,18 @@
+/* 
+    Document   : sweet.image
+    Created on : 2014-10-24, 15:15:47
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*  sweetImge 组件的css*/
+.sweet-img {
+    display: block;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #888888;
+}
+.sweet-description {
+    display: block;
+    text-align: center;
+}

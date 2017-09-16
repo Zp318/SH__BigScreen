@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- 大场景告警服务实现 -->
+	<bean id="alarmInfoService0"
+		class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmInfoServiceImpl">
+		<property name="alarmInfoQueryService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.SceneAlarmInfoQueryServiceImpl"/>
+		</property>
+		
+	
+	</bean>
+
+	
+	<!-- 自定义区域告警服务实现 -->
+	<bean id="alarmInfoService1"
+		class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmInfoServiceImpl">
+		<property name="alarmInfoQueryService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.SceneAreaAlarmInfoQueryServiceImpl"/>
+		</property>
+		<!--  
+		<property name="alarmWorkOrderService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmWorkOrderServiceImpl"/>
+		</property>-->
+		
+		
+	</bean>
+	
+		<!-- 场景CgiSai小区告警服务实现 -->
+	<bean id="alarmInfoService2"
+		class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmInfoServiceImpl">
+		<property name="alarmInfoQueryService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.SceneCgisaiAlarmInfoQueryServiceImpl"/>
+		</property>
+		
+			<!--  
+		<property name="alarmWorkOrderService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmWorkOrderServiceImpl"/>
+		</property>-->
+		
+		
+	</bean>
+	
+	<!-- 网元类型告警服务实现 -->
+	<bean id="alarmInfoService3"
+		class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmInfoServiceImpl">
+		<property name="alarmInfoQueryService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.NetMetaTypeAlarmInfoQueryServiceImpl"/>
+		</property>
+	
+	
+	</bean>
+	
+	<!-- SP告警服务实现 -->
+	<bean id="alarmInfoService4"
+		class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmInfoServiceImpl">
+		<property name="alarmInfoQueryService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.SpAlarmInfoQueryServiceImpl"/>
+		</property>
+		
+			<!--  
+		<property name="alarmWorkOrderService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmWorkOrderServiceImpl"/>
+		</property>-->
+		
+	</bean>
+	
+	<!-- 网元告警服务实现 -->
+	<bean id="alarmInfoService5"
+		class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmInfoServiceImpl">
+		<property name="alarmInfoQueryService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.NetMetaAlarmInfoQueryServiceImpl"/>
+		</property>
+		
+		
+	
+	</bean>
+	
+		
+	<!-- 全部场景告警服务实现 -->
+	<bean id="alarmInfoService6"
+		class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmInfoServiceImpl">
+		<property name="alarmInfoQueryService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.AllSceneQueryServiceImpl"/>
+		</property>
+		
+		<property name="alarmWorkOrderService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmWorkOrderServiceImpl"/>
+		</property>
+	</bean>
+	
+	<!-- 全部网元告警服务实现 -->
+	<bean id="alarmInfoService7"
+		class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmInfoServiceImpl">
+		<property name="alarmInfoQueryService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.AllNeteMetedataQueryServiceImpl"/>
+		</property>
+		
+		<property name="alarmWorkOrderService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmWorkOrderServiceImpl"/>
+		</property>
+	</bean>
+	
+	<!-- 全部SP告警服务实现 -->
+	<bean id="alarmInfoService8"
+		class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmInfoServiceImpl">
+		<property name="alarmInfoQueryService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.AllSpQueryServiceImpl"/>
+		</property>
+		
+		<property name="alarmWorkOrderService">
+			<bean class="com.huawei.shanghaiBigScreen.workorder.service.iml.AlarmWorkOrderServiceImpl"/>
+		</property>
+	</bean>
+	
+</beans>

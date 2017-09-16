@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<entry>
+		<string>com.huawei.shanghaiBigScreen.conf.webKqi.KqiModel</string>
+		<list>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_FST_GET_SERVER_DELAY_AVG"  name="pageGetSucceccDelay" descirble="页面首GET响应服务器侧时长" isShow="false" thresholdId="global_4_kqi_allNet@1"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAMING_DISCONNECTION_R" name="streamInteruptRate" descirble="视频流媒体播放中断率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAM_DOWNLOAD_SPEED" name="streamDownLoadRate" descirble="视频流媒体下载速率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAM_STALLED_TIME_RATE" name="streamPercent" descirble="视频流媒体停顿占比" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_STALL_FREQ" name="pauseNum" descirble="停顿频次" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_START_DELAY" name="initDelay" descirble="初始缓冲时延" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_START_SUCC_RATE" name="initPlaySuccessRate" descirble="初始播放成功率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WALLBOX_WEIXIN_LOGIN_SUCC_RATE" name="loginSuccessRate" descirble="登录成功率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_DELAY" name="pageResponseDelay" descirble="页面响应时长" isShow="true" thresholdId="global_4_kqi_4G@2"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_SUCC_RATE" name="pageResponseSuccessRate" descirble="页面响应成功率" isShow="true" thresholdId="global_4_kqi_allNet@3"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP__SPEED" name="pageDownloadRate" descirble="页面下载速率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SHOW_DELAY" name="pageShowDelay" descirble="页面显示时长" isShow="false" thresholdId="global_4_kqi_allNet@2"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SUCC_RATE" name="pageShowSuccessRate" descirble="页面显示成功率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_LOGIN_DELAY" name="loginDelay" descirble="登录时延" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_SEND_TXT_DELAY" name="textSendDelay" descirble="文本发送时延" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_SEND_TXT_SUCC_RATE" name="textSendSuccessRate" descirble="文本发送成功率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="TIME"  style="IDENTIFIER"  id="900" name="startTime" descirble="开始时间" isShow="false" thresholdId=""></propetyConfig>		
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_TCP_RTT_STEP1_TOTAL" name="tcpFirstResponseTime" descirble="TCP第一次握手响应时长" isShow="false" thresholdId=""></propetyConfig>		
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_AVG_UL_RTT" name="rttDelay" descirble="平均上行RTT(ms)" isShow="false" thresholdId=""></propetyConfig>	
+
+<!-- 全网TCP -->
+<propetyConfig type="MODEL"  style="IDENTIFIER"   name="e2eDelayd" id="SF_QUALITY_WALLBOX_GRP_WALLBOX_E2E_DELAYD"></propetyConfig>		
+<propetyConfig type="MODEL"  style="IDENTIFIER"   name="averageEffectiveUlThroughput" id="SF_QUALITY_WALLBOX_GRP_WALLBOX_AVERAGE_EFFECTIVE_UL_THROUGHPUT"></propetyConfig>		
+<propetyConfig type="MODEL"  style="IDENTIFIER"   name="averageEffectiveDwThroughput" id="SF_QUALITY_WALLBOX_GRP_WALLBOX_AVERAGE_EFFECTIVE_DW_THROUGHPUT"></propetyConfig>		
+
+	</list>
+	</entry>	
+	
+		<entry>
+		<string>com.huawei.shanghaiBigScreen.important.model.ImportSceneKqi</string>
+		<list>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_FST_GET_SERVER_DELAY_AVG" name="pageGetSucceccDelay" descirble="页面首GET响应服务器侧时长" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAMING_DISCONNECTION_R" name="streamInteruptRate" descirble="视频流媒体播放中断率" isShow="false" thresholdId="global_3_important_kqi@40"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAM_DOWNLOAD_SPEED" name="streamDownLoadRate" descirble="视频流媒体下载速率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAM_STALLED_TIME_RATE" name="streamPercent" descirble="视频流媒体停顿占比" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_STALL_FREQ" name="pauseNum" descirble="停顿频次" isShow="false" thresholdId="global_3_important_kqi@41"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_START_DELAY" name="initDelay" descirble="初始缓冲时延" isShow="false" thresholdId="global_3_important_kqi@39"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_START_SUCC_RATE" name="initPlaySuccessRate" descirble="初始播放成功率" isShow="true" thresholdId="global_3_important_kqi@38"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WALLBOX_WEIXIN_LOGIN_SUCC_RATE" name="loginSuccessRate" descirble="登录成功率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_DELAY" name="pageResponseDelay" descirble="页面响应时长" isShow="false" thresholdId="global_3_important_kqi@34"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_SUCC_RATE" name="pageResponseSuccessRate" descirble="页面响应成功率" isShow="false" thresholdId="global_3_important_kqi@33"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP__SPEED" name="pageDownloadRate" descirble="页面下载速率" isShow="false" thresholdId="global_3_important_kqi@37"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SHOW_DELAY" name="pageShowDelay" descirble="页面显示时长" isShow="false" thresholdId="global_3_important_kqi@36"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SUCC_RATE" name="pageShowSuccessRate" descirble="页面显示成功率" isShow="false" thresholdId="global_3_important_kqi@35"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_LOGIN_DELAY" name="loginDelay" descirble="登录时延" isShow="false" thresholdId="global_3_important_kqi@42"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_SEND_TXT_DELAY" name="textSendDelay" descirble="文本发送时延" isShow="false" thresholdId="global_3_important_kqi@44"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_SEND_TXT_SUCC_RATE" name="textSendSuccessRate" descirble="文本发送成功率" isShow="false" thresholdId="global_3_important_kqi@43"></propetyConfig>
+			<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_AVG_UL_RTT" name="rttDelay" descirble="平均上行RTT(ms)" isShow="false" thresholdId=""></propetyConfig>	
+	<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_TCP_RTT_STEP1_TOTAL" name="tcpFirstResponseTime" descirble="TCP第一次握手响应时长" isShow="false" thresholdId=""></propetyConfig>	
+		</list>
+	</entry>
+	
+	<entry>
+		<string>com.huawei.shanghaiBigScreen.important.model.ImportantSpKqiModel</string>
+		<list>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_FST_GET_SERVER_DELAY_AVG" name="pageGetSucceccDelay" descirble="页面首GET响应服务器侧时长" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAMING_DISCONNECTION_R" name="streamInteruptRate" descirble="视频流媒体播放中断率" isShow="false" thresholdId="global_3_important_kqi@8"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAM_DOWNLOAD_SPEED" name="streamDownLoadRate" descirble="视频流媒体下载速率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAM_STALLED_TIME_RATE" name="streamPercent" descirble="视频流媒体停顿占比" isShow="false" thresholdId="global_3_important_kqi@10"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_STALL_FREQ" name="pauseNum" descirble="停顿频次" isShow="false" thresholdId="global_3_important_kqi@9"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_START_DELAY" name="initDelay" descirble="初始缓冲时延" isShow="false" thresholdId="global_3_important_kqi@7"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_START_SUCC_RATE" name="initPlaySuccessRate" descirble="初始播放成功率" isShow="true" thresholdId="global_3_important_kqi@6"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WALLBOX_WEIXIN_LOGIN_SUCC_RATE" name="loginSuccessRate" descirble="登录成功率" isShow="false" thresholdId="global_3_important_kqi@11"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_DELAY" name="pageResponseDelay" descirble="页面响应时长" isShow="false" thresholdId="global_3_important_kqi@2"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_SUCC_RATE" name="pageResponseSuccessRate" descirble="页面响应成功率" isShow="false" thresholdId="global_3_important_kqi@1"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP__SPEED" name="pageDownloadRate" descirble="页面下载速率" isShow="false" thresholdId="global_3_important_kqi@5"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SHOW_DELAY" name="pageShowDelay" descirble="页面显示时长" isShow="false" thresholdId="global_3_important_kqi@4"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SUCC_RATE" name="pageShowSuccessRate" descirble="页面显示成功率" isShow="false" thresholdId="global_3_important_kqi@3"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_LOGIN_DELAY" name="loginDelay" descirble="登录时延" isShow="false" thresholdId="global_3_important_kqi@12"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_SEND_TXT_DELAY" name="textSendDelay" descirble="文本发送时延" isShow="false" thresholdId="global_3_important_kqi@14"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_SEND_TXT_SUCC_RATE" name="textSendSuccessRate" descirble="文本发送成功率" isShow="false" thresholdId="global_3_important_kqi@13"></propetyConfig>
+			<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_AVG_UL_RTT" name="rttDelay" descirble="平均上行RTT(ms)" isShow="false" thresholdId=""></propetyConfig>	
+	<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_TCP_RTT_STEP1_TOTAL" name="tcpFirstResponseTime" descirble="TCP第一次握手响应时长" isShow="false" thresholdId=""></propetyConfig>	
+		</list>
+	</entry>
+	
+	<entry>
+		<string>com.huawei.shanghaiBigScreen.important.model.ImportNetMetedataKqi</string>
+		<list>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_FST_GET_SERVER_DELAY_AVG" name="pageGetSucceccDelay" descirble="页面首GET响应服务器侧时长" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAMING_DISCONNECTION_R" name="streamInteruptRate" descirble="视频流媒体播放中断率" isShow="false" thresholdId="global_3_important_kqi@24"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAM_DOWNLOAD_SPEED" name="streamDownLoadRate" descirble="视频流媒体下载速率" isShow="false" thresholdId=""></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_STREAM_STALLED_TIME_RATE" name="streamPercent" descirble="视频流媒体停顿占比" isShow="false" thresholdId="global_3_important_kqi@26"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_STALL_FREQ" name="pauseNum" descirble="停顿频次" isShow="false" thresholdId="global_3_important_kqi@25"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_START_DELAY" name="initDelay" descirble="初始缓冲时延" isShow="false" thresholdId="global_3_important_kqi@23"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_VIDEO_START_SUCC_RATE" name="initPlaySuccessRate" descirble="初始播放成功率"  thresholdId="global_3_important_kqi@22"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WALLBOX_WEIXIN_LOGIN_SUCC_RATE" name="loginSuccessRate" descirble="登录成功率" isShow="false" thresholdId="global_3_important_kqi@27"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_DELAY" name="pageResponseDelay" descirble="页面响应时长" isShow="false" thresholdId="global_3_important_kqi@18"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP_SUCC_RATE" name="pageResponseSuccessRate" descirble="页面响应成功率" isShow="false" thresholdId="global_3_important_kqi@17"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_RSP__SPEED" name="pageDownloadRate" descirble="页面下载速率" isShow="false" thresholdId="global_3_important_kqi@21"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SHOW_DELAY" name="pageShowDelay" descirble="页面显示时长" isShow="false" thresholdId="global_3_important_kqi@20"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEB_SUCC_RATE" name="pageShowSuccessRate" descirble="页面显示成功率" isShow="false" thresholdId="global_3_important_kqi@19"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_LOGIN_DELAY" name="loginDelay" descirble="登录时延" isShow="false" thresholdId="global_3_important_kqi@28"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_SEND_TXT_DELAY" name="textSendDelay" descirble="文本发送时延" isShow="false" thresholdId="global_3_important_kqi@30"></propetyConfig>
+<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_WEIXIN_SEND_TXT_SUCC_RATE" name="textSendSuccessRate" descirble="文本发送成功率" isShow="false" thresholdId="global_3_important_kqi@29"></propetyConfig>
+			<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_AVG_UL_RTT" name="rttDelay" descirble="平均上行RTT(ms)" isShow="false" thresholdId=""></propetyConfig>	
+		<propetyConfig type="MODEL"  style="IDENTIFIER"  id="SF_QUALITY_WALLBOX_GRP_WALLBOX_TCP_RTT_STEP1_TOTAL" name="tcpFirstResponseTime" descirble="TCP第一次握手响应时长" isShow="false" thresholdId=""></propetyConfig>	
+		</list>
+	</entry>
+	
+</map>  

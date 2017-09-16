@@ -1,0 +1,207 @@
+/**
+ * @description sweet 假日组件样式文件
+ * @date 2013/1/25
+ * @version 1.0
+ * @author 
+ */
+
+/***************************************忙时 begin*/
+.sweet-cmp-timeschedule {
+    min-width: 90px;
+}
+
+.sweet-cmp-timeschedule .checkbox {
+    padding-right: 2px;
+    float: left;
+}
+
+.sweet-cmp-timeschedule .button {
+    float: left;
+}
+
+.sweet-cmp-timeschedule-panel {
+    height: 90px;
+    left: 433px;
+    padding: 9px;
+    position: absolute;
+    top: 63px;
+    width: 268px;
+    -moz-user-select: none;
+    z-index: 99;
+    background: #d8d8d8 url(images/form/select_bg.png) 0 -166px repeat-x;
+    background: -webkit-linear-gradient(top, #efefef, #d8d8d8);  
+    background:-moz-linear-gradient(top, #efefef, #d8d8d8); 
+    background:-ms-linear-gradient(top, #efefef, #d8d8d8); 
+}
+
+.sweet-cmp-timeschedule-panel-ul {
+    background-color: #F2F2F2;
+    border: 1px solid #989FAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    right: 5px;  
+}
+
+.sweet-cmp-timeschedule-panel-li-pic {
+    float: left;
+    height: 12px;
+    padding: 0 7px;
+}
+
+.sweet-cmp-timeschedule-panel-li-pic li span {
+    display: block;
+    float: left;
+    height: 12px;
+    margin-right: 1px;
+    width: 20px;
+    cursor: pointer;
+    -moz-user-select: none;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.1);
+    background: #dededd;
+}
+
+.sweet-cmp-timeschedule-panel-li-pic li span:hover {
+    background: none repeat scroll 0 0 #95A4BF;
+}
+
+.sweet-cmp-timeschedule-panel-li-pic li span.ui-selected {
+    width:20px;
+    height:12px;
+    background-image:url("images/form/timebusy_bg_active.png");
+    background-repeat:repeat-x;
+    background-image: -webkit-linear-gradient(top, #7484a0, #475572);  
+    background-image: -moz-linear-gradient(top, #7484a0, #475572);
+}
+.sweet-cmp-timeschedule-panel-li-pic li span.sweet-cmp-timeschedule-span {
+    background-image:url("images/form/timebusy_bg_active.png");
+    background-repeat:repeat-x;
+    background-image: -webkit-linear-gradient(top, #7484a0, #475572);  
+    background-image: -moz-linear-gradient(top, #7484a0, #475572);
+}
+.sweet-cmp-timeschedule-panel-li-pic li span.ui-selecting {
+    height: 12px;
+    width: 20px;
+    background-image:url("images/form/timebusy_bg_active.png");
+    background-repeat:repeat-x;
+    background-image: -webkit-linear-gradient(top, #7484a0, #475572);  
+    background-image: -moz-linear-gradient(top, #7484a0, #475572);
+}
+
+.sweet-cmp-timeschedule-panel-li-num {
+    float: left;
+    height: 22px;
+    padding: 0 0 0 6px;
+    width: 260px;
+}
+
+.sweet-cmp-timeschedule-panel-li-num em {
+    float: left;
+    height: 22px;
+    width: 20px;
+    -moz-user-select: none;
+}
+.sweet-cmp-timeschedule-textButtonDiv {
+    width:100%;
+    height: 100%;
+}
+.sweet-cmp-timeschedule-inputParent {   
+    height:23px;
+    width: calc(100% - 39px);
+    width: -webkit-calc(100% - 39px);
+    width: -moz-calc(100% - 39px);
+    border-radius:5px 0px 0px 5px;
+    float:left;
+    padding:0px 3px 0px 0px;
+    background-repeat:repeat-x;
+    position: relative;
+}
+.sweet-cmp-timeschedule-normal {
+    border:1px #989faa solid;
+    background: url(images/form/select_bg.png) 0 -46px repeat-x;
+    background: -webkit-linear-gradient(top, #efefef, #d8d8d8);  
+    background: -moz-linear-gradient(top, #efefef, #d8d8d8);
+    box-shadow: inset 0px 0px 1px rgba(255, 255, 255, 1);
+}
+.sweet-cmp-timeschedule-normal:hover{
+    background: url(images/form/select_bg.png) 0 -69px repeat-x;
+    background: -webkit-linear-gradient(top, #d8d8d8, #efefef);  
+    background: -moz-linear-gradient(top, #d8d8d8, #efefef);
+    box-shadow:inset 0px 0px 2px rgba(255, 255, 255, 1);
+}
+.sweet-cmp-timeschedule-gray {   
+    border:1px solid #D7D7D7;
+    background-image:url("images/form/select_box_gray_bg.png");
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #efefef);  
+    background-image: -moz-linear-gradient(top , #f8f8f8, #efefef);
+    box-shadow:inset 0px 0px 2px rgba(255, 255, 255, 1);
+}
+.sweet-cmp-timeschedule-input {
+    width:100%;
+    height:23px;
+    line-height:23px;
+    border:none;
+    float:left;
+    margin:1px;
+    text-indent:4px;
+    background-color:transparent;
+    text-overflow: ellipsis;
+}
+.sweet-cmp-timeschedule-imageButton {
+    width:28px;
+    height:23px;
+    line-height:23px;
+    text-align:center;
+    margin-left:1px;
+    border-radius:0px 5px 5px 0px;
+    font-size:18px;
+    display:block;
+    float:left;
+    cursor: pointer;
+    background-repeat:repeat-x;
+}
+.sweet-cmp-timeschedule-clearEl {
+    margin:0px 0px 0px 2px;
+    color:#0084d8;
+    cursor: pointer;
+    text-decoration:underline;
+    position: absolute;
+    bottom: 4px;
+    right: 5px;
+}
+.sweet-form-timeschedule-textGray {
+    color: #6D6D6D;
+    cursor: default;
+}
+.ui-selectee.sweet-cmp-timeschedule-span.ui-selecting {
+    background: url("images/form/timebusy_bg.png") repeat-x scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 12px;
+    margin-right: 1px;
+    width: 20px;
+    cursor: pointer;
+    -moz-user-select: none;
+}
+.sweet-form-timeschedule-emptyDiv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 7px;
+    height:23px;
+    line-height:23px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: keep-all;
+    word-wrap: normal;
+}
+/***************************************忙时 end*/

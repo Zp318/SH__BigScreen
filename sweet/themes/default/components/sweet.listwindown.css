@@ -1,0 +1,240 @@
+/**
+ * @description sweet 双向选择面板
+ * @date 2013/02/26
+ * @version 1.0
+ * @author 
+ */
+
+/**************************业务组件-双向选择面板 begin*/
+.sweet-cmp-listWin-element{
+    background-color: transparent;
+    border: medium none;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 1px;
+    text-indent: 4px;
+    width: 125px;
+}
+.sweet-cmp-listwin-parentEl{
+    background-image: -moz-linear-gradient(center top , #EFEFEF, #D8D8D8);
+    background-repeat: repeat-x;
+    border: 1px solid #989FAA;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 0 1px #FFFFFF inset;
+    float: left;
+    height: 23px;
+    padding: 0 3px;
+}
+.sweet-cmp-listwin-arrow{
+    background-image: -moz-linear-gradient(center top , #EFEFEF, #D8D8D8);
+    background-repeat: repeat-x;
+    border: 1px solid #989FAA;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 1px #FFFFFF inset;
+    display: block;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    margin-left: 1px;
+    text-align: center;
+    width: 28px;
+}
+.sweet-cmp-listwin-seletMore{
+    height: auto;
+    padding: 10px;
+    width: auto;
+    z-index: 3;
+}
+.sweet-cmp-listwin-selectBg{
+    background-color: #D8D8D8;
+    background-image: -moz-linear-gradient(center top , #EFEFEF, #D8D8D8);
+    background-repeat: repeat-x;
+    border: 1px solid #989FAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 1px #FFFFFF inset;
+}
+.sweet-cmp-listwin-title{
+    color: #384967;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.sweet-cmp-listwin-content{
+    height: auto;
+}
+.sweet-cmp-listwin-select{
+    margin: 0 10px;
+    width: 60px;
+    height: 140px;
+}
+.sweet-cmp-listwin-select .sweet-cmp-listwin-select_btn {
+    display: block;
+    font-family: SimSun;
+}
+.sweet-cmp-listwin-select-tree{
+    margin: 60px 10px 0;
+    width: 60px;
+}
+.sweet-cmp-listwin-select-tree .sweet-cmp-listwin-select_btn {
+    display: block;
+    font-family: SimSun;
+}
+.sweet-cmp-listwin-select a{
+    display: block;
+    float: left;
+    height: 16px;
+    width: 16px;
+}
+.sweet-cmp-listwin-select-tree a{
+    display: block;
+    float: left;
+    height: 16px;
+    width: 16px;
+}
+.sweet-cmp-listwin-select_btn {
+    width: 60px;
+    border-radius: 5px;
+    height: 25px;
+    text-align: center;
+    border: 1px #76849f solid;
+    background: url(../images/form/btn_bg.png) 0 -92px repeat-x;
+    background: -webkit-linear-gradient(top, #fefefe, #cbcbcb);
+    background: -moz-linear-gradient(top, #fefefe, #cbcbcb);
+    box-shadow: inset 0px 0px 1px rgba(238, 238, 240, 1);
+    text-shadow: #FFF 1px 1px 0px;
+    color: #3d3d3d;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0 auto 5px auto;
+}
+.sweet-cmp-listwin-select_btn:hover{
+    border:	1px #7ea0c7 solid;
+    background:url(../images/form/btn_bg.png)  0 -138px repeat-x;
+    background: -webkit-linear-gradient(top, #fff, #dce7ec);  
+    background: -moz-linear-gradient(top, #fff, #dce7ec);
+    box-shadow:inset 0px 0px 1px rgba(211, 248, 229, 1);
+    color:#425fb3;
+    text-shadow:#FFF 1px 1px 0px; 
+}
+.sweet-cmp-listwin-select_btn:active{
+    border:	1px #7ea0c7 solid;
+    background:url(../images/form/btn_bg.png)  0 -161px repeat-x;
+    background: -webkit-linear-gradient(top, #e1e1e1, #fff);  
+    background: -moz-linear-gradient(top, #e1e1e1, #fff);
+    box-shadow:inset 0px 0px 1px rgba(238, 240, 239, 1);
+    color:#3d3d3d;
+    text-shadow:none;
+}
+.sweet-cmp-listwin-select-right{
+    background: url("../core/images/form/module_icon.png") no-repeat scroll right 0 transparent;
+    margin-bottom: 5px;
+}
+.sweet-cmp-listwin-select-left{
+    margin-bottom: 30px;
+}
+.sweet-cmp-listwin-select-allRight{
+    background: url("../core/images/form/module_icon.png") no-repeat scroll right -40px transparent;
+    margin-bottom: 5px;
+}
+.sweet-cmp-listwin-select-allLeft{
+    background: url("../core/images/form/module_icon.png") no-repeat scroll right -60px transparent;
+}
+.sweet-cmp-listwin-select-content{
+    background-color: #F2F2F2;
+    border: 1px solid #989FAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 5px;
+    overflow : auto;
+}
+.sweet-cmp-listwin-search-box{
+    margin-bottom: 5px;
+}
+.sweet-cmp-listwin-bottom{
+    float: right;
+}
+.sweet-cmp-listwin-con{
+    background-color: #F2F2F2;
+    border: 1px solid #989FAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 5px;
+    padding: 10px 0;
+}
+.swwet-cmp-listwin-butt{
+    float: right;
+    margin: 5px 5px 5px 0
+}
+.sweet-cmp-listWin-float-bg {
+    /*background-color: #D8D8D8;
+    background-image: -moz-linear-gradient(center top , #EFEFEF, #D8D8D8);*/
+    background-repeat: repeat-x;
+    border: 1px solid #989FAA;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #F2F2F2;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) inset;
+}
+/**************************业务组件-双向选择面板 end*/
+
+/**************************业务组件-二次统计 start*/
+.sweet-cmp-stat-title{
+    color: #384967;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.sweet-cmp-stat-window .list-select:hover {
+    background-color: #dcdbdb;
+}
+/**************************业务组件-二次统计 end*/
+
+.sweet-cmp-optimizelist-div-middle
+{
+    width : 160px;
+    min-width : 160px;
+    /*border: 1px solid black;*/
+}
+
+.sweet-cmp-optimizelist-div-main
+{
+    /*border: 1px solid red;*/
+    height: 100%;
+}
+
+.sweet-cmp-optimizelist-div-main div
+{
+    float: left;
+}
+
+.sweet-cmp-optimizelist-div-left
+{
+    /*border: 1px solid black;*/
+    height: 100%
+}
+
+.sweet-cmp-optimizelist-div-right
+{
+    /*border: 1px solid black;*/
+    height: 100%;
+}
+
+.sweet-cmp-listwindowv1-title{
+    color: #384967;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.sweet-cmp-listwindowv1-lpanel,.sweet-cmp-listwindowv1-mpanel,.sweet-cmp-listwindowv1-rpanel{
+    float: left;
+}
+
+.sweet-cmp-listwindowv1-btnpanel{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+

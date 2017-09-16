@@ -1,0 +1,112 @@
+.sweet-RevealPanelEl-body
+{
+    height: 100%;
+    width: 100%;
+}
+
+.sweet-RevealPanelEl-reveal-panel {
+    float: left;
+    height: 23px;
+    width: 35px;
+    margin-left: 35px;
+    margin-top: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: #5A6777;
+    font-size: 1.1em;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+
+}
+.sweet-RevealPanelEl-reveal-special{
+    float: left;
+    height: 23px;
+    width: 35px;
+    margin-left: 20px;
+    margin-top: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: #5A6777;
+    font-size: 1.1em;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    width: 40px;
+}
+
+.sweet-reveal-row-el {
+    background-color: #F2F2F2;
+    height: 50px;
+    margin-bottom: -7px;
+    width: 250px;
+    color: black;
+}
+
+
+
+.sweet-RevealSelected-item{
+    background-color: #CCCCCC;
+    height: 50px;
+    margin-bottom: -5px;
+    width: 250px;
+}
+.sweet-RevealSelected-item > div{
+    color: #ffffff;    
+}
+
+.sweet-RevealPanelEl-title {
+ 
+    background: -webkit-linear-gradient(#ECECEC, #DDDDDD); /* Safari 5.1 - 6.0 */
+    background: -moz-linear-gradient(#ECECEC, #DDDDDD); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ECECEC,  #DDDDDD); /* 标准的语法（必须放在最后） */
+    color: #000000;
+    font-size: 20px;
+    width: 250px;
+    height: 35px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.sweet-titleContainer-el{
+    color: #000000;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;  
+    margin-left: 4px; 
+    padding-top: 5px;
+    height: 35px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.sweet-reveal-firstColumn-el{
+    float: left;
+    font-size: 1.12em; 
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: center;
+    vertical-align: middle;
+    width: 80px;
+}
+
+.sweet-reveal-hR-el
+{
+    width: 225px;
+    margin-left: 15px;
+    size: 1px;
+    color: #FFFFFF;
+    margin-bottom: -1px;
+}
+.sweet-RevealBlankClass-el
+{
+    background-color: #ffffff;
+    height: 6px; 
+    width: 250px;
+}
+.sweet-reveal-blockEl-el
+{
+    background-color: #F2F2F2;
+    width: 250px;
+}

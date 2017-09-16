@@ -1,0 +1,197 @@
+/**
+ * @description sweet 列表组件样式文件
+ * @date 2012/12/6
+ * @version 1.0
+ * @author 
+ */
+.sweet-list {
+    overflow: auto;
+}
+
+.sweet-list-list-select-item{
+    cursor: pointer;
+    line-height: 22px;
+    height: 22px;
+    padding: 0 10px;
+    white-space:nowrap;
+    overflow : hidden;
+    text-overflow : ellipsis ;
+    list-style: none outside none;
+    position: relative;
+}
+.list-select:hover {
+    background-color: #FFFFFF;
+}
+.sweet-list-search-div{
+    margin-bottom: 5px;
+}
+.list-select:hover .sweet-form-checkbox-unchecked{
+    background: url(images/form/module_icon_bg.png) -16px -32px no-repeat;
+}
+.list-select:hover .sweet-form-checkbox-checked{
+    background: url(images/form/module_icon_bg.png) -16px -48px no-repeat;
+}
+.sweet-list-list-select-item a{
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 3px;
+    width: 16px;
+}
+.sweet-list-select-item{
+    cursor: pointer;
+    line-height: 22px;
+    padding: 0 10px;
+    white-space:nowrap;
+    overflow : hidden;
+    text-overflow : ellipsis ;
+}
+.sweet-list-select-item a{
+    display: block;
+    float: left;
+    height: 13px;
+    margin-right: 4px;
+    margin-top: 5px;
+    width: 13px;
+}
+.sweet-list-list-con{
+    background-color: #F2F2F2;
+    border: 1px solid #989FAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) inset;
+    padding: 0px 0;
+    overflow: hidden;
+    position: relative;
+}
+.sweet-list-list-BK{
+    background-color: #F2F2F2;
+    border: 1px solid #989FAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 1px #FFFFFF inset;
+    padding: 0px 0;
+    overflow: hidden;
+    position: relative;
+}
+.sweet-list-list-ul {
+    overflow: auto;
+}
+
+.sweet-list-list-ul > li .left {
+    float: left;
+}
+
+.sweet-list-list-ul > li .close {
+    background: url(images/form/module_icon.png) right -228px no-repeat;
+    display: none;
+    height: 16px;
+    margin-top: 3px;
+    width: 16px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.sweet-list-list-ul > li .edit {
+    background: url(images/table/table_ope_icon.png) 0 -143px no-repeat;
+    display: none;
+    height: 16px;
+    margin-top: 3px;
+    width: 16px;
+    padding-left: 5px;
+    position: absolute;
+    top: 0;
+    right: 23px;
+}
+
+.sweet-list-list-ul > li .delete {
+    background: url(images/table/table_ope_icon.png) no-repeat scroll 0 -371px transparent;
+    display: none;
+    height: 16px;
+    margin-top: 3px;
+    width: 16px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.list-select:hover .close {
+    display: block;
+}
+
+.list-select:hover .edit {
+    display: block;
+}
+
+.list-select:hover .delete {
+    display: block;
+}
+
+.sweet-list-list-action{
+    background-color: #B8C7E1 !important;
+    cursor: pointer;
+    line-height: 22px;
+    padding: 0 10px;
+}
+.sweet-list-list-disabled {
+    color: #CCCCCC;
+}
+.sweet-form-checkbox-checked-disabled{
+    background: url(images/form/module_icon_bg.png) -32px -48px no-repeat;
+}
+.sweet-form-checkbox-unchecked-disabled{
+    background: url(images/form/module_icon_bg.png) -32px -32px no-repeat;
+}
+.sweet-list-filtercontrol {
+    height: 12px;
+    padding: 5px 0 2px 0;
+    background: #dcdbdb;
+    border-radius: 2px;
+    height:18px;
+    margin:2px;
+
+}
+
+
+
+.sweet-list-filtercontrol ul li {
+    display: inline;
+}
+
+.sweet-list-filtercontrol a {
+    text-decoration: none;
+}
+
+.sweet-list-filtercontrol span {
+    padding: 0 4px 0 6px;
+}
+
+.sweet-list-filtercontrol li {
+    cursor: pointer;
+}
+
+.sweet-list-lazyload {
+    /*
+    height: 5px;
+    border-radius: 0 0 0 5px;
+    bottom: 5px;
+    position: relative;
+    */
+    border-radius: 2px;
+    background-color:  #637696;
+    height: 18px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+}
+
+.sweet-list-lazyload:hover {
+    background-color: #5d81be;
+}
+.sweet-list-lazyload:active{
+    box-shadow: inset 0 2px 2px rgba(0,0,0,0.2);
+}

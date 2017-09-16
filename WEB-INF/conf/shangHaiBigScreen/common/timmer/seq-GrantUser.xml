@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="grantUserCaculator" class="com.huawei.shanghaiBigScreen.important.scheduJob.grantTotalUser.GrantUserTask"   ></bean>
+
+	<bean id="grantUserHander"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="grantUserCaculator">
+			
+		</property>
+		<property name="targetMethod" value="execute" />
+		<property name="concurrent" value="true" />
+	</bean>
+
+	<bean id="grantHanderDetail" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="grantUserHander" />
+		<property name="cronExpression">
+			<!--  --><value>0 10,25,40,55 * * * ?</value>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,166 @@
+/**
+ * @description sweet dialog组件样式文件
+ * @date 2012/12/5
+ * @version 1.0
+ * @author 
+ */
+/***************************************dialog begin*/
+.sweet-dialog-bg {
+    background-color: #F6F7F9;
+    border: 1px solid #6D7E9A;
+    border-radius: 5px 5px 5px 5px;
+    height: auto;
+    position: absolute;
+    width: 330px;
+    z-index: 1000;
+}
+
+.sweet-dialog-title {
+    width:auto;
+	height:24px;
+	line-height:24px;
+	padding-left:10px;
+	background-image:url(images/dialog/win_top_bg.png);
+	background-repeat:repeat-x;
+	background-image: -webkit-linear-gradient(top, #394865, #6f809c);  
+	background-image: -moz-linear-gradient(top, #394865, #6f809c);
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+    cursor: move;
+}
+
+.sweet-dialog-title span {
+    float: right;
+    height: 14px;
+    position: relative;
+    right: 10px;
+    top: 5px;
+    width: 14px;
+    cursor: pointer;
+}
+
+.sweet-dialog-title em {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sweet-dialog-title-close {
+    background: url("images/dialog/win_icon.png") no-repeat scroll left top transparent;
+}
+
+.sweet-dialog-title-close:hover {
+    background: url("images/dialog/win_icon.png") no-repeat left -19px;
+}
+
+.sweet-dialog-content {
+    min-height: 20px;
+    padding: 20px 10px;
+    width: auto;
+}
+
+.sweet-dialog-content-headless {
+    padding: 10px 10px;
+}
+
+.sweet-dialog-content p {
+    width: auto;
+    word-wrap: break-word;
+}
+
+.sweet-dialog-text {
+    padding-left: 0px;
+}
+
+.sweet-dialog-text-pic {
+    padding-left: 40px;
+}
+
+.sweet-dialog-content-success {
+    background: url("images/dialog/win_icon.png") no-repeat scroll left -43px transparent;
+    height: 32px;
+}
+
+.sweet-dialog-content-prompt {
+    float: left;
+}
+
+.sweet-dialog-content-prompt-text {
+    float: left;
+}
+
+.sweet-dialog-content-prompt-input {
+    padding-top: 3px;
+    float: left;
+}
+
+.sweet-dialog-content-error {
+    background: url("images/dialog/win_icon.png") no-repeat scroll left -83px transparent;
+    height: 32px;
+}
+
+.sweet-dialog-content-warning {
+    background: url("images/dialog/win_icon.png") no-repeat scroll left -164px transparent;
+    height: 32px;
+}
+
+.sweet-dialog-content-confirm {
+    background: url("images/dialog/win_icon.png") no-repeat scroll left -123px transparent;
+    height: 32px;
+}
+
+.sweet-dialog-bottom {
+    float: right;
+    height: 25px;
+    padding: 0px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: auto;
+}
+/***************************************dialog end*/
+
+/***************************************window begin*/
+/* note: place invisible class before visible class */
+.sweet-window-invisible-normal {
+    display: none;
+}
+
+.sweet-window-visible-normal {
+    display: block;
+}
+
+.sweet-window-invisible-rotateY {
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1), opacity 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1);
+    -moz-transition: -moz-transform 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1), opacity 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1);
+    -ms-transition: -ms-transform 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1), opacity 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1);
+    -o-transition: -o-transform 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1), opacity 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1);
+    transition: transform 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1), opacity 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1);
+
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+}
+
+body, .sweet-window-visible-rotateY {
+    -webkit-perspective: 1000;
+    -webkit-perspective-origin-y: 25%;
+    -moz-perspective: 1000px;
+    -moz-perspective-origin-y: 25%;
+    perspective: 1000px;
+    perspective-origin-y: 25%;
+}
+
+.sweet-window-visible-rotateY {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+/***************************************window end*/

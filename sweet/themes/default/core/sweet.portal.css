@@ -1,0 +1,70 @@
+/**
+ * @description sweet 面板组件样式文件
+ * @date 2013/4/10
+ * @version 1.0
+ * @author zhanglie@huawei.com
+ */
+
+/***************************************Grid Portal begin*/
+.sweet-grid-portal-content {
+    position: relative;
+    overflow: visible;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.sweet-grid-portal-content > .widget-container {
+    position: absolute;
+    background-color: #F5F5F5;
+    z-index: 1;
+}
+
+.sweet-grid-portal-content > .container-empty {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    color: #eeeeee;
+    cursor: pointer;
+}
+
+.sweet-grid-portal-content > .container-empty:hover {
+    color: #E6E7EC;
+}
+
+.sweet-grid-portal-locked .container-empty {
+    opacity: 0;
+    cursor: default;
+}
+
+.sweet-grid-portal-content > .container-fixed {
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.sweet-grid-portal-content > .container-dragging {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    z-index: 10000;
+}
+
+.sweet-grid-portal-content > .widget-placeholder {
+    position: absolute;
+    background: transparent url("images/portal/mask_green.png") 0 0 repeat;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    z-index: 0;
+}
+
+.sweet-grid-portal-content > .detect-valid {
+    position: absolute;
+    background: transparent url("images/portal/mask_green.png") 0 0 repeat;
+    z-index: 20;
+}
+
+.sweet-grid-portal-content > .detect-invalid {
+    position: absolute;
+    background: transparent url("images/portal/mask_red.png") 0 0 repeat;
+    z-index: 2;
+}
+
+/***************************************Grid Portal end*/

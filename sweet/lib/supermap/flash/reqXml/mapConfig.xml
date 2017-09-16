@@ -1,0 +1,307 @@
+<node>
+    <url>
+    	<!-- 如果地图服务器分开部署，需要配置该IP节点，如果同一服务器部署，该节点值为空 -->
+    	<ip>10.144.166.38</ip>
+		<!-- protocol节点与port节点如有变更必须手动配置 -->    	
+    	<protocol>http</protocol>
+    	<port>8090</port>
+        <WMSURL>/iserver/services/map-seq/rest/maps/background</WMSURL>
+        <WFSURL>/iserver/services/map-seq/rest/maps/netelem</WFSURL>       
+    </url>
+    <!--是否启用自动背景地图切换(联网启用googlemap,不联网启用超图)-->
+    <useMapChange>false</useMapChange>
+    <!--增加google地图、openstreetmap地图的切换     0：google地图； 2:openstreetmap 默认为google地图 -->
+    <useGoogleOrBaiduOrOpenstreet>0</useGoogleOrBaiduOrOpenstreet>
+    
+    <googleClientId></googleClientId>
+    <googleCryptoKey></googleCryptoKey>
+    <googleSize>1024</googleSize>
+    <!--使用谷歌地图类型
+     map ：普通地图
+    satellite ： 卫星图
+    terrain   ： 地形图
+    annotation ： 注解图
+    -->
+    <useGoogleMapType>map</useGoogleMapType>
+    <!-- 连接google地图的超时时间(单位:秒)，超过配置的秒数后,切换到超图的图层 -->
+    <googleTimeout>3</googleTimeout>
+     <!--测试联网状态服务器地址-->
+     <googleIsConnectUrl>http://www.google.com.hk/</googleIsConnectUrl>    
+    <!--GoolgeMap服务器地址-->
+    <googleUrl>
+	        <MAPURL>http://mt{subdomain}.google.com/vt/lyrs=m@130&amp;hl=en&amp;gl=en&amp;{tileurl}&amp;s=G</MAPURL>
+	        <SATELLITEURL>http://mt{subdomain}.google.com/vt/lyrs=s@115&amp;gl=en&amp;{tileurl}&amp;s=G</SATELLITEURL>
+	        <TERRAINURL>http://mt{subdomain}.google.com/vt/lyrs=t@125,r@130&amp;hl=en&amp;gl=en&amp;{tileurl}&amp;s=G</TERRAINURL>
+	        <ANNOTATIONURL>http://mt{subdomain}.google.com/vt/imgtp=png32&amp;lyrs=h@130&amp;hl=en&amp;gl=en&amp;{tileurl}&amp;s=G</ANNOTATIONURL>
+	        <TRAFFICURL>http://mt{subdomain}.google.com/vt?hl=x-local&amp;gl=en&amp;lyrs=m@130,traffic|seconds_into_week:-1&amp;{tileurl}&amp;style=15</TRAFFICURL>
+     </googleUrl>
+     
+    <!--使用openstreetmap地图类型
+    map ：普通地图
+    cycle ：周期图
+    transport：交通地图
+    mapquest：MapQuest地图
+    -->
+    <useOpenstreetMapType>map</useOpenstreetMapType>
+    <!-- 连接openstreet地图的超时时间(单位:秒)，超过配置的秒数后,切换到超图的图层 -->
+    <openstreetTimeout>3</openstreetTimeout>
+     <!--测试联网状态服务器地址-->
+     <openstreetIsConnectUrl>http://www.openstreetmap.org/</openstreetIsConnectUrl>
+    <!--openstreetMap服务器地址-->
+    <openstreetUrl>
+	        <OPENSTREETMAPURL>http://{subdomain}.tile.openstreetmap.org/{z}/{x}/{y}.png</OPENSTREETMAPURL>
+	        <CYCLEURL>http://{subdomain}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png</CYCLEURL>
+	        <TRANSPORTURL>http://{subdomain}.tile2.opencyclemap.org/transport/{z}/{x}/{y}.png</TRANSPORTURL>
+	        <MAPQUESTURL>http://otile3.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png</MAPQUESTURL>
+    </openstreetUrl>
+     
+     
+    <!--地图缩放级别设置方案一 116 63-->
+    <!--地图缩放级别-->
+    <!--<scales>
+    	<scale value="0.004972073121288064"/>
+    	<scale value="0.00581353655881143"/>
+    	<scale value="0.00751353655881143"/>
+    	<scale value="0.00872030483821714"/>
+    	<scale value="0.00961216452289821"/>
+    	<scale value="0.01102030483821714"/>
+    	<scale value="0.02191824678434733"/>
+    	<scale value="0.110555531547779689"/>
+    	<scale value="0.25930602882898265"/>
+    	<scale value="0.36993543651862873"/>
+    	<scale value="0.479853154777969"/>
+    	<scale value="0.58953154777969"/>
+    	<scale value="0.6999553154777969"/> 
+    </scales>-->
+    
+    <!--地图缩放级别设置方案二（方案一存在则方案二不启用） -->
+    <!--地图初始放大倍数-->
+    <scaleTimes>0.2</scaleTimes>
+    <!--地图比例尺刻度切换放大倍数-->
+    <leaveStep>1</leaveStep>
+    
+    <!--地图缩放级别设置方案一、二共用参数 -->
+    <!--地图比例尺总刻度数-->
+    <scalesLeave>18</scalesLeave>
+    <!--页面初始化地图层级-->
+    <zoomInLeave>3</zoomInLeave>
+    
+    <!--五高一弱中的高掉话页面地图初始放大倍数-->
+    <highDropScaleTimes>1</highDropScaleTimes>
+    <!--五高一弱中的高掉话页面地图比例尺总刻度数-->
+    <highDropScalesLeave>10</highDropScalesLeave>
+    <!--五高一弱中的高掉话页面地图比例尺刻度切换放大倍数-->
+    <highDropLeaveStep>2</highDropLeaveStep>
+    <!--五高一弱中的高掉话页面页面初始化地图层级-->
+    <highDropZoomInLeave>4</highDropZoomInLeave>
+    
+    <!--超图页面初始化坐标 -->
+    <center>
+        <centerX>5333205.85180281</centerX>
+        <centerY>2846954.67929174</centerY>
+    </center>
+    
+    <periodDelay>60000</periodDelay>
+    
+    <layers>
+      <!-- add by shiyanlong on 2012-12-31 below-->
+     <layer>
+            <layerType>0</layerType>
+            <layerName>PROVINCER@seq</layerName>
+            <layerLeave>0</layerLeave>
+            <label>all_map</label>
+        </layer>
+    <!-- add by shiyanlong on 2012-12-31 above-->
+        <layer>
+            <layerType>1</layerType>
+            <layerName>PROVINCER@seq</layerName>
+            <layerLeave>3</layerLeave>
+            <label>presidial_map</label>
+        </layer>
+        
+        <layer>
+            <!--地图层级类型（CITY）-->
+            <layerType>2</layerType>
+            <!--地图请求路径-->
+            <layerName>CITYR@seq</layerName>
+            <!--本图层在比例尺中的刻度位置-->
+            <layerLeave>5</layerLeave>
+            <!--比例尺刻度名称-->
+            <label>city_map</label>
+            <!-- 文字开始显示的层级 -->
+            <textDisplayLvl>5</textDisplayLvl>
+        </layer>
+        <layer>
+            <layerType>4</layerType>
+            <layerName>MSCPOOLR@seq</layerName>
+            <layerLeave>7</layerLeave>
+            <label>msc_2G_map</label>
+            <textDisplayLvl>7</textDisplayLvl>
+        </layer>
+        <!-- BEGIN:add by ykf60398 for 新增MSC、SGSN 3G业务 on 2013-1-19 -->
+        <layer>
+            <layerType>17</layerType>
+            <layerName>MSCPOOL_3GR@seq</layerName>
+            <layerLeave>7</layerLeave>
+            <label>msc_3G_map</label>
+            <textDisplayLvl>7</textDisplayLvl>
+        </layer>
+        <!-- END by ykf60398 for 新增MSC、SGSN 3G业务 on 2013-1-19 -->
+        <layer>
+            <layerType>6</layerType>
+            <layerName>SGSNR@seq</layerName>
+            <layerLeave>7</layerLeave>
+            <label>sgsn_2G_map</label>
+            <textDisplayLvl>7</textDisplayLvl>
+        </layer>
+        <!-- [Begin] Add by rkf67829 for DTS2014011401358 on 2014-01-14 -->
+        <layer>
+            <layerType>20</layerType>
+            <layerName>PROVINCER@seq</layerName>
+            <layerLeave>7</layerLeave>
+            <label>ggsn_2G_map</label>
+            <textDisplayLvl>7</textDisplayLvl>
+        </layer>
+        <layer>
+            <layerType>23</layerType>
+            <layerName>PROVINCER@seq</layerName>
+            <layerLeave>7</layerLeave>
+            <label>ggsn_3G_map</label>
+            <textDisplayLvl>7</textDisplayLvl>
+        </layer>
+        <!-- [End] Add by rkf67829 for DTS2014011401358 on 2014-01-14 -->
+        <!-- BEGIN:add by ykf60398 for 新增MSC、SGSN 3G业务 on 2013-1-19 -->
+        <layer>
+            <layerType>18</layerType>
+            <layerName>SGSN_3GR@seq</layerName>
+            <layerLeave>7</layerLeave>
+            <label>sgsn_3G_map</label>
+            <textDisplayLvl>7</textDisplayLvl>
+        </layer>
+        <!-- END: by ykf60398 for 新增MSC、SGSN 3G业务 on 2013-1-19 -->
+        <layer>
+            <layerType>11</layerType>
+            <layerName>SGWR@seq</layerName>
+            <layerLeave>7</layerLeave>
+            <label>sgw_map</label>
+            <textDisplayLvl>7</textDisplayLvl>
+        </layer>
+        <layer>
+            <layerType>15</layerType>
+            <layerName>MMER@seq</layerName>
+            <layerLeave>7</layerLeave>
+            <label>mme_map</label>
+            <textDisplayLvl>7</textDisplayLvl>
+        </layer>
+        <layer>
+            <layerType>5</layerType>
+            <layerName>BSCR@seq</layerName>
+            <layerLeave>9</layerLeave>
+            <label>bsc_map</label>
+            <textDisplayLvl>9</textDisplayLvl>
+        </layer>
+        <layer>
+            <layerType>7</layerType>
+            <layerName>RNCR@seq</layerName>
+            <layerLeave>9</layerLeave>
+            <label>rnc_map</label>
+            <textDisplayLvl>9</textDisplayLvl>
+        </layer>
+        <layer>
+            <layerType>12</layerType>
+            <layerName>ENODEBR@seq</layerName>
+            <layerLeave>9</layerLeave>
+            <label>eNodeB_map</label>
+            <textDisplayLvl>9</textDisplayLvl>
+        </layer>
+        <layer>
+            <layerType>19</layerType>
+            <layerName>Defined@seq</layerName>
+            <layerLeave>11</layerLeave>
+            <label>customArea_map</label>
+            <textDisplayLvl>11</textDisplayLvl>
+        </layer>
+        <layer>
+            <layerType>8</layerType>
+            <layerName></layerName>
+            <layerLeave>14</layerLeave>
+            <label>area_map</label>
+            <textDisplayLvl>14</textDisplayLvl>
+        </layer>
+        <layer>
+            <layerType>9</layerType>
+            <layerName>CELLR@seq</layerName>
+            <layerLeave>14</layerLeave>
+            <label>sai_map</label>
+            <textDisplayLvl>14</textDisplayLvl>
+        </layer>
+        <layer>
+            <layerType>13</layerType>
+            <layerName></layerName>
+            <layerLeave>14</layerLeave>
+            <label>eCGI_map</label>
+            <textDisplayLvl>14</textDisplayLvl>
+        </layer>
+        
+         <!-- Add by lifei for 新添加NLD业务 at 2013-01-22 Start-->
+        <layer>
+            <layerType>16</layerType>
+            <layerName>CELLR@seq</layerName>
+            <layerLeave>9</layerLeave>
+            <label>sai_map</label>
+            <textDisplayLvl>9</textDisplayLvl>
+        </layer>
+        <!-- Add by lifei for 新添加NLD业务 at 2013-01-22 End-->
+         <layer>
+            <layerType>101</layerType>
+            <layerName>Layer1@seq</layerName>
+            <layerLeave>1</layerLeave>
+            <label>Layer1_map</label>
+            <textDisplayLvl>0</textDisplayLvl>
+        </layer>
+         <layer>
+            <layerType>102</layerType>
+            <layerName>Layer2@seq</layerName>
+            <layerLeave>1</layerLeave>
+            <label>Layer2_map</label>
+            <textDisplayLvl>0</textDisplayLvl>
+        </layer>
+         <layer>
+            <layerType>103</layerType>
+            <layerName>Layer3@seq</layerName>
+            <layerLeave>1</layerLeave>
+            <label>Layer3_map</label>
+            <textDisplayLvl>0</textDisplayLvl>
+        </layer>
+         <layer>
+            <layerType>104</layerType>
+            <layerName>Layer4@seq</layerName>
+            <layerLeave>1</layerLeave>
+            <label>Layer4_map</label>
+            <textDisplayLvl>0</textDisplayLvl>
+        </layer>
+         <layer>
+            <layerType>105</layerType>
+            <layerName>Layer5@seq</layerName>
+            <layerLeave>1</layerLeave>
+            <label>Layer5_map</label>
+            <textDisplayLvl>0</textDisplayLvl>
+        </layer>
+         <layer>
+            <layerType>106</layerType>
+            <layerName>Layer6@seq</layerName>
+            <layerLeave>1</layerLeave>
+            <label>Layer6_map</label>
+            <textDisplayLvl>0</textDisplayLvl>
+        </layer>
+	<!-- Add for DTS2014032100112 by lifei on 2014-04-02 begin-->
+        <layer>
+            <layerType>21</layerType>
+            <layerName>CELLR@seq</layerName>
+            <layerLeave>9</layerLeave>
+            <label>pcc_CGI_map</label>
+            <textDisplayLvl>9</textDisplayLvl>
+        </layer>
+        <!-- Add for DTS2014032100112 by lifei on 2014-04-02 end-->
+    </layers>
+</node>
